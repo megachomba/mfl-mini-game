@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import { RoundedBox, Text } from "@react-three/drei";
 import { RigidBody } from "@react-three/rapier";
 import { useGameStore } from "../store";
@@ -11,7 +10,6 @@ interface DeskProps {
 
 export const Desk = ({ position, color, label }: DeskProps) => {
   const { playerName, gameState } = useGameStore();
-  const [pressed, setPressed] = useState(false);
 
   const isMyDesk =
     label && playerName && label.toLowerCase() === playerName.toLowerCase();
@@ -19,6 +17,8 @@ export const Desk = ({ position, color, label }: DeskProps) => {
   const isAnswering =
     activeQ && activeQ.answeringPlayer === playerName && isMyDesk;
 
+  /* 
+  const [pressed, setPressed] = useState(false);
   const handleBuzz = (e: any) => {
     e.stopPropagation();
     if (isMyDesk) {
@@ -27,6 +27,7 @@ export const Desk = ({ position, color, label }: DeskProps) => {
       setTimeout(() => setPressed(false), 200);
     }
   };
+  */
 
   const handleAnswer = (idx: number) => {
     if (isAnswering) {

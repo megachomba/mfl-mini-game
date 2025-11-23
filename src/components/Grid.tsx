@@ -43,6 +43,25 @@ export const Grid = () => {
       {gameState.grid.map((tile: any) => (
         <Tile key={tile.id} tile={tile} phase={gameState.phase} />
       ))}
+
+      {/* Feedback Overlay */}
+      {gameState.answerFeedback && (
+          <group position={[0, 0, 2]}>
+             <mesh>
+                <planeGeometry args={[12, 10]} />
+                <meshBasicMaterial color="black" transparent opacity={0.8} />
+             </mesh>
+             <Text 
+                fontSize={3} 
+                color={gameState.answerFeedback === 'correct' ? '#4ade80' : '#f87171'} 
+                font="https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hjp-Ek-_EeA.woff"
+                outlineWidth={0.2}
+                outlineColor="#000"
+             >
+                {gameState.answerFeedback === 'correct' ? 'CORRECT!' : 'WRONG!'}
+             </Text>
+          </group>
+      )}
     </group>
   );
 };

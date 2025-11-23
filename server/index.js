@@ -35,7 +35,8 @@ let gameState = {
     mathurin: 0
   },
   currentTurn: null,
-  activeQuestion: null // { question, tileId, answeringPlayer }
+  activeQuestion: null, // { question, tileId, answeringPlayer }
+  answerFeedback: null // 'correct' | 'incorrect' | null
 };
 
 // Predefined players configuration
@@ -163,28 +164,34 @@ const PREDEFINED_PLAYERS_ORDER = ['quentin', 'mathurin', 'yann'];
           }
           
           gameState.activeQuestion = null;
-          
-          // Rotate Turn Deterministically
-          let currentIndex = PREDEFINED_PLAYERS_ORDER.indexOf(gameState.currentTurn);
-          if (currentIndex === -1) currentIndex = 0;
-          
-          let nextPlayer = null;
-          for (let i = 1; i <= PREDEFINED_PLAYERS_ORDER.length; i++) {
-              const nextIndex = (currentIndex + i) % PREDEFINED_PLAYERS_ORDER.length;
-              const candidateName = PREDEFINED_PLAYERS_ORDER[nextIndex];
-              // Check if this player is connected
-              const isConnected = Object.values(gameState.players).some(p => p.name === candidateName);
-              if (isConnected) {
-                  nextPlayer = candidateName;
-                  break;
-              }
-          }
-          
-          if (nextPlayer) {
-              gameState.currentTurn = nextPlayer;
-          }
-          
+          gameState.answerFeedback = isCorrect ? 'correct' : 'incorrect';
           io.emit('gameState', gameState);
+          
+          setTimeout(() => {
+              gameState.answerFeedback = null;
+
+              // Rotate Turn Deterministically
+              let currentIndex = PREDEFINED_PLAYERS_ORDER.indexOf(gameState.currentTurn);
+              if (currentIndex === -1) currentIndex = 0;
+              
+              let nextPlayer = null;
+              for (let i = 1; i <= PREDEFINED_PLAYERS_ORDER.length; i++) {
+                  const nextIndex = (currentIndex + i) % PREDEFINED_PLAYERS_ORDER.length;
+                  const candidateName = PREDEFINED_PLAYERS_ORDER[nextIndex];
+                  // Check if this player is connected
+                  const isConnected = Object.values(gameState.players).some(p => p.name === candidateName);
+                  if (isConnected) {
+                      nextPlayer = candidateName;
+                      break;
+                  }
+              }
+              
+              if (nextPlayer) {
+                  gameState.currentTurn = nextPlayer;
+              }
+              
+              io.emit('gameState', gameState);
+          }, 3000);
       }
   });
 

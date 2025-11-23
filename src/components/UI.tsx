@@ -1,7 +1,23 @@
+import { useEffect } from 'react';
 import { useGameStore } from '../store';
+
+// Preload audio
+const correctAudio = new Audio('/audio/correct.mp3');
+const incorrectAudio = new Audio('/audio/wrong.mp3');
 
 export const UI = () => {
   const { gameState, playerName } = useGameStore();
+
+  // Audio Effect Hook
+  useEffect(() => {
+    if (gameState?.answerFeedback === 'correct') {
+        correctAudio.currentTime = 0;
+        correctAudio.play().catch(e => console.warn('Audio play failed', e));
+    } else if (gameState?.answerFeedback === 'incorrect') {
+        incorrectAudio.currentTime = 0;
+        incorrectAudio.play().catch(e => console.warn('Audio play failed', e));
+    }
+  }, [gameState?.answerFeedback]);
 
   if (!gameState) return <div className="absolute top-4 left-4 text-white font-mono animate-pulse">Connecting to MFL Studio...</div>;
 

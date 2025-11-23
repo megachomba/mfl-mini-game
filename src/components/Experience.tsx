@@ -5,6 +5,8 @@ import { Player } from './Player';
 import { OtherPlayers } from './OtherPlayers';
 import { FunObjects } from './FunObjects';
 import { Desk } from './Desk';
+import { Audience } from './Audience';
+import { Bleachers } from './Bleachers';
 import { useGameStore } from '../store';
 
 export const Experience = () => {
@@ -66,6 +68,9 @@ export const Experience = () => {
 
       {/* Fun Objects */}
       <FunObjects />
+      
+      <Bleachers />
+      <Audience />
 
       {/* Current Player */}
       {playerName && <Player />}
