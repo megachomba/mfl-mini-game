@@ -1,0 +1,114 @@
+[
+  {
+    "id": "q_pinot_1",
+    "theme": "Thibaut Pinot",
+    "difficulty": 1,
+    "question": "Quelle équipe a été celle de Thibaut Pinot pendant la quasi-totalité de sa carrière ?",
+    "answers": ["Groupama-FDJ", "AG2R Citroën", "Team Sky", "Movistar"],
+    "correct": 0
+  },
+  {
+    "id": "q_pinot_2",
+    "theme": "Thibaut Pinot",
+    "difficulty": 2,
+    "question": "En quelle année Thibaut Pinot a-t-il remporté le Tour de Lombardie ?",
+    "answers": ["2018", "2019", "2017", "2020"],
+    "correct": 0
+  },
+  {
+    "id": "q_pinot_3",
+    "theme": "Thibaut Pinot",
+    "difficulty": 3,
+    "question": "Sur quel col Thibaut Pinot a-t-il abandonné en larmes lors du Tour de France 2019 ?",
+    "answers": ["L'Iseran", "Le Tourmalet", "Le Galibier", "Le Mont Ventoux"],
+    "correct": 0
+  },
+  {
+    "id": "q_lol_1",
+    "theme": "League of Legends 2025",
+    "difficulty": 1,
+    "question": "Quel est le nouveau format compétitif majeur introduit en 2025 pour le LEC ?",
+    "answers": ["3 Splits", "Un championnat unique", "Suppression des playoffs", "Matchs en BO1 uniquement"],
+    "correct": 0
+  },
+  {
+    "id": "q_cyclisme_1",
+    "theme": "Cyclisme Route > 2010",
+    "difficulty": 1,
+    "question": "Qui a remporté le Tour de France 2020 après un contre-la-montre décisif à La Planche des Belles Filles ?",
+    "answers": ["Tadej Pogačar", "Primož Roglič", "Egan Bernal", "Geraint Thomas"],
+    "correct": 0
+  },
+  {
+    "id": "q_mfl_1",
+    "theme": "MFL (Web3)",
+    "difficulty": 1,
+    "question": "Que signifie l'acronyme MFL dans ce contexte ?",
+    "answers": ["Metaverse Football League", "Master Football League", "Major French League", "My Football Life"],
+    "correct": 0
+  },
+  {
+    "id": "q_mfl_2",
+    "theme": "MFL (Web3)",
+    "difficulty": 2,
+    "question": "Dans MFL, comment appelle-t-on les actifs numériques uniques représentant les joueurs ?",
+    "answers": ["NFTs", "Tokens", "Coins", "Cards"],
+    "correct": 0
+  },
+  {
+    "id": "q_mfl_3",
+    "theme": "MFL (Web3)",
+    "difficulty": 3,
+    "question": "Quel est le nom du token utilitaire principal de l'écosystème MFL (si applicable ou prévu) ?",
+    "answers": ["MFL", "GOAL", "FOOT", "KICK"],
+    "correct": 0
+  },
+  {
+    "id": "q_drapeaux_1",
+    "theme": "Drapeaux",
+    "difficulty": 1,
+    "question": "Quel pays a un drapeau non rectangulaire (carré) ?",
+    "answers": ["Suisse", "Népal", "Belgique", "Japon"],
+    "correct": 0
+  },
+  {
+    "id": "q_quantique_1",
+    "theme": "Physique Quantique",
+    "difficulty": 2,
+    "question": "Quel animal est utilisé dans une célèbre expérience de pensée pour illustrer la superposition quantique ?",
+    "answers": ["Un chat", "Un chien", "Une souris", "Un singe"],
+    "correct": 0
+  },
+  {
+    "id": "q_wow_1",
+    "theme": "WoW: Burning Crusade (Mage)",
+    "difficulty": 1,
+    "question": "Quel est le sort emblématique du Mage pour transformer un ennemi en animal ?",
+    "answers": ["Métamorphose (Polymorph)", "Boule de feu", "Transfert", "Éclair de givre"],
+    "correct": 0
+  },
+  {
+    "id": "q_wow_2",
+    "theme": "WoW: Burning Crusade (Mage)",
+    "difficulty": 3,
+    "question": "Quelle spécialisation de Mage était généralement considérée comme la plus optimale pour le PvE HL (Raids) à TBC ?",
+    "answers": ["Arcane", "Givre", "Feu", "Nature"],
+    "correct": 0
+  },
+  {
+    "id": "q_oss_1",
+    "theme": "OSS 117",
+    "difficulty": 1,
+    "question": "Comment s'appelle le personnage principal joué par Jean Dujardin ?",
+    "answers": ["Hubert Bonisseur de La Bath", "Noël Flantier", "James Bond", "Lucien Bramard"],
+    "correct": 0
+  },
+  {
+    "id": "q_harry_1",
+    "theme": "Harry Potter",
+    "difficulty": 1,
+    "question": "Quelle est la maison de Harry Potter ?",
+    "answers": ["Gryffondor", "Serpentard", "Poufsouffle", "Serdaigle"],
+    "correct": 0
+  }
+]
