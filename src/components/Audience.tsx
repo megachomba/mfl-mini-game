@@ -1,16 +1,17 @@
 import { useMemo, useRef } from 'react';
-import { useFrame, useGraph } from '@react-three/fiber';
+import { useFrame } from '@react-three/fiber';
 import { useGLTF } from '@react-three/drei';
 import * as THREE from 'three';
 import { SkeletonUtils } from 'three-stdlib';
 import { useGameStore } from '../store';
 
-const CROWD_COUNT = 80;
+const CROWD_COUNT = 25; // Reduced from 80 for performance
 
 export const Audience = () => {
   const { scene } = useGLTF('/models/audience.glb');
   const { gameState } = useGameStore();
-  
+  const groupRefs = useRef<(THREE.Group | null)[]>([]);
+
   // Define Bleachers Parameters
   const levels = 5;
   const radius = 25;
@@ -19,73 +20,72 @@ export const Audience = () => {
 
   const crowdData = useMemo(() => {
     const data = [];
-    const angleStep = (Math.PI / 1.5) / 20; 
-    
+    const angleStep = (Math.PI / 1.5) / 20;
+
     for (let i = 0; i < CROWD_COUNT; i++) {
         const level = Math.floor(Math.random() * levels);
-        const angleIndex = Math.floor(Math.random() * 21) - 10; 
-        
+        const angleIndex = Math.floor(Math.random() * 21) - 10;
+
         const angleJitter = (Math.random() - 0.5) * 0.05;
         const angle = (angleIndex * angleStep) + angleJitter;
-        
+
         const r = radius + level * depth + (Math.random() - 0.5) * 0.5;
         const x = Math.sin(angle) * r;
         const z = Math.cos(angle) * r;
-        const y = level * height + 0.5; // Adjust for model height
+        const y = level * height + 0.5;
 
-        const scale = 0.4 + Math.random() * 0.1; // Vary size slightly
+        const scale = 0.4 + Math.random() * 0.1;
         const speed = 0.5 + Math.random() * 1.0;
         const offset = Math.random() * 100;
-        
+
         data.push({ x, y, z, rot: angle + Math.PI, scale, speed, offset });
     }
     return data;
   }, []);
 
-  return (
-    <group>
-      {crowdData.map((data, i) => (
-        <AudienceMember key={i} data={data} scene={scene} isCheering={gameState?.answerFeedback === 'correct'} />
-      ))}
-    </group>
-  );
-};
+  // Pre-clone all scenes once
+  const clones = useMemo(() => {
+    return crowdData.map(() => SkeletonUtils.clone(scene));
+  }, [scene, crowdData]);
 
-const AudienceMember = ({ data, scene, isCheering }: { data: any, scene: THREE.Group, isCheering: boolean }) => {
-  const group = useRef<THREE.Group>(null);
-  // Clone the scene for this instance
-  const clone = useMemo(() => SkeletonUtils.clone(scene), [scene]);
-  useGraph(clone); // This ensures nodes are processed if needed, but we just display the group
-  
+  const isCheering = gameState?.answerFeedback === 'correct';
+
+  // Single useFrame for ALL audience members - much more efficient
   useFrame((state) => {
-    if (!group.current) return;
-    
     const time = state.clock.getElapsedTime();
-    const { speed, offset } = data;
-    
-    let yOffset = 0;
-    
-    // Animation Logic
-    if (isCheering) {
-       yOffset = Math.abs(Math.sin(time * 10 + offset)) * 0.5; // Jump
-       // Rotate slightly
-       group.current.rotation.y = data.rot + Math.sin(time * 20) * 0.2;
-    } else {
-       yOffset = Math.sin(time * speed + offset) * 0.02; // Breathe
-       group.current.rotation.y = data.rot;
+
+    for (let i = 0; i < CROWD_COUNT; i++) {
+      const group = groupRefs.current[i];
+      if (!group) continue;
+
+      const data = crowdData[i];
+      let yOffset = 0;
+
+      if (isCheering) {
+        yOffset = Math.abs(Math.sin(time * 10 + data.offset)) * 0.5;
+        group.rotation.y = data.rot + Math.sin(time * 20) * 0.2;
+      } else {
+        yOffset = Math.sin(time * data.speed + data.offset) * 0.02;
+        group.rotation.y = data.rot;
+      }
+
+      group.position.y = data.y + yOffset;
     }
-    
-    group.current.position.y = data.y + yOffset;
   });
 
   return (
-    <primitive 
-        ref={group}
-        object={clone} 
-        position={[data.x, data.y, data.z]} 
-        scale={[data.scale, data.scale, data.scale]}
-        rotation={[0, data.rot, 0]}
-    />
+    <group>
+      {clones.map((clone, i) => (
+        <primitive
+          key={i}
+          ref={(el: THREE.Group | null) => { groupRefs.current[i] = el; }}
+          object={clone}
+          position={[crowdData[i].x, crowdData[i].y, crowdData[i].z]}
+          scale={[crowdData[i].scale, crowdData[i].scale, crowdData[i].scale]}
+          rotation={[0, crowdData[i].rot, 0]}
+        />
+      ))}
+    </group>
   );
 };
 

@@ -1,4 +1,4 @@
-import { Environment, Stars, MeshReflectorMaterial } from '@react-three/drei';
+import { Environment, MeshReflectorMaterial } from '@react-three/drei';
 import { RigidBody } from '@react-three/rapier';
 import { Grid } from './Grid';
 import { Player } from './Player';
@@ -15,7 +15,6 @@ export const Experience = () => {
   return (
     <>
       <Environment preset="studio" />
-      <Stars radius={100} depth={50} count={5000} factor={4} saturation={0} fade speed={1} />
       
       <ambientLight intensity={0.2} />
       
@@ -29,17 +28,17 @@ export const Experience = () => {
         <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0, 0]} receiveShadow>
           <planeGeometry args={[100, 100]} />
           <MeshReflectorMaterial
-            blur={[300, 100]}
-            resolution={2048}
+            blur={[200, 100]}
+            resolution={512}
             mixBlur={1}
-            mixStrength={80}
-            roughness={0.2}
-            depthScale={1.2}
+            mixStrength={40}
+            roughness={0.3}
+            depthScale={0.8}
             minDepthThreshold={0.4}
             maxDepthThreshold={1.4}
             color="#151515"
-            metalness={0.5}
-            mirror={0.7} 
+            metalness={0.4}
+            mirror={0.5}
           />
         </mesh>
       </RigidBody>

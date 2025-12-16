@@ -1,5 +1,5 @@
 import { RigidBody, CapsuleCollider } from '@react-three/rapier';
-import { useRef, useEffect } from 'react';
+import { useRef, useEffect, useMemo } from 'react';
 import { useFrame, useThree } from '@react-three/fiber';
 import { useKeyboardControls, PointerLockControls } from '@react-three/drei';
 import { useGameStore } from '../store';
@@ -12,6 +12,14 @@ export const Player = () => {
   const [, getKeys] = useKeyboardControls();
   const { camera } = useThree();
   const { gameState, playerName } = useGameStore();
+
+  // Pooled vectors to avoid allocations in useFrame
+  const vectors = useMemo(() => ({
+    forward: new THREE.Vector3(),
+    right: new THREE.Vector3(),
+    moveDir: new THREE.Vector3(),
+    cameraDir: new THREE.Vector3(),
+  }), []);
 
   // Get start position from server state if available
   const startPos = useRef([0, 2, 5]);
@@ -35,36 +43,34 @@ export const Player = () => {
     if (!rigidBody.current) return;
 
     const { forward, backward, left, right, jump } = getKeys();
-    
+
     const currentVel = rigidBody.current.linvel();
-    
-    // Get Camera Direction (FPP)
-    const forwardVector = new THREE.Vector3();
-    state.camera.getWorldDirection(forwardVector);
-    forwardVector.y = 0; // Flatten to ground
-    forwardVector.normalize();
 
-    const rightVector = new THREE.Vector3();
-    rightVector.crossVectors(forwardVector, state.camera.up).normalize();
+    // Get Camera Direction (FPP) - reuse pooled vectors
+    state.camera.getWorldDirection(vectors.forward);
+    vectors.forward.y = 0;
+    vectors.forward.normalize();
 
-    // Calculate movement vector
-    const moveDir = new THREE.Vector3(0, 0, 0);
-    if (forward) moveDir.add(forwardVector);
-    if (backward) moveDir.sub(forwardVector);
-    if (right) moveDir.add(rightVector);
-    if (left) moveDir.sub(rightVector);
+    vectors.right.crossVectors(vectors.forward, state.camera.up).normalize();
 
-    if (moveDir.length() > 0) {
-        moveDir.normalize().multiplyScalar(8); // Speed
+    // Calculate movement vector - reuse pooled vector
+    vectors.moveDir.set(0, 0, 0);
+    if (forward) vectors.moveDir.add(vectors.forward);
+    if (backward) vectors.moveDir.sub(vectors.forward);
+    if (right) vectors.moveDir.add(vectors.right);
+    if (left) vectors.moveDir.sub(vectors.right);
+
+    if (vectors.moveDir.length() > 0) {
+        vectors.moveDir.normalize().multiplyScalar(8);
     }
 
     // Apply Velocity
-    rigidBody.current.setLinvel({ 
-        x: moveDir.x, 
-        y: currentVel.y, 
-        z: moveDir.z 
+    rigidBody.current.setLinvel({
+        x: vectors.moveDir.x,
+        y: currentVel.y,
+        z: vectors.moveDir.z
     }, true);
-    
+
     // Jump
     if (jump && Math.abs(currentVel.y) < 0.1) {
         rigidBody.current.setLinvel({ x: currentVel.x, y: 8, z: currentVel.z }, true);
@@ -75,13 +81,11 @@ export const Player = () => {
     if(useGameStore.getState().socket && now - lastUpdate.current > 30) {
         lastUpdate.current = now;
         const pos = rigidBody.current.translation();
-        
-        // Get Rotation (Yaw)
-        const cameraDir = new THREE.Vector3();
-        state.camera.getWorldDirection(cameraDir);
-        const rot = Math.atan2(cameraDir.x, cameraDir.z); // Calculate Yaw
 
-        // Send minimal data
+        // Get Rotation (Yaw) - reuse pooled vector
+        state.camera.getWorldDirection(vectors.cameraDir);
+        const rot = Math.atan2(vectors.cameraDir.x, vectors.cameraDir.z);
+
         useGameStore.getState().socket?.emit('move', { x: pos.x, y: pos.y, z: pos.z, rot });
     }
 

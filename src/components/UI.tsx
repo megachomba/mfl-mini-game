@@ -1,12 +1,43 @@
-import { useEffect } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import { useGameStore } from '../store';
 
 // Preload audio
 const correctAudio = new Audio('/audio/correct.mp3');
 const incorrectAudio = new Audio('/audio/wrong.mp3');
 
+// FPS counter hook
+const useFPS = () => {
+  const [fps, setFps] = useState(0);
+  const frameCount = useRef(0);
+  const lastTime = useRef(performance.now());
+
+  useEffect(() => {
+    let animationId: number;
+
+    const updateFPS = () => {
+      frameCount.current++;
+      const now = performance.now();
+      const delta = now - lastTime.current;
+
+      if (delta >= 1000) {
+        setFps(Math.round((frameCount.current * 1000) / delta));
+        frameCount.current = 0;
+        lastTime.current = now;
+      }
+
+      animationId = requestAnimationFrame(updateFPS);
+    };
+
+    animationId = requestAnimationFrame(updateFPS);
+    return () => cancelAnimationFrame(animationId);
+  }, []);
+
+  return fps;
+};
+
 export const UI = () => {
-  const { gameState, playerName } = useGameStore();
+  const { gameState, playerName, latency } = useGameStore();
+  const fps = useFPS();
 
   // Audio Effect Hook
   useEffect(() => {
@@ -88,6 +119,16 @@ export const UI = () => {
       {/* Crosshair (Center Screen) */}
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-none">
           <div className="w-2 h-2 bg-white/80 rounded-full shadow-[0_0_4px_rgba(255,255,255,0.8)]"></div>
+      </div>
+
+      {/* Performance Stats (Bottom Center) */}
+      <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 flex gap-4 font-mono text-xs text-gray-400 bg-black/40 px-3 py-1 rounded">
+        <span className={fps < 30 ? 'text-red-400' : fps < 55 ? 'text-yellow-400' : 'text-green-400'}>
+          FPS: {fps}
+        </span>
+        <span className={latency > 100 ? 'text-red-400' : latency > 50 ? 'text-yellow-400' : 'text-green-400'}>
+          Ping: {latency}ms
+        </span>
       </div>
     </div>
   );

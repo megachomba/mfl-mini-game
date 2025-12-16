@@ -77,6 +77,11 @@ gameState.grid = initGrid();
 io.on('connection', (socket) => {
   console.log('New client connected:', socket.id);
 
+  // Ping/pong for latency measurement
+  socket.on('ping', (callback) => {
+    callback();
+  });
+
   socket.on('join', (playerName) => {
     if (PLAYER_CONFIG[playerName]) {
       const config = PLAYER_CONFIG[playerName];

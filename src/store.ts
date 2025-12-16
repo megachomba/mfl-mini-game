@@ -7,6 +7,7 @@ interface GameState {
   playerName: string | null;
   players: any; // To be typed properly
   gameState: any;
+  latency: number;
   setPlayerName: (name: string) => void;
   connect: () => void;
   updateGameState: (state: any) => void;
@@ -18,6 +19,7 @@ export const useGameStore = create<GameState>((set, get) => ({
   playerName: null,
   players: {},
   gameState: null,
+  latency: 0,
 
   setPlayerName: (name) => set({ playerName: name }),
 
@@ -32,6 +34,19 @@ export const useGameStore = create<GameState>((set, get) => ({
       if (playerName) {
         newSocket.emit('join', playerName);
       }
+
+      // Ping for latency measurement
+      const pingInterval = setInterval(() => {
+        const start = Date.now();
+        newSocket.emit('ping', () => {
+          const latency = Date.now() - start;
+          set({ latency });
+        });
+      }, 1000);
+
+      newSocket.on('disconnect', () => {
+        clearInterval(pingInterval);
+      });
     });
 
     newSocket.on('gameState', (gameState) => {
