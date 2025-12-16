@@ -1,17 +1,17 @@
-import { useMemo, useRef, useEffect } from 'react';
-import { useFrame } from '@react-three/fiber';
+import { useMemo, useRef } from 'react';
+import { useFrame, useGraph } from '@react-three/fiber';
+import { useGLTF } from '@react-three/drei';
 import * as THREE from 'three';
+import { SkeletonUtils } from 'three-stdlib';
 import { useGameStore } from '../store';
 
-const CROWD_COUNT = 200; // More people for the bleachers
+const CROWD_COUNT = 80;
 
 export const Audience = () => {
-  const bodyRef = useRef<THREE.InstancedMesh>(null);
-  const headRef = useRef<THREE.InstancedMesh>(null);
+  const { scene } = useGLTF('/models/audience.glb');
   const { gameState } = useGameStore();
-  const dummy = useMemo(() => new THREE.Object3D(), []);
   
-  // Define Bleachers Parameters to match Bleachers.tsx logic
+  // Define Bleachers Parameters
   const levels = 5;
   const radius = 25;
   const depth = 2;
@@ -19,96 +19,74 @@ export const Audience = () => {
 
   const crowdData = useMemo(() => {
     const data = [];
-    const angleStep = (Math.PI / 1.5) / 20; // Match bleachers
+    const angleStep = (Math.PI / 1.5) / 20; 
     
     for (let i = 0; i < CROWD_COUNT; i++) {
-        // Randomly pick a spot on the bleachers
         const level = Math.floor(Math.random() * levels);
-        const angleIndex = Math.floor(Math.random() * 21) - 10; // -10 to 10
+        const angleIndex = Math.floor(Math.random() * 21) - 10; 
         
-        // Add some randomness to position so they aren't perfect grid
         const angleJitter = (Math.random() - 0.5) * 0.05;
         const angle = (angleIndex * angleStep) + angleJitter;
         
         const r = radius + level * depth + (Math.random() - 0.5) * 0.5;
         const x = Math.sin(angle) * r;
         const z = Math.cos(angle) * r;
-        const y = level * height + 1.5; // +1.5 to sit/stand on top of the block
+        const y = level * height + 0.5; // Adjust for model height
 
-        const color = new THREE.Color().setHSL(Math.random(), 0.7, 0.5);
+        const scale = 0.4 + Math.random() * 0.1; // Vary size slightly
         const speed = 0.5 + Math.random() * 1.0;
         const offset = Math.random() * 100;
         
-        data.push({ x, y, z, rot: angle + Math.PI, color, speed, offset });
+        data.push({ x, y, z, rot: angle + Math.PI, scale, speed, offset });
     }
     return data;
   }, []);
 
-  useFrame((state) => {
-    if (!bodyRef.current || !headRef.current) return;
-
-    const isCheering = gameState?.answerFeedback === 'correct';
-    const time = state.clock.getElapsedTime();
-
-    crowdData.forEach((p, i) => {
-      const { x, y, z, rot, speed, offset } = p;
-      let currentY = y;
-
-      // Animation
-      if (isCheering) {
-         currentY += Math.abs(Math.sin(time * 10 + offset)) * 1.0; // Jump
-      } else {
-         currentY += Math.sin(time * speed + offset) * 0.05; // Breathe/Idle
-      }
-
-      // Update Body
-      dummy.position.set(x, currentY, z);
-      dummy.rotation.set(0, rot, 0);
-      dummy.scale.set(1, 1, 1);
-      dummy.updateMatrix();
-      bodyRef.current!.setMatrixAt(i, dummy.matrix);
-
-      // Update Head (Relative to Body)
-      // Head is 0.5 units above body center (Body height 0.6, Head height 0.4)
-      dummy.position.set(x, currentY + 0.55, z);
-      dummy.updateMatrix();
-      headRef.current!.setMatrixAt(i, dummy.matrix);
-    });
-
-    bodyRef.current.instanceMatrix.needsUpdate = true;
-    headRef.current.instanceMatrix.needsUpdate = true;
-  });
-  
-  // Set Colors Once
-  useEffect(() => {
-      if (bodyRef.current && !bodyRef.current.userData.colorsSet) {
-          crowdData.forEach((p, i) => {
-              bodyRef.current!.setColorAt(i, p.color);
-              // Heads are skin colored usually, let's vary slightly
-              const skinTone = new THREE.Color().setHSL(0.08 + Math.random() * 0.05, 0.6, 0.5 + Math.random() * 0.3);
-              headRef.current!.setColorAt(i, skinTone);
-          });
-          bodyRef.current.instanceColor!.needsUpdate = true;
-          if(headRef.current && headRef.current.instanceColor) {
-               headRef.current.instanceColor.needsUpdate = true;
-          }
-          bodyRef.current.userData.colorsSet = true;
-      }
-  }, [crowdData]);
-
   return (
     <group>
-        {/* Bodies */}
-        <instancedMesh ref={bodyRef} args={[undefined, undefined, CROWD_COUNT]} frustumCulled={false}>
-            <boxGeometry args={[0.5, 0.6, 0.3]} />
-            <meshStandardMaterial roughness={0.8} />
-        </instancedMesh>
-        
-        {/* Heads */}
-        <instancedMesh ref={headRef} args={[undefined, undefined, CROWD_COUNT]} frustumCulled={false}>
-            <boxGeometry args={[0.3, 0.35, 0.3]} />
-            <meshStandardMaterial roughness={0.5} />
-        </instancedMesh>
+      {crowdData.map((data, i) => (
+        <AudienceMember key={i} data={data} scene={scene} isCheering={gameState?.answerFeedback === 'correct'} />
+      ))}
     </group>
   );
 };
+
+const AudienceMember = ({ data, scene, isCheering }: { data: any, scene: THREE.Group, isCheering: boolean }) => {
+  const group = useRef<THREE.Group>(null);
+  // Clone the scene for this instance
+  const clone = useMemo(() => SkeletonUtils.clone(scene), [scene]);
+  useGraph(clone); // This ensures nodes are processed if needed, but we just display the group
+  
+  useFrame((state) => {
+    if (!group.current) return;
+    
+    const time = state.clock.getElapsedTime();
+    const { speed, offset } = data;
+    
+    let yOffset = 0;
+    
+    // Animation Logic
+    if (isCheering) {
+       yOffset = Math.abs(Math.sin(time * 10 + offset)) * 0.5; // Jump
+       // Rotate slightly
+       group.current.rotation.y = data.rot + Math.sin(time * 20) * 0.2;
+    } else {
+       yOffset = Math.sin(time * speed + offset) * 0.02; // Breathe
+       group.current.rotation.y = data.rot;
+    }
+    
+    group.current.position.y = data.y + yOffset;
+  });
+
+  return (
+    <primitive 
+        ref={group}
+        object={clone} 
+        position={[data.x, data.y, data.z]} 
+        scale={[data.scale, data.scale, data.scale]}
+        rotation={[0, data.rot, 0]}
+    />
+  );
+};
+
+useGLTF.preload('/models/audience.glb');
