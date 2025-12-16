@@ -35,8 +35,8 @@ app.use(cors());
 const distPath = path.join(__dirname, '../dist');
 app.use(express.static(distPath));
 
-// SPA fallback - serve index.html for all non-API routes
-app.get('*', (req, res, next) => {
+// SPA fallback - serve index.html for all non-API routes (Express 5 syntax)
+app.get('/{*splat}', (req, res, next) => {
   // Skip socket.io requests
   if (req.path.startsWith('/socket.io')) return next();
   res.sendFile(path.join(distPath, 'index.html'));
