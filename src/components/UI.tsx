@@ -1,9 +1,29 @@
 import { useEffect, useState, useRef } from 'react';
 import { useGameStore } from '../store';
 
-// Preload audio
-const correctAudio = new Audio('/audio/correct.mp3');
-const incorrectAudio = new Audio('/audio/wrong.mp3');
+// Preload all audio files
+const audioFiles = {
+  correct: new Audio('/audio/correct.mp3'),
+  wrong: new Audio('/audio/wrong.mp3'),
+  turnChange: new Audio('/audio/turn-change.mp3'),
+  phaseTransition: new Audio('/audio/phase-transition.mp3'),
+  buttonClick: new Audio('/audio/button-click.mp3'),
+  countdown: new Audio('/audio/countdown.mp3'),
+  crowdCheer: new Audio('/audio/crowd-cheer.mp3'),
+  crowdAww: new Audio('/audio/crowd-aww.mp3'),
+  gameShowDing: new Audio('/audio/game-show-ding.mp3'),
+  tickTock: new Audio('/audio/tick-tock.mp3'),
+};
+
+// Configure tick-tock for looping
+audioFiles.tickTock.loop = true;
+audioFiles.tickTock.volume = 0.5;
+
+// Helper to play audio
+const playSound = (audio: HTMLAudioElement) => {
+  audio.currentTime = 0;
+  audio.play().catch(e => console.warn('Audio play failed', e));
+};
 
 // FPS counter hook
 const useFPS = () => {
@@ -39,16 +59,61 @@ export const UI = () => {
   const { gameState, playerName, latency } = useGameStore();
   const fps = useFPS();
 
-  // Audio Effect Hook
+  // Track previous values for change detection
+  const prevTurn = useRef<string | null>(null);
+  const prevPhase = useRef<string | null>(null);
+  const prevFeedback = useRef<string | null>(null);
+
+  // Answer feedback sounds (correct/wrong + crowd reactions)
   useEffect(() => {
-    if (gameState?.answerFeedback === 'correct') {
-        correctAudio.currentTime = 0;
-        correctAudio.play().catch(e => console.warn('Audio play failed', e));
-    } else if (gameState?.answerFeedback === 'incorrect') {
-        incorrectAudio.currentTime = 0;
-        incorrectAudio.play().catch(e => console.warn('Audio play failed', e));
+    if (gameState?.answerFeedback && gameState.answerFeedback !== prevFeedback.current) {
+      if (gameState.answerFeedback === 'correct') {
+        playSound(audioFiles.correct);
+        playSound(audioFiles.crowdCheer);
+      } else if (gameState.answerFeedback === 'incorrect') {
+        playSound(audioFiles.wrong);
+        playSound(audioFiles.crowdAww);
+      }
     }
+    prevFeedback.current = gameState?.answerFeedback || null;
   }, [gameState?.answerFeedback]);
+
+  // Turn change sound
+  useEffect(() => {
+    if (gameState?.currentTurn &&
+        prevTurn.current !== null &&
+        gameState.currentTurn !== prevTurn.current) {
+      playSound(audioFiles.turnChange);
+    }
+    prevTurn.current = gameState?.currentTurn || null;
+  }, [gameState?.currentTurn]);
+
+  // Phase transition sound + tick-tock during MEMORIZE
+  useEffect(() => {
+    if (gameState?.phase &&
+        prevPhase.current !== null &&
+        gameState.phase !== prevPhase.current) {
+      if (gameState.phase === 'MEMORIZE') {
+        playSound(audioFiles.phaseTransition);
+        // Start ticking sound
+        audioFiles.tickTock.currentTime = 0;
+        audioFiles.tickTock.play().catch(e => console.warn('Audio play failed', e));
+      } else if (gameState.phase === 'GAME') {
+        // Stop ticking and play game start sound
+        audioFiles.tickTock.pause();
+        audioFiles.tickTock.currentTime = 0;
+        playSound(audioFiles.gameShowDing);
+      }
+    }
+    prevPhase.current = gameState?.phase || null;
+
+    // Cleanup: stop tick-tock when leaving MEMORIZE
+    return () => {
+      if (gameState?.phase !== 'MEMORIZE') {
+        audioFiles.tickTock.pause();
+      }
+    };
+  }, [gameState?.phase]);
 
   if (!gameState) return <div className="absolute top-4 left-4 text-white font-mono animate-pulse">Connecting to MFL Studio...</div>;
 
@@ -68,9 +133,12 @@ export const UI = () => {
             <div className="text-sm text-gray-400 uppercase tracking-widest">Current Phase</div>
             <div className="text-2xl font-bold text-white drop-shadow-md">{gameState.phase}</div>
             {gameState.phase === 'LOBBY' && (
-                <button 
+                <button
                     className="mt-2 pointer-events-auto bg-white text-black px-4 py-1 rounded font-bold hover:scale-105 transition-transform shadow-lg hover:shadow-xl border-2 border-transparent hover:border-blue-500"
-                    onClick={() => useGameStore.getState().socket?.emit('startGame')}
+                    onClick={() => {
+                        playSound(audioFiles.buttonClick);
+                        useGameStore.getState().socket?.emit('startGame');
+                    }}
                 >
                     START SHOW
                 </button>
@@ -132,15 +200,37 @@ export const UI = () => {
          </div>
       </div>
       
-      {/* Crosshair (Center Screen) */}
-      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-none">
-          <div className="w-2 h-2 bg-white/80 rounded-full shadow-[0_0_4px_rgba(255,255,255,0.8)]"></div>
-      </div>
+      {/* MEMORIZE Phase Timer */}
+      {gameState.phase === 'MEMORIZE' && gameState.memorizeTimer > 0 && (
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-none">
+          <div className="flex flex-col items-center">
+            <div className="text-lg text-yellow-400 uppercase tracking-widest font-bold mb-2 animate-pulse">
+              MEMORIZE THE GRID!
+            </div>
+            <div className={`text-8xl font-black tabular-nums ${
+              gameState.memorizeTimer <= 5 ? 'text-red-500 animate-pulse' : 'text-white'
+            } drop-shadow-[0_0_20px_rgba(255,255,255,0.5)]`}>
+              {gameState.memorizeTimer}
+            </div>
+            <div className="mt-2 text-sm text-gray-400">seconds remaining</div>
+          </div>
+        </div>
+      )}
+
+      {/* Crosshair (Center Screen) - hide during MEMORIZE */}
+      {gameState.phase !== 'MEMORIZE' && (
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-none">
+            <div className="w-2 h-2 bg-white/80 rounded-full shadow-[0_0_4px_rgba(255,255,255,0.8)]"></div>
+        </div>
+      )}
 
       {/* Reset Position Button */}
       <button
         className="absolute top-40 right-6 pointer-events-auto bg-red-600 hover:bg-red-500 text-white px-4 py-2 rounded-lg font-bold text-sm transition-all shadow-lg hover:shadow-xl"
-        onClick={() => useGameStore.getState().resetPosition()}
+        onClick={() => {
+          playSound(audioFiles.buttonClick);
+          useGameStore.getState().resetPosition();
+        }}
       >
         RESET POSITION
       </button>

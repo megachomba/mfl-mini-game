@@ -1,0 +1,548 @@
+[
+  {
+    "id": "q_sum41_1",
+    "theme": "Sum 41",
+    "difficulty": 1,
+    "question": "De quel pays vient le groupe Sum 41 ?",
+    "answers": [
+      "Australie",
+      "États-Unis",
+      "Royaume-Uni",
+      "Canada"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_sum41_2",
+    "theme": "Sum 41",
+    "difficulty": 1,
+    "question": "Quel est le titre de l'album de Sum 41 sorti en 2001 contenant 'Fat Lip' ?",
+    "answers": [
+      "Chuck",
+      "All Killer No Filler",
+      "Underclass Hero",
+      "Does This Look Infected?"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_sum41_3",
+    "theme": "Sum 41",
+    "difficulty": 1,
+    "question": "Comment s'appelle le chanteur principal de Sum 41 ?",
+    "answers": [
+      "Steve Jocz",
+      "Deryck Whibley",
+      "Dave Baksh",
+      "Cone McCaslin"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_sum41_4",
+    "theme": "Sum 41",
+    "difficulty": 1,
+    "question": "Quel est le nom du batteur original de Sum 41 qui a quitté le groupe en 2013 ?",
+    "answers": [
+      "Travis Barker",
+      "Steve Jocz",
+      "Josh Dun",
+      "Frank Zummo"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_sum41_5",
+    "theme": "Sum 41",
+    "difficulty": 1,
+    "question": "Dans quelle ville canadienne Sum 41 s'est-il formé ?",
+    "answers": [
+      "Montreal, Québec",
+      "Ajax, Ontario",
+      "Vancouver, Colombie-Britannique",
+      "Toronto, Ontario"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_sum41_6",
+    "theme": "Sum 41",
+    "difficulty": 1,
+    "question": "Quel est le titre de l'album de Sum 41 sorti en 2004 inspiré par leur expérience en République démocratique du Congo ?",
+    "answers": [
+      "Chuck",
+      "13 Voices",
+      "Screaming Bloody Murder",
+      "Does This Look Infected?"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_sum41_7",
+    "theme": "Sum 41",
+    "difficulty": 1,
+    "question": "Quel guitariste a quitté Sum 41 en 2006 pour former sa propre band Brown Brigade ?",
+    "answers": [
+      "Tom Thacker",
+      "Dave Baksh",
+      "Jason McCaslin",
+      "Deryck Whibley"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_sum41_8",
+    "theme": "Sum 41",
+    "difficulty": 1,
+    "question": "Quel est le nom du projet alter ego de Sum 41 qui joue des reprises metal ?",
+    "answers": [
+      "Sum 666",
+      "Pain for Pleasure",
+      "Metal 41",
+      "Killer Instinct"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_sum41_9",
+    "theme": "Sum 41",
+    "difficulty": 1,
+    "question": "Quel est le titre de la chanson qui a été le premier single de l'album 'All Killer No Filler' ?",
+    "answers": [
+      "In Too Deep",
+      "Motivation",
+      "Fat Lip",
+      "Still Waiting"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_sum41_10",
+    "theme": "Sum 41",
+    "difficulty": 1,
+    "question": "Quel est le surnom de Jason McCaslin, le bassiste de Sum 41 ?",
+    "answers": [
+      "Bizzy D",
+      "Stevo",
+      "The Baksh",
+      "Cone"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_sum41_11",
+    "theme": "Sum 41",
+    "difficulty": 1,
+    "question": "En quelle année Sum 41 a-t-il sorti l'album 'Does This Look Infected?' ?",
+    "answers": [
+      "2001",
+      "2003",
+      "2002",
+      "2004"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_sum41_12",
+    "theme": "Sum 41",
+    "difficulty": 1,
+    "question": "Quel album de Sum 41 sorti en 2007 contient la chanson 'With Me' ?",
+    "answers": [
+      "Screaming Bloody Murder",
+      "All Killer No Filler",
+      "Underclass Hero",
+      "Chuck"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_sum41_13",
+    "theme": "Sum 41",
+    "difficulty": 1,
+    "question": "Quel album de Sum 41 sorti en 2016 marque le retour du guitariste Dave Baksh ?",
+    "answers": [
+      "Underclass Hero",
+      "13 Voices",
+      "Screaming Bloody Murder",
+      "Order in Decline"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_sum41_14",
+    "theme": "Sum 41",
+    "difficulty": 1,
+    "question": "Quel batteur a rejoint Sum 41 après le départ de Steve Jocz ?",
+    "answers": [
+      "Brooks Wackerman",
+      "Branden Steineckert",
+      "Frank Zummo",
+      "Atom Willard"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_jv_1",
+    "theme": "Jeux Vidéo",
+    "difficulty": 2,
+    "question": "Quel studio français a développé la série Assassin's Creed ?",
+    "answers": [
+      "Ubisoft Montpellier",
+      "Ubisoft Montreal",
+      "Quantic Dream",
+      "Arkane Studios"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_jv_2",
+    "theme": "Jeux Vidéo",
+    "difficulty": 2,
+    "question": "Dans Dark Souls, quel objet permet de sauvegarder sa progression et se reposer ?",
+    "answers": [
+      "Les bûchers",
+      "Les cristaux de soin",
+      "Les autels",
+      "Les feux de camp"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_jv_3",
+    "theme": "Jeux Vidéo",
+    "difficulty": 2,
+    "question": "Quelle entreprise a racheté Activision Blizzard en 2023 pour 69 milliards de dollars ?",
+    "answers": [
+      "Sony",
+      "Microsoft",
+      "Tencent",
+      "Amazon"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_jv_4",
+    "theme": "Jeux Vidéo",
+    "difficulty": 2,
+    "question": "Dans quel jeu français incarne-t-on Jade, une reporter-photographe sur la planète Hillys ?",
+    "answers": [
+      "Remember Me",
+      "Beyond Good & Evil",
+      "Rayman Origins",
+      "Mirror's Edge"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_jv_5",
+    "theme": "Jeux Vidéo",
+    "difficulty": 2,
+    "question": "Quel est le nom du moteur graphique développé par Epic Games et utilisé dans Fortnite ?",
+    "answers": [
+      "Unity",
+      "CryEngine",
+      "Unreal Engine",
+      "Frostbite"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_jv_6",
+    "theme": "Jeux Vidéo",
+    "difficulty": 2,
+    "question": "Dans Counter-Strike, combien coûte un AK-47 en début de round ?",
+    "answers": [
+      "2500$",
+      "2700$",
+      "3100$",
+      "3500$"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_jv_7",
+    "theme": "Jeux Vidéo",
+    "difficulty": 2,
+    "question": "Quel jeu de From Software se déroule dans un Japon féodal fantastique avec des combats au sabre ?",
+    "answers": [
+      "Nioh",
+      "Ghost of Tsushima",
+      "Sekiro: Shadows Die Twice",
+      "Onimusha"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_jv_8",
+    "theme": "Jeux Vidéo",
+    "difficulty": 2,
+    "question": "Quelle franchise de jeux de rôle japonais a été créée par Hironobu Sakaguchi chez Square ?",
+    "answers": [
+      "Dragon Quest",
+      "Final Fantasy",
+      "Tales of",
+      "Chrono Trigger"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_jv_9",
+    "theme": "Jeux Vidéo",
+    "difficulty": 2,
+    "question": "Dans League of Legends, comment appelle-t-on la carte principale du jeu ?",
+    "answers": [
+      "The Rift",
+      "Summoner's Rift",
+      "Nexus Arena",
+      "Crystal Scar"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_jv_10",
+    "theme": "Jeux Vidéo",
+    "difficulty": 2,
+    "question": "Quel studio lyonnais a développé A Plague Tale: Innocence ?",
+    "answers": [
+      "Asobo Studio",
+      "Dontnod Entertainment",
+      "Arkane Lyon",
+      "Quantic Dream"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_jv_11",
+    "theme": "Jeux Vidéo",
+    "difficulty": 2,
+    "question": "Dans la série Metal Gear, quel est le vrai prénom de Snake ?",
+    "answers": [
+      "Jack",
+      "David",
+      "John",
+      "Frank"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_jv_12",
+    "theme": "Jeux Vidéo",
+    "difficulty": 2,
+    "question": "Quelle console de Nintendo sortie en 2017 peut être utilisée en mode portable et dock ?",
+    "answers": [
+      "Nintendo 3DS",
+      "Nintendo Wii U",
+      "Nintendo Switch",
+      "Nintendo DS"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_jv_13",
+    "theme": "Jeux Vidéo",
+    "difficulty": 2,
+    "question": "Dans Dota 2 et League of Legends, comment appelle-t-on le genre de jeu ?",
+    "answers": [
+      "RTS",
+      "MOBA",
+      "MMORPG",
+      "Battle Arena"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_jv_14",
+    "theme": "Jeux Vidéo",
+    "difficulty": 2,
+    "question": "Quel développeur japonais a créé Resident Evil, Devil May Cry et Street Fighter II ?",
+    "answers": [
+      "Konami",
+      "Capcom",
+      "Sega",
+      "Namco"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_geo_1",
+    "theme": "Géographie",
+    "difficulty": 3,
+    "question": "Quelle est la capitale de la Slovaquie ?",
+    "answers": [
+      "Ljubljana",
+      "Bratislava",
+      "Budapest",
+      "Prague"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_geo_2",
+    "theme": "Géographie",
+    "difficulty": 3,
+    "question": "Quel fleuve traverse Bordeaux ?",
+    "answers": [
+      "La Loire",
+      "La Dordogne",
+      "La Garonne",
+      "Le Rhône"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_geo_3",
+    "theme": "Géographie",
+    "difficulty": 3,
+    "question": "Quelle est la capitale de la Lituanie ?",
+    "answers": [
+      "Tallinn",
+      "Riga",
+      "Vilnius",
+      "Varsovie"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_geo_4",
+    "theme": "Géographie",
+    "difficulty": 3,
+    "question": "Dans quelle chaîne de montagnes se trouve le mont Blanc ?",
+    "answers": [
+      "Les Pyrénées",
+      "Le Jura",
+      "Les Alpes",
+      "Les Vosges"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_geo_5",
+    "theme": "Géographie",
+    "difficulty": 3,
+    "question": "Quel pays a pour capitale Tallinn ?",
+    "answers": [
+      "La Lettonie",
+      "La Lituanie",
+      "L'Estonie",
+      "La Finlande"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_geo_6",
+    "theme": "Géographie",
+    "difficulty": 3,
+    "question": "Quelle ville française est située au confluent du Rhône et de la Saône ?",
+    "answers": [
+      "Lyon",
+      "Avignon",
+      "Valence",
+      "Grenoble"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_geo_7",
+    "theme": "Géographie",
+    "difficulty": 3,
+    "question": "Quel détroit sépare l'Europe de l'Afrique ?",
+    "answers": [
+      "Le détroit des Dardanelles",
+      "Le détroit de Gibraltar",
+      "Le détroit du Bosphore",
+      "Le détroit de Messine"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_geo_8",
+    "theme": "Géographie",
+    "difficulty": 3,
+    "question": "Quelle est la capitale de la Croatie ?",
+    "answers": [
+      "Split",
+      "Dubrovnik",
+      "Belgrade",
+      "Zagreb"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_geo_9",
+    "theme": "Géographie",
+    "difficulty": 3,
+    "question": "Quel est le plus long fleuve de France ?",
+    "answers": [
+      "La Seine",
+      "La Loire",
+      "Le Rhône",
+      "La Garonne"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_geo_10",
+    "theme": "Géographie",
+    "difficulty": 3,
+    "question": "Quelle mer borde la côte ouest de l'Italie ?",
+    "answers": [
+      "Mer Adriatique",
+      "Mer Ionienne",
+      "Mer Tyrrhénienne",
+      "Mer Égée"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_geo_11",
+    "theme": "Géographie",
+    "difficulty": 3,
+    "question": "Quel pays partage sa plus longue frontière avec la France ?",
+    "answers": [
+      "L'Allemagne",
+      "L'Espagne",
+      "L'Italie",
+      "La Belgique"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_geo_12",
+    "theme": "Géographie",
+    "difficulty": 3,
+    "question": "Quelle est la capitale de la Bulgarie ?",
+    "answers": [
+      "Bucarest",
+      "Belgrade",
+      "Sofia",
+      "Athènes"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_geo_13",
+    "theme": "Géographie",
+    "difficulty": 3,
+    "question": "Quel département français a pour préfecture Strasbourg ?",
+    "answers": [
+      "Le Haut-Rhin",
+      "Le Bas-Rhin",
+      "La Moselle",
+      "Les Vosges"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_geo_14",
+    "theme": "Géographie",
+    "difficulty": 3,
+    "question": "Quel océan borde la côte est de l'Afrique ?",
+    "answers": [
+      "Océan Atlantique",
+      "Océan Pacifique",
+      "Océan Arctique",
+      "Océan Indien"
+    ],
+    "correct": 3
+  }
+]

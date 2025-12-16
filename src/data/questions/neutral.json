@@ -1,0 +1,574 @@
+[
+  {
+    "id": "q_neutral_1",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "Quel philosophe a écrit 'L'Être et le Néant' ?",
+    "answers": [
+      "Michel Foucault",
+      "Simone de Beauvoir",
+      "Jean-Paul Sartre",
+      "Albert Camus"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_neutral_2",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "Quelle est la monnaie officielle du Japon ?",
+    "answers": [
+      "Le Won",
+      "Le Yuan",
+      "Le Yen",
+      "Le Ringgit"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_neutral_3",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "Qui a peint 'La Nuit étoilée' ?",
+    "answers": [
+      "Claude Monet",
+      "Pablo Picasso",
+      "Salvador Dalí",
+      "Vincent van Gogh"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_neutral_4",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "Quel traité a créé l'Union européenne en 1992 ?",
+    "answers": [
+      "Le traité de Versailles",
+      "Le traité de Maastricht",
+      "Le traité de Rome",
+      "Le traité de Lisbonne"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_neutral_5",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "Quelle est la formule chimique de l'eau ?",
+    "answers": [
+      "NaCl",
+      "O2",
+      "CO2",
+      "H2O"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_neutral_6",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "Quel écrivain français a reçu le prix Nobel de littérature en 1957 ?",
+    "answers": [
+      "Jean-Paul Sartre",
+      "André Gide",
+      "François Mauriac",
+      "Albert Camus"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_neutral_7",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "Quelle planète est surnommée 'la planète rouge' ?",
+    "answers": [
+      "Vénus",
+      "Jupiter",
+      "Mercure",
+      "Mars"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_neutral_8",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "En quelle année a eu lieu la chute du mur de Berlin ?",
+    "answers": [
+      "1990",
+      "1987",
+      "1989",
+      "1991"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_neutral_9",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "Quel compositeur a écrit 'Les Quatre Saisons' ?",
+    "answers": [
+      "Wolfgang Amadeus Mozart",
+      "Johann Sebastian Bach",
+      "Ludwig van Beethoven",
+      "Antonio Vivaldi"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_neutral_10",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "Quel est le plus long os du corps humain ?",
+    "answers": [
+      "Le tibia",
+      "L'humérus",
+      "Le fémur",
+      "Le péroné"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_neutral_11",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "Qui a formulé la théorie de la relativité générale ?",
+    "answers": [
+      "Max Planck",
+      "Albert Einstein",
+      "Isaac Newton",
+      "Niels Bohr"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_neutral_12",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "Quel fleuve traverse Paris ?",
+    "answers": [
+      "La Garonne",
+      "La Seine",
+      "Le Rhône",
+      "La Loire"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_neutral_13",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "Quel pays a pour capitale Canberra ?",
+    "answers": [
+      "La Nouvelle-Zélande",
+      "Le Canada",
+      "L'Afrique du Sud",
+      "L'Australie"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_neutral_14",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "Quel est le symbole chimique de l'or ?",
+    "answers": [
+      "Au",
+      "Fe",
+      "Ag",
+      "Or"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_neutral_15",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "Qui a écrit 'Les Misérables' ?",
+    "answers": [
+      "Gustave Flaubert",
+      "Honoré de Balzac",
+      "Victor Hugo",
+      "Émile Zola"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_neutral_16",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "Quelle guerre a opposé le Nord et le Sud des États-Unis ?",
+    "answers": [
+      "La guerre de Sécession",
+      "La guerre de 1812",
+      "La guerre d'Indépendance",
+      "La guerre du Mexique"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_neutral_17",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "Quel architecte a conçu la Sagrada Família à Barcelone ?",
+    "answers": [
+      "Oscar Niemeyer",
+      "Antoni Gaudí",
+      "Le Corbusier",
+      "Frank Lloyd Wright"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_neutral_18",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "Combien de chromosomes possède une cellule humaine normale ?",
+    "answers": [
+      "46",
+      "23",
+      "48",
+      "44"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_neutral_19",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "Quel pays n'est PAS membre permanent du Conseil de sécurité de l'ONU ?",
+    "answers": [
+      "Le Royaume-Uni",
+      "L'Allemagne",
+      "La France",
+      "La Chine"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_neutral_20",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "Quelle œuvre de Léonard de Vinci est exposée au Louvre ?",
+    "answers": [
+      "L'Homme de Vitruve",
+      "La Joconde",
+      "La Dame à l'hermine",
+      "La Cène"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_neutral_21",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "Quel gaz représente environ 78% de l'atmosphère terrestre ?",
+    "answers": [
+      "L'oxygène",
+      "L'argon",
+      "L'azote",
+      "Le dioxyde de carbone"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_neutral_22",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "En quelle année Christophe Colomb a-t-il atteint l'Amérique ?",
+    "answers": [
+      "1492",
+      "1500",
+      "1485",
+      "1498"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_neutral_23",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "Quel roman dystopique a été écrit par George Orwell en 1949 ?",
+    "answers": [
+      "Fahrenheit 451",
+      "1984",
+      "La Ferme des animaux",
+      "Le Meilleur des mondes"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_neutral_24",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "Quelle est la vitesse de la lumière dans le vide (approximativement) ?",
+    "answers": [
+      "150 000 km/s",
+      "30 000 km/s",
+      "1 000 000 km/s",
+      "300 000 km/s"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_neutral_25",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "Quel empereur romain a légalisé le christianisme avec l'édit de Milan ?",
+    "answers": [
+      "Néron",
+      "Auguste",
+      "Constantin",
+      "Trajan"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_neutral_26",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "Quel mouvement artistique Picasso a-t-il co-fondé avec Braque ?",
+    "answers": [
+      "Le surréalisme",
+      "L'impressionnisme",
+      "Le cubisme",
+      "Le fauvisme"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_neutral_27",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "Quel organe produit l'insuline ?",
+    "answers": [
+      "Les reins",
+      "Le foie",
+      "Le pancréas",
+      "La rate"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_neutral_28",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "Quelle est la langue officielle du Brésil ?",
+    "answers": [
+      "Le portugais",
+      "L'espagnol",
+      "L'anglais",
+      "Le brésilien"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_neutral_29",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "Qui a écrit 'Du contrat social' ?",
+    "answers": [
+      "Denis Diderot",
+      "Voltaire",
+      "Jean-Jacques Rousseau",
+      "Montesquieu"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_neutral_30",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "Quel est le plus grand océan du monde ?",
+    "answers": [
+      "L'océan Atlantique",
+      "L'océan Arctique",
+      "L'océan Pacifique",
+      "L'océan Indien"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_neutral_31",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "Quelle révolution a commencé en 1789 ?",
+    "answers": [
+      "La Révolution russe",
+      "La Révolution industrielle",
+      "La Révolution française",
+      "La Révolution américaine"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_neutral_32",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "Quel physicien a découvert la radioactivité ?",
+    "answers": [
+      "Ernest Rutherford",
+      "Marie Curie",
+      "Henri Becquerel",
+      "Pierre Curie"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_neutral_33",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "Quelle est la capitale de l'Argentine ?",
+    "answers": [
+      "Montevideo",
+      "Santiago",
+      "Buenos Aires",
+      "Lima"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_neutral_34",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "Quel dramaturge a écrit 'En attendant Godot' ?",
+    "answers": [
+      "Jean Anouilh",
+      "Samuel Beckett",
+      "Arthur Miller",
+      "Eugène Ionesco"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_neutral_35",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "Combien de planètes composent le système solaire ?",
+    "answers": [
+      "8",
+      "10",
+      "7",
+      "9"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_neutral_36",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "Quel accord international sur le climat a été signé en 2015 ?",
+    "answers": [
+      "Le Protocole de Kyoto",
+      "Le Sommet de Rio",
+      "L'Accord de Copenhague",
+      "L'Accord de Paris"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_neutral_37",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "Qui a peint le plafond de la chapelle Sixtine ?",
+    "answers": [
+      "Michel-Ange",
+      "Le Caravage",
+      "Léonard de Vinci",
+      "Raphaël"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_neutral_38",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "Quelle est l'unité de mesure de la résistance électrique ?",
+    "answers": [
+      "Le watt",
+      "Le volt",
+      "L'ohm",
+      "L'ampère"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_neutral_39",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "Quel pays a le plus grand nombre d'habitants en 2025 ?",
+    "answers": [
+      "L'Inde",
+      "Les États-Unis",
+      "La Chine",
+      "L'Indonésie"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_neutral_40",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "Qui a fondé la psychanalyse ?",
+    "answers": [
+      "Sigmund Freud",
+      "Carl Jung",
+      "Alfred Adler",
+      "Jacques Lacan"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_neutral_41",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "Quel est le nom du processus par lequel les plantes produisent de l'oxygène ?",
+    "answers": [
+      "La respiration",
+      "La transpiration",
+      "La fermentation",
+      "La photosynthèse"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_neutral_42",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "En quelle année l'homme a-t-il marché sur la Lune pour la première fois ?",
+    "answers": [
+      "1969",
+      "1971",
+      "1967",
+      "1965"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_neutral_43",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "Quel philosophe grec est considéré comme le père de la logique ?",
+    "answers": [
+      "Aristote",
+      "Platon",
+      "Épicure",
+      "Socrate"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_neutral_44",
+    "theme": "Culture Générale",
+    "difficulty": 2,
+    "question": "Quelle mer borde la côte sud de la France ?",
+    "answers": [
+      "La mer Adriatique",
+      "La mer Méditerranée",
+      "La mer du Nord",
+      "La Manche"
+    ],
+    "correct": 1
+  }
+]

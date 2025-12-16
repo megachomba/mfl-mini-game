@@ -1,6 +1,13 @@
 import { useGameStore } from '../store';
 import { Text, RoundedBox } from '@react-three/drei';
 
+// Preload tile reveal audio
+const tileRevealAudio = new Audio('/audio/tile-reveal.mp3');
+const playTileSound = () => {
+  tileRevealAudio.currentTime = 0;
+  tileRevealAudio.play().catch(e => console.warn('Audio play failed', e));
+};
+
 const COLORS = {
   quentin: '#3b82f6', // blue
   yann: '#ef4444', // red
@@ -81,12 +88,12 @@ const Tile = ({ tile, phase }: { tile: any, phase: string }) => {
       color = COLORS.hidden;
   }
   
-  // Grid is 10x10. x: 0..9, y: 0..9. 
-  // Width 10, Height 10. Center is 4.5, 4.5.
-  // We scale tiles slightly to fit nicely in 12x10 area
-  // Spacing: 1.1 units
-  const xPos = (tile.x - 4.5) * 1.1;
-  const yPos = (tile.y - 4.5) * 1.0;
+  // Grid is 18x18. x: 0..17, y: 0..17.
+  // Center is 8.5, 8.5.
+  // Smaller tiles to fit in screen area
+  const spacing = 0.6;
+  const xPos = (tile.x - 8.5) * spacing;
+  const yPos = (tile.y - 8.5) * spacing;
 
   return (
     <group position={[xPos, yPos, 0]}>
@@ -94,6 +101,7 @@ const Tile = ({ tile, phase }: { tile: any, phase: string }) => {
             onClick={(e) => {
                 e.stopPropagation();
                 if (canInteract) {
+                    playTileSound();
                     useGameStore.getState().socket?.emit('revealTile', tile.id);
                 }
             }}
@@ -102,20 +110,20 @@ const Tile = ({ tile, phase }: { tile: any, phase: string }) => {
             }}
             onPointerOut={() => document.body.style.cursor = 'auto'}
         >
-        <RoundedBox args={[1.0, 0.9, 0.1]} radius={0.05} smoothness={4}>
-            <meshStandardMaterial 
-                color={color} 
+        <RoundedBox args={[0.55, 0.55, 0.08]} radius={0.03} smoothness={4}>
+            <meshStandardMaterial
+                color={color}
                 emissive={color}
                 emissiveIntensity={isHidden ? 0.2 : 0.5}
                 roughness={0.2}
                 metalness={0.5}
             />
         </RoundedBox>
-        
+
         {isHidden && (
-            <Text 
-                position={[0, 0, 0.06]} 
-                fontSize={0.5} 
+            <Text
+                position={[0, 0, 0.05]}
+                fontSize={0.25}
                 color="black"
                 font="https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hjp-Ek-_EeA.woff"
             >

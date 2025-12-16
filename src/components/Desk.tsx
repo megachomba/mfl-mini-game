@@ -2,6 +2,13 @@ import { RoundedBox, Text } from "@react-three/drei";
 import { RigidBody } from "@react-three/rapier";
 import { useGameStore } from "../store";
 
+// Preload button click audio
+const buttonClickAudio = new Audio('/audio/button-click.mp3');
+const playButtonSound = () => {
+  buttonClickAudio.currentTime = 0;
+  buttonClickAudio.play().catch(e => console.warn('Audio play failed', e));
+};
+
 interface DeskProps {
   position: [number, number, number];
   color: string;
@@ -31,6 +38,7 @@ export const Desk = ({ position, color, label }: DeskProps) => {
 
   const handleAnswer = (idx: number) => {
     if (isAnswering) {
+      playButtonSound();
       useGameStore
         .getState()
         .socket?.emit("answerQuestion", { answerIndex: idx });

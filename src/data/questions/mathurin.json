@@ -1,0 +1,548 @@
+[
+  {
+    "id": "q_wow_1",
+    "theme": "WoW: Burning Crusade (Mage)",
+    "difficulty": 1,
+    "question": "Quel est le sort emblématique du Mage pour transformer un ennemi en animal ?",
+    "answers": [
+      "Boule de feu",
+      "Éclair de givre",
+      "Métamorphose (Polymorph)",
+      "Transfert"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_wow_2",
+    "theme": "WoW: Burning Crusade (Mage)",
+    "difficulty": 1,
+    "question": "Quelle spécialisation de Mage devient optimale pour le PvE HL en fin de TBC (T5/T6) ?",
+    "answers": [
+      "Arcane",
+      "Feu",
+      "Givre",
+      "Nature"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_wow_3",
+    "theme": "WoW: Burning Crusade (Mage)",
+    "difficulty": 1,
+    "question": "Quel est le nom du buff d'intelligence que le Mage peut donner au groupe dans TBC ?",
+    "answers": [
+      "Bénédiction de sagesse",
+      "Don du fauve",
+      "Intelligence des Arcanes",
+      "Esprit divin"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_wow_4",
+    "theme": "WoW: Burning Crusade (Mage)",
+    "difficulty": 1,
+    "question": "Quel élément invoqué le Mage peut-il utiliser pour fournir de l'eau au groupe ?",
+    "answers": [
+      "Élémentaire de feu",
+      "Élémentaire d'eau",
+      "Golem de givre",
+      "Élémentaire d'air"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_wow_5",
+    "theme": "WoW: Burning Crusade (Mage)",
+    "difficulty": 1,
+    "question": "Quel talent de Mage Feu augmente massivement les dégâts critiques ?",
+    "answers": [
+      "Présence de l'esprit",
+      "Combustion",
+      "Puissance des Arcanes",
+      "Doigts de givre"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_wow_6",
+    "theme": "WoW: Burning Crusade (Mage)",
+    "difficulty": 1,
+    "question": "Quelle est la statistique principale qui augmente les dégâts des sorts du Mage dans TBC ?",
+    "answers": [
+      "Endurance",
+      "Puissance des sorts",
+      "Esprit",
+      "Puissance d'attaque"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_wow_7",
+    "theme": "WoW: Burning Crusade (Mage)",
+    "difficulty": 1,
+    "question": "Quel sort permet au Mage de se téléporter instantanément dans les capitales ?",
+    "answers": [
+      "Téléportation",
+      "Portail",
+      "Bond dimensionnel",
+      "Invocation"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_wow_8",
+    "theme": "WoW: Burning Crusade (Mage)",
+    "difficulty": 1,
+    "question": "Quel boss de Karazhan invoque des élémentaires d'eau à 40% de vie ?",
+    "answers": [
+      "Shade of Aran",
+      "Netherspite",
+      "Prince Malchezaar",
+      "Nightbane"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_wow_9",
+    "theme": "WoW: Burning Crusade (Mage)",
+    "difficulty": 1,
+    "question": "Quel set tier le Mage porte en phase 1 de TBC (Karazhan) ?",
+    "answers": [
+      "Tier 3 (Frostfire)",
+      "Tier 4 (Aldor)",
+      "Tier 5 (Tirisfal)",
+      "Tier 6 (Tempest)"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_wow_10",
+    "theme": "WoW: Burning Crusade (Mage)",
+    "difficulty": 1,
+    "question": "Quelle ville de TBC est la destination de téléportation Mage pour Shattrath ?",
+    "answers": [
+      "Silvermoon",
+      "Exodar",
+      "Shattrath",
+      "Dalaran"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_wow_11",
+    "theme": "WoW: Burning Crusade (Mage)",
+    "difficulty": 1,
+    "question": "Quel sort de contrôle de foule le Mage Givre peut-il utiliser pour ralentir massivement ?",
+    "answers": [
+      "Cône de froid",
+      "Les deux",
+      "Nova de givre",
+      "Aucun des deux"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_wow_12",
+    "theme": "WoW: Burning Crusade (Mage)",
+    "difficulty": 1,
+    "question": "Quel set tier 5 du Mage s'obtient dans les raids SSC et Tempest Keep ?",
+    "answers": [
+      "Tirisfal Regalia",
+      "Kael'thas Regalia",
+      "Tempest Regalia",
+      "Aldor Regalia"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_wow_13",
+    "theme": "WoW: Burning Crusade (Mage)",
+    "difficulty": 1,
+    "question": "Combien de temps dure le bouclier 'Barrière de glace' du Mage dans TBC ?",
+    "answers": [
+      "30 secondes",
+      "45 secondes",
+      "1 minute",
+      "2 minutes"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_wow_14",
+    "theme": "WoW: Burning Crusade (Mage)",
+    "difficulty": 1,
+    "question": "Quel sort AoE du Mage Feu est essentiel pour cleave les groupes d'ennemis ?",
+    "answers": [
+      "Trait de feu",
+      "Blizzard",
+      "Explosion des Arcanes",
+      "Flamestrike"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_oss_1",
+    "theme": "OSS 117",
+    "difficulty": 2,
+    "question": "Comment OSS 117 réagit-il face au muezzin qui fait l'appel à la prière tous les matins ?",
+    "answers": [
+      "Il trouve ça magnifique",
+      "Il se plaint du bruit",
+      "Il demande qu'on l'arrête immédiatement",
+      "Il pense que c'est un réveil mécanique"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_oss_2",
+    "theme": "OSS 117",
+    "difficulty": 2,
+    "question": "Quelle est la phrase culte d'OSS 117 quand il entend l'appel à la prière de manière répétée ?",
+    "answers": [
+      "C'est magnifique",
+      "Quelle belle tradition",
+      "C'est curieux, cette impression de déjà-vu",
+      "J'adore cette musique"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_oss_3",
+    "theme": "OSS 117",
+    "difficulty": 2,
+    "question": "Comment s'appelle la partenaire d'OSS 117 au Caire, agent du renseignement français ?",
+    "answers": [
+      "Larmina El Akmar Betouche",
+      "Dolorès Koulechov",
+      "Jessica Padovani",
+      "Gertrude"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_oss_4",
+    "theme": "OSS 117",
+    "difficulty": 2,
+    "question": "Dans 'Rio ne répond plus', quel titre OSS 117 donne-t-il à Von Zimmel ?",
+    "answers": [
+      "Général",
+      "Colonel",
+      "Capitaine",
+      "Maréchal"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_oss_5",
+    "theme": "OSS 117",
+    "difficulty": 2,
+    "question": "Complétez la réplique culte : 'J'aime me beurrer la...'",
+    "answers": [
+      "tartine",
+      "brioche",
+      "biscotte",
+      "baguette"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_oss_6",
+    "theme": "OSS 117",
+    "difficulty": 2,
+    "question": "Quel agent est retrouvé mort au Caire et que OSS 117 doit venger ?",
+    "answers": [
+      "OSS 116",
+      "Jack Jefferson",
+      "Jean-François Hamel",
+      "Bill Tremendous"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_oss_7",
+    "theme": "OSS 117",
+    "difficulty": 2,
+    "question": "Dans le premier film, quelle est la couverture professionnelle d'OSS 117 au Caire ?",
+    "answers": [
+      "Vendeur de poulets",
+      "Journaliste",
+      "Diplomate",
+      "Archéologue"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_oss_8",
+    "theme": "OSS 117",
+    "difficulty": 2,
+    "question": "Quel personnage féminin aide OSS 117 à Rio en tant qu'agent du Mossad ?",
+    "answers": [
+      "Gertrude von Hammerstein",
+      "Dolorès Koulechov",
+      "Eva von Zimmel",
+      "Carlotta"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_oss_9",
+    "theme": "OSS 117",
+    "difficulty": 2,
+    "question": "Qu'est-ce qu'OSS 117 tente d'écrire en hiéroglyphes sur le mur dans le premier film ?",
+    "answers": [
+      "Son nom",
+      "Un message codé",
+      "La Marseillaise",
+      "Une insulte"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_oss_10",
+    "theme": "OSS 117",
+    "difficulty": 2,
+    "question": "Quelle danse OSS 117 exécute-t-il de manière ridicule à Rio ?",
+    "answers": [
+      "Le tango",
+      "La samba",
+      "Le mambo",
+      "La bossa nova"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_oss_11",
+    "theme": "OSS 117",
+    "difficulty": 2,
+    "question": "Que répond OSS 117 quand on lui demande s'il a déjà tué quelqu'un avec ses mains ?",
+    "answers": [
+      "Jamais",
+      "Oui, mais je préfère ne pas en parler",
+      "Avec mes pieds aussi",
+      "Seulement en mission"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_oss_12",
+    "theme": "OSS 117",
+    "difficulty": 2,
+    "question": "Quel nom de code est donné à la mission d'OSS 117 au Caire ?",
+    "answers": [
+      "Opération Momie",
+      "Opération Le Caire",
+      "Opération Nid d'espions",
+      "Opération Pyramide"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_oss_13",
+    "theme": "OSS 117",
+    "difficulty": 2,
+    "question": "Comment OSS 117 qualifie-t-il les poulets qu'il est censé vendre ?",
+    "answers": [
+      "Magnifiques",
+      "De première qualité",
+      "Français et fiers de l'être",
+      "Les meilleurs du Caire"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_oss_14",
+    "theme": "OSS 117",
+    "difficulty": 2,
+    "question": "Quel réalisateur français a dirigé 'OSS 117: Le Caire, nid d'espions' et 'Rio ne répond plus' ?",
+    "answers": [
+      "Jean Dujardin",
+      "Gérard Krawczyk",
+      "Michel Hazanavicius",
+      "Luc Besson"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_harry_1",
+    "theme": "Harry Potter",
+    "difficulty": 3,
+    "question": "Combien d'horcruxes Voldemort a-t-il créés au total (y compris Harry) ?",
+    "answers": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_harry_2",
+    "theme": "Harry Potter",
+    "difficulty": 3,
+    "question": "Quel est le patronus d'Hermione Granger ?",
+    "answers": [
+      "Une loutre",
+      "Un chat",
+      "Un cerf",
+      "Un phénix"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_harry_3",
+    "theme": "Harry Potter",
+    "difficulty": 3,
+    "question": "Quel sort permet de faire apparaître son patronus corporel ?",
+    "answers": [
+      "Patronum Maxima",
+      "Spero Patronum",
+      "Expecto Patronum",
+      "Protego Patronum"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_harry_4",
+    "theme": "Harry Potter",
+    "difficulty": 3,
+    "question": "Quel est le vrai nom complet de Voldemort ?",
+    "answers": [
+      "Tom Marvolo Riddle",
+      "Tom Elvis Jedusor",
+      "Thomas Riddle",
+      "Tom Serpentard"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_harry_5",
+    "theme": "Harry Potter",
+    "difficulty": 3,
+    "question": "Quelle qualité caractérise la maison Poufsouffle ?",
+    "answers": [
+      "La ruse",
+      "Le courage",
+      "La loyauté et le travail",
+      "L'intelligence"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_harry_6",
+    "theme": "Harry Potter",
+    "difficulty": 3,
+    "question": "Quel professeur était en réalité un loup-garou ?",
+    "answers": [
+      "Severus Rogue",
+      "Remus Lupin",
+      "Alastor Maugrey",
+      "Quirinus Quirrell"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_harry_7",
+    "theme": "Harry Potter",
+    "difficulty": 3,
+    "question": "Quel objet permet de voyager dans le temps ?",
+    "answers": [
+      "Le vif d'or",
+      "Le retourneur de temps",
+      "La pensine",
+      "La cape d'invisibilité"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_harry_8",
+    "theme": "Harry Potter",
+    "difficulty": 3,
+    "question": "Qui a tué Dumbledore ?",
+    "answers": [
+      "Voldemort",
+      "Bellatrix Lestrange",
+      "Drago Malefoy",
+      "Severus Rogue"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_harry_9",
+    "theme": "Harry Potter",
+    "difficulty": 3,
+    "question": "Quel est le sort de désarmement le plus utilisé par Harry ?",
+    "answers": [
+      "Stupefix",
+      "Expelliarmus",
+      "Protego",
+      "Petrificus Totalus"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_harry_10",
+    "theme": "Harry Potter",
+    "difficulty": 3,
+    "question": "Comment s'appelle l'elfe de maison libéré par Harry ?",
+    "answers": [
+      "Winky",
+      "Kreatur",
+      "Dobby",
+      "Hokey"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_harry_11",
+    "theme": "Harry Potter",
+    "difficulty": 3,
+    "question": "Quelle est la forme animagus de Sirius Black ?",
+    "answers": [
+      "Un cerf",
+      "Un rat",
+      "Un chien noir",
+      "Un chat"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_harry_12",
+    "theme": "Harry Potter",
+    "difficulty": 3,
+    "question": "Quel journal dirige Rita Skeeter ?",
+    "answers": [
+      "Le Chicaneur",
+      "La Gazette du Sorcier",
+      "Le Prophète du Soir",
+      "Les Potins Magiques"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_harry_13",
+    "theme": "Harry Potter",
+    "difficulty": 3,
+    "question": "Quel surnom donnait-on au groupe d'amis du père de Harry à Poudlard ?",
+    "answers": [
+      "Les Aurors",
+      "Les Maraudeurs",
+      "Les Fondateurs",
+      "L'Ordre du Phénix"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_harry_14",
+    "theme": "Harry Potter",
+    "difficulty": 3,
+    "question": "Quelle est la baguette la plus puissante, faisant partie des Reliques de la Mort ?",
+    "answers": [
+      "La baguette de houx",
+      "La baguette de sureau",
+      "La baguette de vigne",
+      "La baguette d'if"
+    ],
+    "correct": 1
+  }
+]

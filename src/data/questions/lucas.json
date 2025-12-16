@@ -1,0 +1,548 @@
+[
+  {
+    "id": "q_nz_1",
+    "theme": "New Zealand",
+    "difficulty": 1,
+    "question": "En quelle année les All Blacks ont-ils perdu contre la France en quarts de finale de la Coupe du Monde, événement considéré comme le plus grand choc de l'histoire du rugby ?",
+    "answers": [
+      "2007",
+      "2011",
+      "1999",
+      "2003"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_nz_2",
+    "theme": "New Zealand",
+    "difficulty": 1,
+    "question": "Quel club de Super Rugby basé à Wellington a remporté le premier titre de la franchise en 2016 ?",
+    "answers": [
+      "Crusaders",
+      "Hurricanes",
+      "Blues",
+      "Chiefs"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_nz_3",
+    "theme": "New Zealand",
+    "difficulty": 1,
+    "question": "Quel joueur des All Blacks détient le record du plus grand nombre de sélections internationales avec 148 capes ?",
+    "answers": [
+      "Dan Carter",
+      "Richie McCaw",
+      "Kieran Read",
+      "Sam Whitelock"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_nz_4",
+    "theme": "New Zealand",
+    "difficulty": 1,
+    "question": "Quel traité signé en 1840 entre les chefs maoris et la Couronne britannique est considéré comme le document fondateur de la Nouvelle-Zélande ?",
+    "answers": [
+      "Traité de Waitangi",
+      "Traité de Wellington",
+      "Traité d'Auckland",
+      "Traité de Rotorua"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_nz_5",
+    "theme": "New Zealand",
+    "difficulty": 1,
+    "question": "Comment appelle-t-on la maison de réunion traditionnelle maorie, richement décorée de sculptures ?",
+    "answers": [
+      "Marae",
+      "Wharenui",
+      "Pā",
+      "Whenua"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_nz_6",
+    "theme": "New Zealand",
+    "difficulty": 1,
+    "question": "Quel art du tatouage traditionnel maori, réalisé sur le visage, représente l'identité et le statut social ?",
+    "answers": [
+      "Tā moko",
+      "Koru",
+      "Tiki",
+      "Pounamu"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_nz_7",
+    "theme": "New Zealand",
+    "difficulty": 1,
+    "question": "Quel glacier de l'île du Sud, long de 12 km, descend jusqu'à 300 mètres au-dessus du niveau de la mer dans une forêt pluviale ?",
+    "answers": [
+      "Fox Glacier",
+      "Franz Josef Glacier",
+      "Tasman Glacier",
+      "Mueller Glacier"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_nz_8",
+    "theme": "New Zealand",
+    "difficulty": 1,
+    "question": "Comment s'appelle le fjord spectaculaire du Fiordland National Park, considéré comme la \"huitième merveille du monde\" ?",
+    "answers": [
+      "Doubtful Sound",
+      "Milford Sound",
+      "Dusky Sound",
+      "George Sound"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_nz_9",
+    "theme": "New Zealand",
+    "difficulty": 1,
+    "question": "Quelle montagne, point culminant de la Nouvelle-Zélande à 3 724 mètres, porte le nom maori d'Aoraki ?",
+    "answers": [
+      "Mount Taranaki",
+      "Mount Cook",
+      "Mount Ruapehu",
+      "Mount Aspiring"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_nz_10",
+    "theme": "New Zealand",
+    "difficulty": 1,
+    "question": "En quelle année la Nouvelle-Zélande est-elle devenue le premier pays au monde à accorder le droit de vote aux femmes ?",
+    "answers": [
+      "1893",
+      "1901",
+      "1889",
+      "1896"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_nz_11",
+    "theme": "New Zealand",
+    "difficulty": 1,
+    "question": "Quelle Première ministre néo-zélandaise a géré la crise des attentats de Christchurch en 2019 et la pandémie de COVID-19 ?",
+    "answers": [
+      "Helen Clark",
+      "Jacinda Ardern",
+      "Jenny Shipley",
+      "Judith Collins"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_nz_12",
+    "theme": "New Zealand",
+    "difficulty": 1,
+    "question": "Quel réalisateur néo-zélandais a réalisé \"What We Do in the Shadows\" et \"Jojo Rabbit\" avant de diriger \"Thor: Ragnarok\" ?",
+    "answers": [
+      "Peter Jackson",
+      "Taika Waititi",
+      "Jane Campion",
+      "Andrew Adamson"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_nz_13",
+    "theme": "New Zealand",
+    "difficulty": 1,
+    "question": "Quel film de Jane Campion tourné en Nouvelle-Zélande a remporté la Palme d'Or à Cannes en 1993 ?",
+    "answers": [
+      "La Leçon de piano",
+      "An Angel at My Table",
+      "Bright Star",
+      "The Power of the Dog"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_nz_14",
+    "theme": "New Zealand",
+    "difficulty": 1,
+    "question": "Quelle région viticole de l'île du Sud est mondialement réputée pour son Sauvignon Blanc et représente 75% des exportations de vin néo-zélandais ?",
+    "answers": [
+      "Hawke's Bay",
+      "Central Otago",
+      "Marlborough",
+      "Gisborne"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_nba_1",
+    "theme": "NBA Players (2015-2025)",
+    "difficulty": 2,
+    "question": "Quel joueur français a remporté le titre de Defensive Player of the Year à trois reprises entre 2018 et 2021 ?",
+    "answers": [
+      "Nicolas Batum",
+      "Evan Fournier",
+      "Rudy Gobert",
+      "Tony Parker"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_nba_2",
+    "theme": "NBA Players (2015-2025)",
+    "difficulty": 2,
+    "question": "Quelle équipe a remporté le championnat NBA en 2016 après avoir été menée 3-1 en finales contre Golden State ?",
+    "answers": [
+      "Miami Heat",
+      "San Antonio Spurs",
+      "Cleveland Cavaliers",
+      "Boston Celtics"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_nba_3",
+    "theme": "NBA Players (2015-2025)",
+    "difficulty": 2,
+    "question": "Quel joueur a été drafté en première position par les San Antonio Spurs en 2023 ?",
+    "answers": [
+      "Victor Wembanyama",
+      "Scoot Henderson",
+      "Brandon Miller",
+      "Amen Thompson"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_nba_4",
+    "theme": "NBA Players (2015-2025)",
+    "difficulty": 2,
+    "question": "Combien de titres NBA les Golden State Warriors ont-ils remportés entre 2015 et 2022 ?",
+    "answers": [
+      "2 titres",
+      "3 titres",
+      "4 titres",
+      "5 titres"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_nba_5",
+    "theme": "NBA Players (2015-2025)",
+    "difficulty": 2,
+    "question": "Quel joueur a remporté le MVP des finales NBA en 2019 avec les Toronto Raptors ?",
+    "answers": [
+      "Kyle Lowry",
+      "Pascal Siakam",
+      "Kawhi Leonard",
+      "Marc Gasol"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_nba_6",
+    "theme": "NBA Players (2015-2025)",
+    "difficulty": 2,
+    "question": "Quel joueur français a joué pour les Charlotte Hornets de 2015 à 2020 avant de rejoindre les Los Angeles Clippers ?",
+    "answers": [
+      "Rudy Gobert",
+      "Nicolas Batum",
+      "Evan Fournier",
+      "Frank Ntilikina"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_nba_7",
+    "theme": "NBA Players (2015-2025)",
+    "difficulty": 2,
+    "question": "Qui a remporté le MVP de la saison régulière en 2023 ?",
+    "answers": [
+      "Giannis Antetokounmpo",
+      "Nikola Jokic",
+      "Joel Embiid",
+      "Luka Doncic"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_nba_8",
+    "theme": "NBA Players (2015-2025)",
+    "difficulty": 2,
+    "question": "Quelle équipe a remporté le championnat NBA en 2021 après 50 ans d'attente ?",
+    "answers": [
+      "Phoenix Suns",
+      "Milwaukee Bucks",
+      "Atlanta Hawks",
+      "Philadelphia 76ers"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_nba_9",
+    "theme": "NBA Players (2015-2025)",
+    "difficulty": 2,
+    "question": "Quel joueur français a été sélectionné au All-Star Game en 2025 lors de sa deuxième saison NBA ?",
+    "answers": [
+      "Rudy Gobert",
+      "Nicolas Batum",
+      "Victor Wembanyama",
+      "Evan Fournier"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_nba_10",
+    "theme": "NBA Players (2015-2025)",
+    "difficulty": 2,
+    "question": "Quel joueur a remporté le MVP des finales NBA en 2020 avec les Lakers ?",
+    "answers": [
+      "Anthony Davis",
+      "LeBron James",
+      "Rajon Rondo",
+      "Danny Green"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_nba_11",
+    "theme": "NBA Players (2015-2025)",
+    "difficulty": 2,
+    "question": "Quelle équipe a échangé Kevin Durant contre un package incluant Mikal Bridges en 2023 ?",
+    "answers": [
+      "Golden State Warriors",
+      "Brooklyn Nets",
+      "Phoenix Suns",
+      "Oklahoma City Thunder"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_nba_12",
+    "theme": "NBA Players (2015-2025)",
+    "difficulty": 2,
+    "question": "Quel joueur a rejoint les Lakers en 2018 après quatre saisons aux Cavaliers ?",
+    "answers": [
+      "Kevin Love",
+      "Kyrie Irving",
+      "LeBron James",
+      "Tristan Thompson"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_nba_13",
+    "theme": "NBA Players (2015-2025)",
+    "difficulty": 2,
+    "question": "Qui a été nommé MVP de la saison régulière en 2024 ?",
+    "answers": [
+      "Nikola Jokic",
+      "Luka Doncic",
+      "Shai Gilgeous-Alexander",
+      "Giannis Antetokounmpo"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_nba_14",
+    "theme": "NBA Players (2015-2025)",
+    "difficulty": 2,
+    "question": "Quelle équipe a remporté le championnat NBA en 2024 ?",
+    "answers": [
+      "Denver Nuggets",
+      "Miami Heat",
+      "Boston Celtics",
+      "Dallas Mavericks"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_asse_1",
+    "theme": "AS Saint-Étienne 2025-26",
+    "difficulty": 3,
+    "question": "Combien de titres de champion de France l'AS Saint-Étienne a-t-elle remportés, record national ?",
+    "answers": [
+      "8 titres",
+      "10 titres",
+      "12 titres",
+      "7 titres"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_asse_2",
+    "theme": "AS Saint-Étienne 2025-26",
+    "difficulty": 3,
+    "question": "Comment s'appelle le stade de l'AS Saint-Étienne, surnommé 'Le Chaudron' ?",
+    "answers": [
+      "Parc des Princes",
+      "Vélodrome",
+      "Geoffroy-Guichard",
+      "Groupama Stadium"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_asse_3",
+    "theme": "AS Saint-Étienne 2025-26",
+    "difficulty": 3,
+    "question": "Contre quelle équipe l'ASSE dispute-t-elle le derby le plus intense du football français ?",
+    "answers": [
+      "Paris Saint-Germain",
+      "Olympique Lyonnais",
+      "Olympique de Marseille",
+      "AS Monaco"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_asse_4",
+    "theme": "AS Saint-Étienne 2025-26",
+    "difficulty": 3,
+    "question": "En quelle année l'AS Saint-Étienne a-t-elle atteint la finale de la Coupe d'Europe des clubs champions ?",
+    "answers": [
+      "1975",
+      "1976",
+      "1978",
+      "1981"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_asse_5",
+    "theme": "AS Saint-Étienne 2025-26",
+    "difficulty": 3,
+    "question": "Quel joueur légendaire de l'ASSE, surnommé 'L'Ange Vert', est considéré comme l'un des plus grands français ?",
+    "answers": [
+      "Dominique Rocheteau",
+      "Michel Platini",
+      "Jean-Michel Larqué",
+      "Jacques Santini"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_asse_6",
+    "theme": "AS Saint-Étienne 2025-26",
+    "difficulty": 3,
+    "question": "En quelle année l'ASSE a-t-elle été reléguée en Ligue 2 avant de remonter en 2024 ?",
+    "answers": [
+      "2020",
+      "2021",
+      "2022",
+      "2019"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_asse_7",
+    "theme": "AS Saint-Étienne 2025-26",
+    "difficulty": 3,
+    "question": "Quel entraîneur emblématique a mené l'ASSE à ses plus grands succès dans les années 1970 ?",
+    "answers": [
+      "Robert Herbin",
+      "Aimé Jacquet",
+      "Albert Batteux",
+      "Christophe Galtier"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_asse_8",
+    "theme": "AS Saint-Étienne 2025-26",
+    "difficulty": 3,
+    "question": "Combien de fois l'AS Saint-Étienne a-t-elle remporté la Coupe de France ?",
+    "answers": [
+      "4 fois",
+      "5 fois",
+      "6 fois",
+      "7 fois"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_asse_9",
+    "theme": "AS Saint-Étienne 2025-26",
+    "difficulty": 3,
+    "question": "Quel joueur argentin a marqué l'histoire de l'ASSE dans les années 1970 ?",
+    "answers": [
+      "Diego Maradona",
+      "Osvaldo Piazza",
+      "Mario Kempes",
+      "Daniel Passarella"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_asse_10",
+    "theme": "AS Saint-Étienne 2025-26",
+    "difficulty": 3,
+    "question": "Quelle est la capacité approximative du stade Geoffroy-Guichard ?",
+    "answers": [
+      "32 000 places",
+      "42 000 places",
+      "52 000 places",
+      "22 000 places"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_asse_11",
+    "theme": "AS Saint-Étienne 2025-26",
+    "difficulty": 3,
+    "question": "En quelle décennie l'AS Saint-Étienne a-t-elle dominé le football français en remportant sept titres ?",
+    "answers": [
+      "Années 1960",
+      "Années 1970",
+      "Années 1980",
+      "Années 1990"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_asse_12",
+    "theme": "AS Saint-Étienne 2025-26",
+    "difficulty": 3,
+    "question": "Quel gardien légendaire a défendu les buts de l'ASSE pendant plus de 20 ans ?",
+    "answers": [
+      "Fabien Barthez",
+      "Ivan Curkovic",
+      "Grégory Coupet",
+      "Mickaël Landreau"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_asse_13",
+    "theme": "AS Saint-Étienne 2025-26",
+    "difficulty": 3,
+    "question": "Quel joueur français, formé à l'ASSE, est devenu champion du monde en 2018 ?",
+    "answers": [
+      "Anthony Martial",
+      "Olivier Giroud",
+      "Kurt Zouma",
+      "Blaise Matuidi"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_asse_14",
+    "theme": "AS Saint-Étienne 2025-26",
+    "difficulty": 3,
+    "question": "Contre quelle équipe allemande l'ASSE a-t-elle perdu la finale de la Coupe d'Europe en 1976 ?",
+    "answers": [
+      "Bayern Munich",
+      "Borussia Mönchengladbach",
+      "Hambourg SV",
+      "Borussia Dortmund"
+    ],
+    "correct": 0
+  }
+]

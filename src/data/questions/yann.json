@@ -1,0 +1,548 @@
+[
+  {
+    "id": "q_mfl_1",
+    "theme": "MFL (Web3)",
+    "difficulty": 1,
+    "question": "Que signifie l'acronyme MFL dans ce contexte ?",
+    "answers": [
+      "Master Football League",
+      "My Football Life",
+      "Major French League",
+      "Metaverse Football League"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_mfl_2",
+    "theme": "MFL (Web3)",
+    "difficulty": 1,
+    "question": "Dans MFL, comment appelle-t-on les actifs numériques uniques représentant les joueurs ?",
+    "answers": [
+      "Tokens",
+      "Cards",
+      "Coins",
+      "NFTs"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_mfl_3",
+    "theme": "MFL (Web3)",
+    "difficulty": 1,
+    "question": "Sur quelle blockchain principale MFL a-t-il été initialement développé ?",
+    "answers": [
+      "Ethereum",
+      "Polygon",
+      "Binance Smart Chain",
+      "Flow"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_mfl_4",
+    "theme": "MFL (Web3)",
+    "difficulty": 1,
+    "question": "Quel type de jeu est MFL ?",
+    "answers": [
+      "Jeu de tir à la première personne",
+      "RPG médiéval",
+      "Jeu de cartes à collectionner",
+      "Manager de football Web3"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_mfl_5",
+    "theme": "MFL (Web3)",
+    "difficulty": 1,
+    "question": "Dans MFL, que peuvent posséder les joueurs en tant qu'actifs NFT ?",
+    "answers": [
+      "Des arbitres uniquement",
+      "Uniquement des ballons",
+      "Seulement des stades",
+      "Des footballeurs et des clubs"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_mfl_6",
+    "theme": "MFL (Web3)",
+    "difficulty": 1,
+    "question": "Quelle est la principale utilité du modèle play-to-earn dans MFL ?",
+    "answers": [
+      "Gagner des récompenses en jouant",
+      "Regarder des publicités",
+      "Acheter des abonnements mensuels",
+      "Payer pour chaque match"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_mfl_7",
+    "theme": "MFL (Web3)",
+    "difficulty": 1,
+    "question": "Dans MFL, comment les joueurs peuvent-ils améliorer leurs footballeurs NFT ?",
+    "answers": [
+      "En les achetant plusieurs fois",
+      "Automatiquement chaque jour",
+      "En regardant des vidéos",
+      "Par l'entraînement et les matchs"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_mfl_8",
+    "theme": "MFL (Web3)",
+    "difficulty": 1,
+    "question": "Quel est l'objectif principal dans MFL ?",
+    "answers": [
+      "Construire un stade",
+      "Collecter des maillots",
+      "Devenir arbitre professionnel",
+      "Gérer un club et gagner des compétitions"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_mfl_9",
+    "theme": "MFL (Web3)",
+    "difficulty": 1,
+    "question": "Quelle technologie permet la propriété vérifiable des actifs dans MFL ?",
+    "answers": [
+      "La blockchain",
+      "La réalité augmentée",
+      "L'intelligence artificielle",
+      "Le cloud computing"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_mfl_10",
+    "theme": "MFL (Web3)",
+    "difficulty": 1,
+    "question": "Dans quel univers virtuel se déroule MFL ?",
+    "answers": [
+      "L'espace intersidéral",
+      "Le monde réel",
+      "Le métavers",
+      "Un monde médiéval fantastique"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_mfl_11",
+    "theme": "MFL (Web3)",
+    "difficulty": 1,
+    "question": "Quelle est la rareté maximale d'un joueur NFT dans MFL ?",
+    "answers": [
+      "Epic",
+      "Rare",
+      "Legendary",
+      "Ultimate"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_mfl_12",
+    "theme": "MFL (Web3)",
+    "difficulty": 1,
+    "question": "Dans MFL, comment les joueurs NFT progressent-ils vers de meilleures raretés ?",
+    "answers": [
+      "En les achetant au marché",
+      "Par l'entraînement et les performances",
+      "En les vendant puis rachetant",
+      "Automatiquement après 30 jours"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_mfl_13",
+    "theme": "MFL (Web3)",
+    "difficulty": 1,
+    "question": "Quel wallet crypto est couramment utilisé pour interagir avec MFL ?",
+    "answers": [
+      "Revolut",
+      "PayPal",
+      "Dapper Wallet",
+      "MetaMask"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_mfl_14",
+    "theme": "MFL (Web3)",
+    "difficulty": 1,
+    "question": "Dans MFL, que signifie 'staking' de tokens ?",
+    "answers": [
+      "Vendre des tokens rapidement",
+      "Échanger des tokens contre des NFT",
+      "Bloquer des tokens pour obtenir des récompenses",
+      "Perdre des tokens"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_drapeaux_1",
+    "theme": "Drapeaux",
+    "difficulty": 2,
+    "question": "Quel pays nordique a une croix asymétrique jaune sur fond bleu ?",
+    "answers": [
+      "Norvège",
+      "Finlande",
+      "Suède",
+      "Islande"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_drapeaux_2",
+    "theme": "Drapeaux",
+    "difficulty": 2,
+    "question": "Quel drapeau africain comporte une étoile noire au centre ?",
+    "answers": [
+      "Sénégal",
+      "Ghana",
+      "Nigéria",
+      "Kenya"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_drapeaux_3",
+    "theme": "Drapeaux",
+    "difficulty": 2,
+    "question": "Combien d'étoiles figurent sur le drapeau brésilien ?",
+    "answers": [
+      "27",
+      "26",
+      "5",
+      "50"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_drapeaux_4",
+    "theme": "Drapeaux",
+    "difficulty": 2,
+    "question": "Quel est le seul drapeau national qui n'est pas rectangulaire ?",
+    "answers": [
+      "Vatican",
+      "Suisse",
+      "Népal",
+      "Liechtenstein"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_drapeaux_5",
+    "theme": "Drapeaux",
+    "difficulty": 2,
+    "question": "Que représente le croissant sur de nombreux drapeaux musulmans ?",
+    "answers": [
+      "La lune dans sa phase croissante",
+      "Un sabre recourbé",
+      "Une barque sur le Nil",
+      "Les cornes d'un taureau"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_drapeaux_6",
+    "theme": "Drapeaux",
+    "difficulty": 2,
+    "question": "Quel pays a adopté un nouveau drapeau tricolore en 2010 ?",
+    "answers": [
+      "Australie",
+      "Canada",
+      "Myanmar",
+      "Afrique du Sud"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_drapeaux_7",
+    "theme": "Drapeaux",
+    "difficulty": 2,
+    "question": "Quel symbole mythologique figure sur le drapeau gallois ?",
+    "answers": [
+      "Une licorne",
+      "Un dragon rouge",
+      "Un phénix",
+      "Un griffon"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_drapeaux_8",
+    "theme": "Drapeaux",
+    "difficulty": 2,
+    "question": "Quel pays d'Amérique du Sud a un soleil (Sol de Mayo) sur son drapeau ?",
+    "answers": [
+      "Chili",
+      "Pérou",
+      "Argentine",
+      "Bolivie"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_drapeaux_9",
+    "theme": "Drapeaux",
+    "difficulty": 2,
+    "question": "Quelle couleur n'apparaît PAS sur le drapeau sud-africain actuel ?",
+    "answers": [
+      "Blanc",
+      "Violet",
+      "Jaune",
+      "Vert"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_drapeaux_10",
+    "theme": "Drapeaux",
+    "difficulty": 2,
+    "question": "Quel drapeau scandinave a une croix blanche sur fond rouge ?",
+    "answers": [
+      "Suède",
+      "Norvège",
+      "Danemark",
+      "Finlande"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_drapeaux_11",
+    "theme": "Drapeaux",
+    "difficulty": 2,
+    "question": "Que représentent les 12 étoiles du drapeau européen ?",
+    "answers": [
+      "Les 12 pays fondateurs",
+      "Les 12 mois de l'année",
+      "La perfection et l'unité",
+      "Les 12 apôtres"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_drapeaux_12",
+    "theme": "Drapeaux",
+    "difficulty": 2,
+    "question": "Quel pays a un cèdre stylisé au centre de son drapeau ?",
+    "answers": [
+      "Liban",
+      "Turquie",
+      "Jordanie",
+      "Syrie"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_drapeaux_13",
+    "theme": "Drapeaux",
+    "difficulty": 2,
+    "question": "Quel drapeau affiche un aigle dévorant un serpent sur un cactus ?",
+    "answers": [
+      "Pérou",
+      "Mexique",
+      "Équateur",
+      "Colombie"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_drapeaux_14",
+    "theme": "Drapeaux",
+    "difficulty": 2,
+    "question": "Quelle est la particularité du drapeau du Paraguay ?",
+    "answers": [
+      "Il change de couleur selon la météo",
+      "Il a des faces recto-verso différentes",
+      "Il est triangulaire",
+      "Il a 7 couleurs"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_quantique_1",
+    "theme": "Physique Quantique",
+    "difficulty": 3,
+    "question": "Quel principe quantique affirme qu'on ne peut connaître simultanément la position et la quantité de mouvement d'une particule ?",
+    "answers": [
+      "Principe de superposition",
+      "Principe d'exclusion de Pauli",
+      "Principe d'incertitude de Heisenberg",
+      "Principe de complémentarité de Bohr"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_quantique_2",
+    "theme": "Physique Quantique",
+    "difficulty": 3,
+    "question": "Quel est le nom de l'expérience célèbre qui démontre la dualité onde-corpuscule ?",
+    "answers": [
+      "L'expérience de Michelson-Morley",
+      "L'expérience des fentes de Young",
+      "L'expérience de Millikan",
+      "L'expérience de Rutherford"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_quantique_3",
+    "theme": "Physique Quantique",
+    "difficulty": 3,
+    "question": "Quel physicien a reçu le prix Nobel pour sa découverte de l'effet photoélectrique ?",
+    "answers": [
+      "Niels Bohr",
+      "Max Planck",
+      "Albert Einstein",
+      "Werner Heisenberg"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_quantique_4",
+    "theme": "Physique Quantique",
+    "difficulty": 3,
+    "question": "Comment s'appelle le phénomène où deux particules restent liées même à grande distance ?",
+    "answers": [
+      "L'intrication quantique",
+      "La décohérence",
+      "La téléportation",
+      "La résonance"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_quantique_5",
+    "theme": "Physique Quantique",
+    "difficulty": 3,
+    "question": "Quelle constante fondamentale, notée h, porte le nom d'un pionnier de la physique quantique ?",
+    "answers": [
+      "La constante de Boltzmann",
+      "La constante de Planck",
+      "La constante de Rydberg",
+      "La constante de Avogadro"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_quantique_6",
+    "theme": "Physique Quantique",
+    "difficulty": 3,
+    "question": "Dans l'expérience du chat de Schrödinger, que veut illustrer le paradoxe ?",
+    "answers": [
+      "La vitesse de la lumière",
+      "La gravitation quantique",
+      "La superposition d'états quantiques",
+      "L'effet tunnel"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_quantique_7",
+    "theme": "Physique Quantique",
+    "difficulty": 3,
+    "question": "Quel scientifique danois a développé le modèle de l'atome avec des niveaux d'énergie quantifiés ?",
+    "answers": [
+      "Niels Bohr",
+      "Ernest Rutherford",
+      "J.J. Thomson",
+      "Louis de Broglie"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_quantique_8",
+    "theme": "Physique Quantique",
+    "difficulty": 3,
+    "question": "Quel phénomène quantique permet à une particule de traverser une barrière d'énergie ?",
+    "answers": [
+      "L'effet Compton",
+      "L'effet tunnel",
+      "L'effet Doppler",
+      "L'effet Zeeman"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_quantique_9",
+    "theme": "Physique Quantique",
+    "difficulty": 3,
+    "question": "Qui a proposé que la matière possède aussi des propriétés ondulatoires ?",
+    "answers": [
+      "Max Born",
+      "Erwin Schrödinger",
+      "Louis de Broglie",
+      "Paul Dirac"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_quantique_10",
+    "theme": "Physique Quantique",
+    "difficulty": 3,
+    "question": "Quelle équation célèbre décrit l'évolution temporelle d'un système quantique ?",
+    "answers": [
+      "L'équation de Maxwell",
+      "L'équation de Schrödinger",
+      "L'équation de Dirac",
+      "L'équation de Klein-Gordon"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_quantique_11",
+    "theme": "Physique Quantique",
+    "difficulty": 3,
+    "question": "Comment appelle-t-on le moment où un système quantique passe d'une superposition à un état défini ?",
+    "answers": [
+      "La décohérence",
+      "L'effondrement de la fonction d'onde",
+      "La quantification",
+      "La normalisation"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_quantique_12",
+    "theme": "Physique Quantique",
+    "difficulty": 3,
+    "question": "Quel prix Nobel de physique a été attribué à Planck pour son travail sur les quanta ?",
+    "answers": [
+      "1905",
+      "1918",
+      "1921",
+      "1932"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_quantique_13",
+    "theme": "Physique Quantique",
+    "difficulty": 3,
+    "question": "Quel concept quantique est utilisé dans les ordinateurs quantiques pour stocker l'information ?",
+    "answers": [
+      "Le bit classique",
+      "Le qubit",
+      "Le photon",
+      "Le spin"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_quantique_14",
+    "theme": "Physique Quantique",
+    "difficulty": 3,
+    "question": "Qui a formulé le principe d'exclusion stipulant que deux fermions ne peuvent occuper le même état quantique ?",
+    "answers": [
+      "Wolfgang Pauli",
+      "Enrico Fermi",
+      "Richard Feynman",
+      "Murray Gell-Mann"
+    ],
+    "correct": 0
+  }
+]

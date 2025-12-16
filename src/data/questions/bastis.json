@@ -1,0 +1,548 @@
+[
+  {
+    "id": "q_guitare_1",
+    "theme": "La Guitare",
+    "difficulty": 1,
+    "question": "Combien de cordes possède une guitare classique standard ?",
+    "answers": [
+      "12",
+      "8",
+      "6",
+      "4"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_guitare_2",
+    "theme": "La Guitare",
+    "difficulty": 1,
+    "question": "Quel guitariste est surnommé 'Slowhand' ?",
+    "answers": [
+      "Jimi Hendrix",
+      "Eddie Van Halen",
+      "Jimmy Page",
+      "Eric Clapton"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_guitare_3",
+    "theme": "La Guitare",
+    "difficulty": 1,
+    "question": "Quelle marque a créé le modèle Stratocaster ?",
+    "answers": [
+      "Fender",
+      "Yamaha",
+      "Gibson",
+      "Ibanez"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_guitare_4",
+    "theme": "La Guitare",
+    "difficulty": 1,
+    "question": "Sur quel album de Pink Floyd joue David Gilmour avec sa Black Strat en 1973 ?",
+    "answers": [
+      "Wish You Were Here",
+      "The Dark Side of the Moon",
+      "Animals",
+      "The Wall"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_guitare_5",
+    "theme": "La Guitare",
+    "difficulty": 1,
+    "question": "Quel guitariste de blues a donné son nom à une Gibson signature rouge cerise appelée 'Lucille' ?",
+    "answers": [
+      "B.B. King",
+      "Albert King",
+      "Buddy Guy",
+      "Freddie King"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_guitare_6",
+    "theme": "La Guitare",
+    "difficulty": 1,
+    "question": "Quelle technique de jeu à la guitare consiste à frapper les cordes avec le pouce droit pour créer un son percussif ?",
+    "answers": [
+      "Le sweeping",
+      "Le tapping",
+      "Le picking",
+      "Le slapping"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_guitare_7",
+    "theme": "La Guitare",
+    "difficulty": 1,
+    "question": "Quel luthier espagnol du 19ème siècle a révolutionné la construction de la guitare classique moderne ?",
+    "answers": [
+      "José Ramírez",
+      "Ignacio Fleta",
+      "Antonio de Torres",
+      "Manuel Rodríguez"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_guitare_8",
+    "theme": "La Guitare",
+    "difficulty": 1,
+    "question": "Quel guitariste de jazz est célèbre pour avoir joué sur une guitare Selmer-Maccaferri malgré deux doigts paralysés ?",
+    "answers": [
+      "Joe Pass",
+      "Wes Montgomery",
+      "Django Reinhardt",
+      "Pat Metheny"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_guitare_9",
+    "theme": "La Guitare",
+    "difficulty": 1,
+    "question": "Quel type de bois est traditionnellement utilisé pour la table d'harmonie d'une guitare classique de haute qualité ?",
+    "answers": [
+      "L'épicéa (spruce)",
+      "Le chêne",
+      "L'orme",
+      "Le pin"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_guitare_10",
+    "theme": "La Guitare",
+    "difficulty": 1,
+    "question": "Quel guitariste a développé la technique du 'two-hand tapping' popularisée dans 'Eruption' (1978) ?",
+    "answers": [
+      "Joe Satriani",
+      "Yngwie Malmsteen",
+      "Steve Vai",
+      "Eddie Van Halen"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_guitare_11",
+    "theme": "La Guitare",
+    "difficulty": 1,
+    "question": "Combien de frettes possède généralement une guitare électrique Fender Stratocaster standard ?",
+    "answers": [
+      "24 frettes",
+      "21 ou 22 frettes",
+      "18 frettes",
+      "27 frettes"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_guitare_12",
+    "theme": "La Guitare",
+    "difficulty": 1,
+    "question": "Quel guitariste flamenco virtuose a été le premier à enregistrer en solo 'Entre Dos Aguas' en 1973 ?",
+    "answers": [
+      "Tomatito",
+      "Manolo Sanlúcar",
+      "Paco de Lucía",
+      "Vicente Amigo"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_guitare_13",
+    "theme": "La Guitare",
+    "difficulty": 1,
+    "question": "Quel modèle de guitare Gibson était la signature de Jimmy Page lors de ses années avec Led Zeppelin ?",
+    "answers": [
+      "La Gibson ES-335",
+      "La Gibson SG",
+      "La Gibson Les Paul",
+      "La Gibson Flying V"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_guitare_14",
+    "theme": "La Guitare",
+    "difficulty": 1,
+    "question": "Dans quelle ville américaine se trouve le siège historique de la marque Gibson Guitar Corporation ?",
+    "answers": [
+      "Chicago, Illinois",
+      "Detroit, Michigan",
+      "Nashville, Tennessee",
+      "Los Angeles, Californie"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_rapfr_1",
+    "theme": "Rap Français Ancien (avant 2010)",
+    "difficulty": 2,
+    "question": "Quel groupe de rap marseillais a sorti le célèbre album 'L'École du Micro d'Argent' en 1997 ?",
+    "answers": [
+      "NTM",
+      "IAM",
+      "Fonky Family",
+      "113"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_rapfr_2",
+    "theme": "Rap Français Ancien (avant 2010)",
+    "difficulty": 2,
+    "question": "Quel album de Booba sorti en 2006 contient le titre 'Boulbi' ?",
+    "answers": [
+      "Temps mort",
+      "0.9",
+      "Panthéon",
+      "Ouest Side"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_rapfr_3",
+    "theme": "Rap Français Ancien (avant 2010)",
+    "difficulty": 2,
+    "question": "Quel duo forme le groupe NTM ?",
+    "answers": [
+      "Doc Gyneco et Stomy Bugsy",
+      "Booba et Rohff",
+      "Kool Shen et Joey Starr",
+      "Akhenaton et Shurik'n"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_rapfr_4",
+    "theme": "Rap Français Ancien (avant 2010)",
+    "difficulty": 2,
+    "question": "Quel rappeur du groupe IAM est aussi connu sous le nom de Malek Brahimi ?",
+    "answers": [
+      "Akhenaton",
+      "Shurik'n",
+      "Freeman",
+      "Imhotep"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_rapfr_5",
+    "theme": "Rap Français Ancien (avant 2010)",
+    "difficulty": 2,
+    "question": "Quel album de MC Solaar sorti en 1991 contient le hit 'Caroline' ?",
+    "answers": [
+      "Paradisiaque",
+      "Qui sème le vent récolte le tempo",
+      "Prose Combat",
+      "Mach 6"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_rapfr_6",
+    "theme": "Rap Français Ancien (avant 2010)",
+    "difficulty": 2,
+    "question": "Quel groupe a sorti l'album 'Les Princes de la Ville' en 1999 ?",
+    "answers": [
+      "113",
+      "Manau",
+      "Sniper",
+      "Secteur Ä"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_rapfr_7",
+    "theme": "Rap Français Ancien (avant 2010)",
+    "difficulty": 2,
+    "question": "Quel rappeur marseillais a sorti l'album 'La Fierté des nôtres' en 2004 ?",
+    "answers": [
+      "Soprano",
+      "Sinik",
+      "Rohff",
+      "Booba"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_rapfr_8",
+    "theme": "Rap Français Ancien (avant 2010)",
+    "difficulty": 2,
+    "question": "Quel groupe de rap a sorti le titre 'Gravé dans la roche' en 2003 ?",
+    "answers": [
+      "Sniper",
+      "La Fouine",
+      "Rohff",
+      "IAM"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_rapfr_9",
+    "theme": "Rap Français Ancien (avant 2010)",
+    "difficulty": 2,
+    "question": "Quel groupe breton a connu un succès inattendu avec 'La tribu de Dana' en 1998 ?",
+    "answers": [
+      "113",
+      "Manau",
+      "Saïan Supa Crew",
+      "Fonky Family"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_rapfr_10",
+    "theme": "Rap Français Ancien (avant 2010)",
+    "difficulty": 2,
+    "question": "Quel album mythique de NTM est sorti en 1998 ?",
+    "answers": [
+      "Authentik",
+      "Suprême NTM",
+      "Paris sous les bombes",
+      "1993... J'appuie sur la gâchette"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_rapfr_11",
+    "theme": "Rap Français Ancien (avant 2010)",
+    "difficulty": 2,
+    "question": "Quelle rappeuse française a collaboré avec Vitaa sur le titre 'Confessions Nocturnes' ?",
+    "answers": [
+      "Keny Arkana",
+      "Diam's",
+      "Casey",
+      "Sté Strausz"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_rapfr_12",
+    "theme": "Rap Français Ancien (avant 2010)",
+    "difficulty": 2,
+    "question": "Quel groupe parisien réunit Rim'K, AP et Mokobé ?",
+    "answers": [
+      "Mafia K'1 Fry",
+      "113",
+      "Secteur Ä",
+      "Fonky Family"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_rapfr_13",
+    "theme": "Rap Français Ancien (avant 2010)",
+    "difficulty": 2,
+    "question": "Sur quel album de IAM retrouve-t-on le titre 'Petit frère' avec Shurik'n ?",
+    "answers": [
+      "Ombre est Lumière",
+      "L'École du Micro d'Argent",
+      "Revoir un printemps",
+      "Concept"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_rapfr_14",
+    "theme": "Rap Français Ancien (avant 2010)",
+    "difficulty": 2,
+    "question": "Quel rappeur est associé au label Time Bomb et au collectif Lunatic avec Ali ?",
+    "answers": [
+      "La Fouine",
+      "Rohff",
+      "Booba",
+      "Sinik"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_corps_1",
+    "theme": "Corps de Fonctions Asymptotiquement Optimaux",
+    "difficulty": 3,
+    "question": "À quoi servent les codes correcteurs d'erreurs ?",
+    "answers": [
+      "À détecter et corriger les erreurs de transmission de données",
+      "À créer des mots de passe",
+      "À compresser des fichiers",
+      "À crypter des messages"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_corps_2",
+    "theme": "Corps de Fonctions Asymptotiquement Optimaux",
+    "difficulty": 3,
+    "question": "Dans quel domaine utilise-t-on couramment les codes de Reed-Solomon ?",
+    "answers": [
+      "Les moteurs de recherche",
+      "Les CD et DVD pour corriger les rayures",
+      "Les réseaux sociaux",
+      "Les jeux vidéo"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_corps_3",
+    "theme": "Corps de Fonctions Asymptotiquement Optimaux",
+    "difficulty": 3,
+    "question": "Qu'est-ce qu'un corps fini en mathématiques ?",
+    "answers": [
+      "Un ensemble avec un nombre fini d'éléments et des opérations",
+      "Une figure géométrique fermée",
+      "Un type de polynôme",
+      "Une équation du second degré"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_corps_4",
+    "theme": "Corps de Fonctions Asymptotiquement Optimaux",
+    "difficulty": 3,
+    "question": "Quelle est l'application principale de la théorie des codes en cryptographie ?",
+    "answers": [
+      "Créer des antivirus",
+      "Protéger les communications numériques",
+      "Accélérer les ordinateurs",
+      "Créer des graphiques 3D"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_corps_5",
+    "theme": "Corps de Fonctions Asymptotiquement Optimaux",
+    "difficulty": 3,
+    "question": "Dans la transmission de données, qu'est-ce que la 'distance de Hamming' mesure ?",
+    "answers": [
+      "La vitesse de transmission",
+      "Le nombre de différences entre deux séquences",
+      "La longueur d'un message",
+      "Le temps de calcul"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_corps_6",
+    "theme": "Corps de Fonctions Asymptotiquement Optimaux",
+    "difficulty": 3,
+    "question": "Quel mathématicien russe a donné son nom à des codes algébriques utilisés en cryptographie ?",
+    "answers": [
+      "Goppa",
+      "Euler",
+      "Lobatchevski",
+      "Poincaré"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_corps_7",
+    "theme": "Corps de Fonctions Asymptotiquement Optimaux",
+    "difficulty": 3,
+    "question": "Les codes QR utilisent des principes de correction d'erreurs. Quel pourcentage d'un QR code peut être endommagé tout en restant lisible ?",
+    "answers": [
+      "5%",
+      "Jusqu'à 30%",
+      "50%",
+      "75%"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_corps_8",
+    "theme": "Corps de Fonctions Asymptotiquement Optimaux",
+    "difficulty": 3,
+    "question": "Dans la théorie des codes, qu'est-ce qu'un 'polynôme générateur' ?",
+    "answers": [
+      "Un polynôme qui crée de l'électricité",
+      "Un polynôme utilisé pour construire des codes correcteurs",
+      "Un polynôme de degré infini",
+      "Un polynôme sans solution"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_corps_9",
+    "theme": "Corps de Fonctions Asymptotiquement Optimaux",
+    "difficulty": 3,
+    "question": "Pourquoi utilise-t-on des codes correcteurs d'erreurs dans les sondes spatiales ?",
+    "answers": [
+      "Pour naviguer dans l'espace",
+      "Pour produire de l'énergie",
+      "Pour corriger les erreurs dues aux radiations cosmiques",
+      "Pour communiquer avec les extraterrestres"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_corps_10",
+    "theme": "Corps de Fonctions Asymptotiquement Optimaux",
+    "difficulty": 3,
+    "question": "Qu'est-ce que la 'borne de Singleton' dans la théorie des codes ?",
+    "answers": [
+      "Une limite théorique de performance des codes correcteurs",
+      "Un type de frontière géographique",
+      "Une technique de compression",
+      "Un algorithme de tri"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_corps_11",
+    "theme": "Corps de Fonctions Asymptotiquement Optimaux",
+    "difficulty": 3,
+    "question": "Les codes de Hamming sont utilisés dans les mémoires d'ordinateurs. Que permettent-ils de faire ?",
+    "answers": [
+      "Augmenter la vitesse",
+      "Détecter et corriger des erreurs de bits",
+      "Réduire la consommation électrique",
+      "Compresser les données"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_corps_12",
+    "theme": "Corps de Fonctions Asymptotiquement Optimaux",
+    "difficulty": 3,
+    "question": "Dans quel domaine les 'codes de convolution' sont-ils largement utilisés ?",
+    "answers": [
+      "Les télécommunications et téléphonie mobile",
+      "Les jeux de cartes",
+      "La cuisine moléculaire",
+      "L'architecture"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_corps_13",
+    "theme": "Corps de Fonctions Asymptotiquement Optimaux",
+    "difficulty": 3,
+    "question": "Qu'est-ce qu'un 'code cyclique' en théorie de l'information ?",
+    "answers": [
+      "Un code qui ne fonctionne que le jour",
+      "Un code dont les décalages circulaires produisent d'autres codes valides",
+      "Un code qui s'efface après utilisation",
+      "Un code basé sur des cercles"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_corps_14",
+    "theme": "Corps de Fonctions Asymptotiquement Optimaux",
+    "difficulty": 3,
+    "question": "Le WiFi et la 4G utilisent des codes correcteurs d'erreurs. Quel est leur principal avantage ?",
+    "answers": [
+      "Réduire le prix des forfaits",
+      "Maintenir une communication fiable malgré les interférences",
+      "Augmenter la portée à l'infini",
+      "Rendre les données invisibles"
+    ],
+    "correct": 1
+  }
+]

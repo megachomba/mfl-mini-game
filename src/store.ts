@@ -32,7 +32,11 @@ export const useGameStore = create<GameState>((set, get) => ({
     const { playerName, socket } = get();
     if (socket) return;
 
-    const newSocket = io('http://localhost:3000');
+    // In production, connect to same origin; in dev, use localhost:3000
+    const serverUrl = import.meta.env.PROD
+      ? window.location.origin
+      : 'http://localhost:3000';
+    const newSocket = io(serverUrl);
 
     newSocket.on('connect', () => {
       set({ connected: true });

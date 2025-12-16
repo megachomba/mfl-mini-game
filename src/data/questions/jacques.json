@@ -1,0 +1,548 @@
+[
+  {
+    "id": "q_voiture_1",
+    "theme": "Voiture",
+    "difficulty": 1,
+    "question": "Quelle marque automobile a créé le modèle 911 ?",
+    "answers": [
+      "BMW",
+      "Lamborghini",
+      "Ferrari",
+      "Porsche"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_voiture_2",
+    "theme": "Voiture",
+    "difficulty": 1,
+    "question": "Quel constructeur automobile est surnommé 'au losange' ?",
+    "answers": [
+      "Peugeot",
+      "Renault",
+      "Fiat",
+      "Citroën"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_voiture_3",
+    "theme": "Voiture",
+    "difficulty": 1,
+    "question": "Quelle voiture électrique Tesla a été la première à être commercialisée ?",
+    "answers": [
+      "Roadster",
+      "Model S",
+      "Model X",
+      "Model 3"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_voiture_4",
+    "theme": "Voiture",
+    "difficulty": 1,
+    "question": "Quelle année la Bugatti Veyron a-t-elle établi le record de vitesse de production à 431 km/h ?",
+    "answers": [
+      "2008",
+      "2006",
+      "2010",
+      "2012"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_voiture_5",
+    "theme": "Voiture",
+    "difficulty": 1,
+    "question": "Quel est le nom de code interne du projet Ferrari F40 ?",
+    "answers": [
+      "F150",
+      "F120",
+      "F90",
+      "F100"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_voiture_6",
+    "theme": "Voiture",
+    "difficulty": 1,
+    "question": "Combien de McLaren F1 ont été produites au total ?",
+    "answers": [
+      "200",
+      "150",
+      "106",
+      "75"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_voiture_7",
+    "theme": "Voiture",
+    "difficulty": 1,
+    "question": "Quel moteur équipait la Porsche 959 ?",
+    "answers": [
+      "Flat-6 turbo 3.3L",
+      "V6 biturbo 3.0L",
+      "Flat-6 biturbo 2.85L",
+      "V8 atmosphérique 4.0L"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_voiture_8",
+    "theme": "Voiture",
+    "difficulty": 1,
+    "question": "Quelle voiture a remporté les 24 Heures du Mans 19 fois ?",
+    "answers": [
+      "Porsche",
+      "Ferrari",
+      "Ford",
+      "Audi"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_voiture_9",
+    "theme": "Voiture",
+    "difficulty": 1,
+    "question": "Quel est le coefficient de traînée (Cx) de la Mercedes-Benz EQS ?",
+    "answers": [
+      "0.22",
+      "0.20",
+      "0.25",
+      "0.18"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_voiture_10",
+    "theme": "Voiture",
+    "difficulty": 1,
+    "question": "Quelle marque a inventé le turbocompresseur à géométrie variable pour voitures de série ?",
+    "answers": [
+      "Audi",
+      "Porsche",
+      "BMW",
+      "Mercedes"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_voiture_11",
+    "theme": "Voiture",
+    "difficulty": 1,
+    "question": "Combien de chevaux développe le moteur W16 de la Bugatti Chiron Super Sport ?",
+    "answers": [
+      "1800",
+      "1479",
+      "1500",
+      "1600"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_voiture_12",
+    "theme": "Voiture",
+    "difficulty": 1,
+    "question": "Quel est le nom du système de vectorisation de couple Audi ?",
+    "answers": [
+      "Active Differential",
+      "Sport differential",
+      "Sport Quattro System",
+      "Dynamic Torque Vectoring"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_voiture_13",
+    "theme": "Voiture",
+    "difficulty": 1,
+    "question": "Quelle voiture Lamborghini a été conçue pour célébrer le 50e anniversaire de la marque ?",
+    "answers": [
+      "Sian",
+      "Centenario",
+      "Reventón",
+      "Veneno"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_voiture_14",
+    "theme": "Voiture",
+    "difficulty": 1,
+    "question": "Quel constructeur a développé le premier système de freinage antiblocage (ABS) de série ?",
+    "answers": [
+      "Audi",
+      "BMW",
+      "Mercedes-Benz",
+      "Volvo"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_blockchain_1",
+    "theme": "Blockchain",
+    "difficulty": 2,
+    "question": "Quel événement catastrophique a touché la plateforme Mt. Gox en 2014 ?",
+    "answers": [
+      "Un hack ayant conduit à la perte de 850 000 BTC",
+      "Une faillite due à une erreur comptable",
+      "Une attaque DDoS qui a duré 6 mois",
+      "Une arnaque pyramidale découverte"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_blockchain_2",
+    "theme": "Blockchain",
+    "difficulty": 2,
+    "question": "Qu'est-ce que le 'halving' du Bitcoin ?",
+    "answers": [
+      "La division du prix par deux lors d'un crash",
+      "La réduction de moitié de la récompense de minage tous les 4 ans",
+      "Le partage des frais entre mineurs",
+      "La séparation d'un wallet en deux parties"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_blockchain_3",
+    "theme": "Blockchain",
+    "difficulty": 2,
+    "question": "Quelle blockchain a introduit les smart contracts programmables ?",
+    "answers": [
+      "Cardano",
+      "Ethereum",
+      "Bitcoin",
+      "Polkadot"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_blockchain_4",
+    "theme": "Blockchain",
+    "difficulty": 2,
+    "question": "Que signifie DeFi dans l'écosystème crypto ?",
+    "answers": [
+      "Decentralized Finance",
+      "Digital Efficiency",
+      "Defined Finance",
+      "Delegated Fiat"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_blockchain_5",
+    "theme": "Blockchain",
+    "difficulty": 2,
+    "question": "Quel mécanisme de consensus Ethereum a-t-il adopté lors de 'The Merge' en 2022 ?",
+    "answers": [
+      "Proof of Work",
+      "Proof of Authority",
+      "Proof of Stake",
+      "Delegated Proof of Stake"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_blockchain_6",
+    "theme": "Blockchain",
+    "difficulty": 2,
+    "question": "Qu'est-ce qu'un 'rug pull' dans le contexte crypto ?",
+    "answers": [
+      "Une méthode de minage écologique",
+      "Une arnaque où les créateurs abandonnent le projet avec les fonds",
+      "Un système de sécurité pour les wallets",
+      "Une technique de trading à court terme"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_blockchain_7",
+    "theme": "Blockchain",
+    "difficulty": 2,
+    "question": "Quel protocole DeFi a été victime d'un hack de 600 millions de dollars en 2021 ?",
+    "answers": [
+      "Uniswap",
+      "Aave",
+      "Poly Network",
+      "Curve Finance"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_blockchain_8",
+    "theme": "Blockchain",
+    "difficulty": 2,
+    "question": "Qu'est-ce qu'un NFT (Non-Fungible Token) ?",
+    "answers": [
+      "Un jeton représentant un actif unique et non-interchangeable",
+      "Une nouvelle forme de Bitcoin",
+      "Un système de vote décentralisé",
+      "Un protocole de messagerie cryptée"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_blockchain_9",
+    "theme": "Blockchain",
+    "difficulty": 2,
+    "question": "Quel est le nom de la collection NFT de singes qui a atteint des valorisations astronomiques ?",
+    "answers": [
+      "CryptoPunks",
+      "Cool Cats",
+      "Bored Ape Yacht Club",
+      "Pudgy Penguins"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_blockchain_10",
+    "theme": "Blockchain",
+    "difficulty": 2,
+    "question": "Qu'est-ce que le 'gas fee' sur Ethereum ?",
+    "answers": [
+      "Une taxe environnementale sur le minage",
+      "Les frais de transaction payés aux validateurs",
+      "Le coût d'électricité pour miner",
+      "Une pénalité pour transactions frauduleuses"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_blockchain_11",
+    "theme": "Blockchain",
+    "difficulty": 2,
+    "question": "Quel exchange centralisé a fait faillite spectaculairement en novembre 2022 ?",
+    "answers": [
+      "Binance",
+      "Coinbase",
+      "FTX",
+      "Kraken"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_blockchain_12",
+    "theme": "Blockchain",
+    "difficulty": 2,
+    "question": "Qu'est-ce qu'un 'stablecoin' ?",
+    "answers": [
+      "Une cryptomonnaie très ancienne et stable",
+      "Une cryptomonnaie indexée sur un actif stable comme le dollar",
+      "Un wallet sécurisé",
+      "Une blockchain qui ne crash jamais"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_blockchain_13",
+    "theme": "Blockchain",
+    "difficulty": 2,
+    "question": "Quel stablecoin a perdu son ancrage au dollar en mai 2022, causant un crash majeur ?",
+    "answers": [
+      "USDT",
+      "USDC",
+      "DAI",
+      "UST (TerraUSD)"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_blockchain_14",
+    "theme": "Blockchain",
+    "difficulty": 2,
+    "question": "Qu'est-ce que le 'yield farming' en DeFi ?",
+    "answers": [
+      "Le minage de cryptomonnaies agricoles",
+      "La culture de NFTs",
+      "La génération de rendements en prêtant ou stakant des cryptos",
+      "L'achat de terres virtuelles"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_piano_1",
+    "theme": "Piano",
+    "difficulty": 3,
+    "question": "Quel compositeur a écrit les célèbres 'Nocturnes' pour piano ?",
+    "answers": [
+      "Franz Liszt",
+      "Frédéric Chopin",
+      "Robert Schumann",
+      "Franz Schubert"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_piano_2",
+    "theme": "Piano",
+    "difficulty": 3,
+    "question": "Quelle pianiste argentine est considérée comme l'une des plus grandes interprètes du répertoire romantique ?",
+    "answers": [
+      "Daniel Barenboim",
+      "Martha Argerich",
+      "Claudio Arrau",
+      "Maurizio Pollini"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_piano_3",
+    "theme": "Piano",
+    "difficulty": 3,
+    "question": "De quel compositeur est le célèbre 'Concerto pour piano n°21' surnommé 'Elvira Madigan' ?",
+    "answers": [
+      "Joseph Haydn",
+      "Ludwig van Beethoven",
+      "Wolfgang Amadeus Mozart",
+      "Franz Schubert"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_piano_4",
+    "theme": "Piano",
+    "difficulty": 3,
+    "question": "Quelle pièce pour piano de Beethoven est aussi appelée 'Sonate au clair de lune' ?",
+    "answers": [
+      "Sonate n°8 'Pathétique'",
+      "Sonate n°14",
+      "Sonate n°23 'Appassionata'",
+      "Sonate n°21 'Waldstein'"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_piano_5",
+    "theme": "Piano",
+    "difficulty": 3,
+    "question": "Quel pianiste canadien, connu pour son jeu atypique et ses enregistrements des Variations Goldberg, est mort en 1982 ?",
+    "answers": [
+      "Oscar Peterson",
+      "Keith Jarrett",
+      "Glenn Gould",
+      "Bill Evans"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_piano_6",
+    "theme": "Piano",
+    "difficulty": 3,
+    "question": "Quel compositeur français a écrit 'Clair de lune', troisième mouvement de la Suite bergamasque ?",
+    "answers": [
+      "Maurice Ravel",
+      "Erik Satie",
+      "Claude Debussy",
+      "Gabriel Fauré"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_piano_7",
+    "theme": "Piano",
+    "difficulty": 3,
+    "question": "Quelle série de 24 préludes et fugues de Bach couvre toutes les tonalités majeures et mineures ?",
+    "answers": [
+      "L'Art de la fugue",
+      "Le Clavier bien tempéré",
+      "Les Variations Goldberg",
+      "Les Suites anglaises"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_piano_8",
+    "theme": "Piano",
+    "difficulty": 3,
+    "question": "Quel pianiste de jazz américain a enregistré le célèbre album 'The Köln Concert' en 1975 ?",
+    "answers": [
+      "Bill Evans",
+      "Herbie Hancock",
+      "Keith Jarrett",
+      "Chick Corea"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_piano_9",
+    "theme": "Piano",
+    "difficulty": 3,
+    "question": "Quel compositeur russe a écrit le 'Concerto pour piano n°2' dont l'adagio est mondialement connu ?",
+    "answers": [
+      "Sergueï Prokofiev",
+      "Dmitri Chostakovitch",
+      "Sergueï Rachmaninov",
+      "Igor Stravinsky"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_piano_10",
+    "theme": "Piano",
+    "difficulty": 3,
+    "question": "Quel pianiste français est célèbre pour ses interprétations de Ravel et Debussy ?",
+    "answers": [
+      "Alexandre Tharaud",
+      "Hélène Grimaud",
+      "Jean-Yves Thibaudet",
+      "Philippe Entremont"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_piano_11",
+    "theme": "Piano",
+    "difficulty": 3,
+    "question": "De quel compositeur est la 'Rhapsodie hongroise n°2', pièce virtuose pour piano ?",
+    "answers": [
+      "Frédéric Chopin",
+      "Robert Schumann",
+      "Franz Liszt",
+      "Johannes Brahms"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_piano_12",
+    "theme": "Piano",
+    "difficulty": 3,
+    "question": "Quel film d'Adrien Brody raconte l'histoire du pianiste Władysław Szpilman pendant la Shoah ?",
+    "answers": [
+      "Shine",
+      "Le Pianiste",
+      "La Liste de Schindler",
+      "Amadeus"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_piano_13",
+    "theme": "Piano",
+    "difficulty": 3,
+    "question": "Quel compositeur français a écrit les 'Gymnopédies' pour piano ?",
+    "answers": [
+      "Claude Debussy",
+      "Maurice Ravel",
+      "Erik Satie",
+      "Francis Poulenc"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_piano_14",
+    "theme": "Piano",
+    "difficulty": 3,
+    "question": "Quel pianiste chinois a joué lors de la cérémonie d'ouverture des JO de Pékin 2008 ?",
+    "answers": [
+      "Yuja Wang",
+      "Lang Lang",
+      "Yundi Li",
+      "Haochen Zhang"
+    ],
+    "correct": 1
+  }
+]
