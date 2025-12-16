@@ -5,6 +5,10 @@ const COLORS = {
   quentin: '#3b82f6', // blue
   yann: '#ef4444', // red
   mathurin: '#22c55e', // green
+  bastis: '#f97316', // orange
+  jacques: '#8b5cf6', // purple
+  lucas: '#06b6d4', // cyan
+  victorien: '#ec4899', // pink
   neutral: '#9ca3af', // gray
   hidden: '#fbbf24', // gold
 };

@@ -72,6 +72,21 @@ export const Desk = ({ position, color, label }: DeskProps) => {
           />
         </mesh>
 
+        {/* Player Name on Front Panel */}
+        {label && (
+          <Text
+            position={[0, 0.6, 0.77]}
+            fontSize={0.25}
+            color="white"
+            font="https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hjp-Ek-_EeA.woff"
+            outlineWidth={0.02}
+            outlineColor="#000"
+            anchorY="middle"
+          >
+            {label.toUpperCase()}
+          </Text>
+        )}
+
         {/* INTERFACE AREA */}
         <group position={[0, 2, 0.5]} rotation={[-Math.PI / 6, 0, 0]}>
           {/* Screen Background */}

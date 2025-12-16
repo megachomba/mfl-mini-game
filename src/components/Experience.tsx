@@ -61,9 +61,13 @@ export const Experience = () => {
       <Grid />
       
       {/* Desks (Pupitres) */}
-      <Desk position={[-8, 0, 8]} color="#3b82f6" label="Quentin" />
-      <Desk position={[0, 0, 8]} color="#22c55e" label="Mathurin" />
-      <Desk position={[8, 0, 8]} color="#ef4444" label="Yann" />
+      <Desk position={[-12, 0, 8]} color="#3b82f6" label="Quentin" />
+      <Desk position={[-7, 0, 8]} color="#22c55e" label="Mathurin" />
+      <Desk position={[-2, 0, 8]} color="#ef4444" label="Yann" />
+      <Desk position={[3, 0, 8]} color="#f97316" label="Bastis" />
+      <Desk position={[8, 0, 8]} color="#8b5cf6" label="Jacques" />
+      <Desk position={[13, 0, 8]} color="#06b6d4" label="Lucas" />
+      <Desk position={[18, 0, 8]} color="#ec4899" label="Victorien" />
 
       {/* Fun Objects */}
       <FunObjects />

@@ -11,7 +11,7 @@ export const Player = () => {
   const lastUpdate = useRef(0);
   const [, getKeys] = useKeyboardControls();
   const { camera } = useThree();
-  const { gameState, playerName } = useGameStore();
+  const { gameState, playerName, resetCounter } = useGameStore();
 
   // Pooled vectors to avoid allocations in useFrame
   const vectors = useMemo(() => ({
@@ -37,6 +37,15 @@ export const Player = () => {
           }
       }
   }, [gameState, playerName]);
+
+  // Reset position when resetCounter changes
+  useEffect(() => {
+      if (resetCounter > 0 && rigidBody.current) {
+          const [x, y, z] = startPos.current;
+          rigidBody.current.setTranslation({ x, y, z }, true);
+          rigidBody.current.setLinvel({ x: 0, y: 0, z: 0 }, true);
+      }
+  }, [resetCounter]);
 
 
   useFrame((state) => {

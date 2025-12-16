@@ -8,9 +8,11 @@ interface GameState {
   players: any; // To be typed properly
   gameState: any;
   latency: number;
+  resetCounter: number;
   setPlayerName: (name: string) => void;
   connect: () => void;
   updateGameState: (state: any) => void;
+  resetPosition: () => void;
 }
 
 export const useGameStore = create<GameState>((set, get) => ({
@@ -20,8 +22,11 @@ export const useGameStore = create<GameState>((set, get) => ({
   players: {},
   gameState: null,
   latency: 0,
+  resetCounter: 0,
 
   setPlayerName: (name) => set({ playerName: name }),
+
+  resetPosition: () => set((state) => ({ resetCounter: state.resetCounter + 1 })),
 
   connect: () => {
     const { playerName, socket } = get();

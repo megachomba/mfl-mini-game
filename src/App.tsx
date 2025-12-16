@@ -32,7 +32,7 @@ function App() {
           MFL GRAND CONCOURS
         </h1>
         <div className="flex gap-4">
-          {['quentin', 'yann', 'mathurin'].map((name) => (
+          {['quentin', 'yann', 'mathurin', 'bastis', 'jacques', 'lucas', 'victorien'].map((name) => (
             <button
               key={name}
               onClick={() => handleLogin(name)}

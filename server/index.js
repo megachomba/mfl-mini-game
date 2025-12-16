@@ -32,7 +32,11 @@ let gameState = {
   scores: {
     quentin: 0,
     yann: 0,
-    mathurin: 0
+    mathurin: 0,
+    bastis: 0,
+    jacques: 0,
+    lucas: 0,
+    victorien: 0
   },
   currentTurn: null,
   activeQuestion: null, // { question, tileId, answeringPlayer }
@@ -41,20 +45,28 @@ let gameState = {
 
 // Predefined players configuration
 const PLAYER_CONFIG = {
-  quentin: { color: '#3b82f6', startPos: { x: -8, y: 2, z: 11 } }, // Blue
-  mathurin: { color: '#22c55e', startPos: { x: 0, y: 2, z: 11 } },  // Green
-  yann: { color: '#ef4444', startPos: { x: 8, y: 2, z: 11 } }      // Red
+  quentin: { color: '#3b82f6', startPos: { x: -12, y: 2, z: 11 } }, // Blue
+  mathurin: { color: '#22c55e', startPos: { x: -7, y: 2, z: 11 } },  // Green
+  yann: { color: '#ef4444', startPos: { x: -2, y: 2, z: 11 } },      // Red
+  bastis: { color: '#f97316', startPos: { x: 3, y: 2, z: 11 } },    // Orange
+  jacques: { color: '#8b5cf6', startPos: { x: 8, y: 2, z: 11 } },   // Purple
+  lucas: { color: '#06b6d4', startPos: { x: 13, y: 2, z: 11 } },    // Cyan
+  victorien: { color: '#ec4899', startPos: { x: 18, y: 2, z: 11 } } // Pink
 };
 
 // Initialize Grid
 const initGrid = () => {
   const tiles = [];
-  // 30 Blue (Quentin), 30 Red (Yann), 30 Green (Mathurin), 10 Neutral (Gray)
+  // ~13 tiles per player (7 players = 91) + 9 Neutral = 100
   let types = [
-    ...Array(30).fill('quentin'),
-    ...Array(30).fill('yann'),
-    ...Array(30).fill('mathurin'),
-    ...Array(10).fill('neutral')
+    ...Array(13).fill('quentin'),
+    ...Array(13).fill('yann'),
+    ...Array(13).fill('mathurin'),
+    ...Array(13).fill('bastis'),
+    ...Array(13).fill('jacques'),
+    ...Array(13).fill('lucas'),
+    ...Array(13).fill('victorien'),
+    ...Array(9).fill('neutral')
   ];
   
   // Shuffle
@@ -109,14 +121,14 @@ io.on('connection', (socket) => {
     }
   });
 
-const PREDEFINED_PLAYERS_ORDER = ['quentin', 'mathurin', 'yann'];
+const PREDEFINED_PLAYERS_ORDER = ['quentin', 'mathurin', 'yann', 'bastis', 'jacques', 'lucas', 'victorien'];
 
 // ... (inside revealTile or wherever currentTurn is initialized)
 // Update startGame logic
   socket.on('startGame', () => {
     gameState.phase = 'MEMORIZE';
     gameState.grid = initGrid(); 
-    gameState.scores = { quentin: 0, yann: 0, mathurin: 0 };
+    gameState.scores = { quentin: 0, yann: 0, mathurin: 0, bastis: 0, jacques: 0, lucas: 0, victorien: 0 };
     io.emit('gameState', gameState);
 
     setTimeout(() => {

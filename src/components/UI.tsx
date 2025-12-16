@@ -89,18 +89,34 @@ export const UI = () => {
       <div className="absolute bottom-8 left-8 bg-black/60 backdrop-blur-md border-l-4 border-blue-500 p-4 rounded-r-lg shadow-2xl text-white transform skew-x-[-5deg]">
          <div className="skew-x-[5deg]">
             <h3 className="text-xs uppercase text-blue-400 font-bold mb-2">Scores</h3>
-            <ul className="space-y-2 font-mono text-lg">
-                <li className="flex justify-between gap-8 border-b border-gray-700 pb-1">
-                    <span>QUENTIN</span> 
-                    <span className="font-bold text-yellow-400">{gameState.scores.quentin}</span>
+            <ul className="space-y-1 font-mono text-sm">
+                <li className="flex justify-between gap-4 border-b border-gray-700 pb-1">
+                    <span>QUENTIN</span>
+                    <span className="font-bold text-blue-400">{gameState.scores.quentin}</span>
                 </li>
-                <li className="flex justify-between gap-8 border-b border-gray-700 pb-1">
-                    <span>YANN</span> 
+                <li className="flex justify-between gap-4 border-b border-gray-700 pb-1">
+                    <span>YANN</span>
                     <span className="font-bold text-red-400">{gameState.scores.yann}</span>
                 </li>
-                <li className="flex justify-between gap-8">
-                    <span>MATHURIN</span> 
+                <li className="flex justify-between gap-4 border-b border-gray-700 pb-1">
+                    <span>MATHURIN</span>
                     <span className="font-bold text-green-400">{gameState.scores.mathurin}</span>
+                </li>
+                <li className="flex justify-between gap-4 border-b border-gray-700 pb-1">
+                    <span>BASTIS</span>
+                    <span className="font-bold text-orange-400">{gameState.scores.bastis}</span>
+                </li>
+                <li className="flex justify-between gap-4 border-b border-gray-700 pb-1">
+                    <span>JACQUES</span>
+                    <span className="font-bold text-purple-400">{gameState.scores.jacques}</span>
+                </li>
+                <li className="flex justify-between gap-4 border-b border-gray-700 pb-1">
+                    <span>LUCAS</span>
+                    <span className="font-bold text-cyan-400">{gameState.scores.lucas}</span>
+                </li>
+                <li className="flex justify-between gap-4">
+                    <span>VICTORIEN</span>
+                    <span className="font-bold text-pink-400">{gameState.scores.victorien}</span>
                 </li>
             </ul>
          </div>
@@ -120,6 +136,14 @@ export const UI = () => {
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-none">
           <div className="w-2 h-2 bg-white/80 rounded-full shadow-[0_0_4px_rgba(255,255,255,0.8)]"></div>
       </div>
+
+      {/* Reset Position Button */}
+      <button
+        className="absolute top-40 right-6 pointer-events-auto bg-red-600 hover:bg-red-500 text-white px-4 py-2 rounded-lg font-bold text-sm transition-all shadow-lg hover:shadow-xl"
+        onClick={() => useGameStore.getState().resetPosition()}
+      >
+        RESET POSITION
+      </button>
 
       {/* Performance Stats (Bottom Center) */}
       <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 flex gap-4 font-mono text-xs text-gray-400 bg-black/40 px-3 py-1 rounded">
