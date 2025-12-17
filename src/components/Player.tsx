@@ -24,19 +24,27 @@ export const Player = () => {
   // Get start position from server state if available
   const startPos = useRef([0, 2, 5]);
   const hasSpawned = useRef(false);
-  
+  const startPosSet = useRef(false);
+
+  // Only set startPos once when player data arrives - separate from teleport logic
   useEffect(() => {
-      if (gameState?.players && !hasSpawned.current) {
+      if (gameState?.players && !startPosSet.current) {
           const myPlayer = Object.values(gameState.players).find((p: any) => p.name === playerName) as any;
           if (myPlayer && myPlayer.startPos) {
               startPos.current = [myPlayer.startPos.x, myPlayer.startPos.y, myPlayer.startPos.z];
-              if(rigidBody.current) {
-                  rigidBody.current.setTranslation({x: myPlayer.startPos.x, y: myPlayer.startPos.y, z: myPlayer.startPos.z}, true);
-                  hasSpawned.current = true;
-              }
+              startPosSet.current = true; // Mark that we have the start position
           }
       }
   }, [gameState, playerName]);
+
+  // Teleport to start position only once when rigidBody is ready
+  useEffect(() => {
+      if (startPosSet.current && !hasSpawned.current && rigidBody.current) {
+          const [x, y, z] = startPos.current;
+          rigidBody.current.setTranslation({ x, y, z }, true);
+          hasSpawned.current = true;
+      }
+  });
 
   // Reset position when resetCounter changes
   useEffect(() => {

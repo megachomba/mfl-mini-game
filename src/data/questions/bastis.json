@@ -367,12 +367,12 @@
     "id": "q_corps_1",
     "theme": "Corps de Fonctions Asymptotiquement Optimaux",
     "difficulty": 3,
-    "question": "À quoi servent les codes correcteurs d'erreurs ?",
+    "question": "Quels deux mathématiciens soviétiques ont établi en 1983 la borne supérieure asymptotique du nombre de points d'une courbe sur un corps fini ?",
     "answers": [
-      "À détecter et corriger les erreurs de transmission de données",
-      "À créer des mots de passe",
-      "À compresser des fichiers",
-      "À crypter des messages"
+      "Drinfeld et Vladut",
+      "Gauss et Euler",
+      "Kolmogorov et Arnold",
+      "Gelfand et Naimark"
     ],
     "correct": 0
   },
@@ -380,12 +380,12 @@
     "id": "q_corps_2",
     "theme": "Corps de Fonctions Asymptotiquement Optimaux",
     "difficulty": 3,
-    "question": "Dans quel domaine utilise-t-on couramment les codes de Reed-Solomon ?",
+    "question": "En 1995, quels deux mathématiciens ont construit une tour explicite de corps de fonctions atteignant la borne de Drinfeld-Vladut ?",
     "answers": [
-      "Les moteurs de recherche",
-      "Les CD et DVD pour corriger les rayures",
-      "Les réseaux sociaux",
-      "Les jeux vidéo"
+      "Tsfasman et Zink",
+      "Garcia et Stichtenoth",
+      "Goppa et Ihara",
+      "Weil et Serre"
     ],
     "correct": 1
   },
@@ -393,12 +393,12 @@
     "id": "q_corps_3",
     "theme": "Corps de Fonctions Asymptotiquement Optimaux",
     "difficulty": 3,
-    "question": "Qu'est-ce qu'un corps fini en mathématiques ?",
+    "question": "Dans la théorie des corps de fonctions, quel ratio est crucial pour mesurer l'optimalité asymptotique ?",
     "answers": [
-      "Un ensemble avec un nombre fini d'éléments et des opérations",
-      "Une figure géométrique fermée",
-      "Un type de polynôme",
-      "Une équation du second degré"
+      "Le rapport N(q)/g (nombre de points rationnels sur genre)",
+      "Le rapport longueur/dimension",
+      "Le rapport erreur/correction",
+      "Le rapport temps/espace"
     ],
     "correct": 0
   },
@@ -406,12 +406,12 @@
     "id": "q_corps_4",
     "theme": "Corps de Fonctions Asymptotiquement Optimaux",
     "difficulty": 3,
-    "question": "Quelle est l'application principale de la théorie des codes en cryptographie ?",
+    "question": "Quelle borne célèbre en théorie des codes les tours de Garcia-Stichtenoth permettent-elles de dépasser ?",
     "answers": [
-      "Créer des antivirus",
-      "Protéger les communications numériques",
-      "Accélérer les ordinateurs",
-      "Créer des graphiques 3D"
+      "La borne de Shannon",
+      "La borne de Gilbert-Varshamov",
+      "La borne de Nyquist",
+      "La borne de Hamming"
     ],
     "correct": 1
   },
@@ -419,38 +419,38 @@
     "id": "q_corps_5",
     "theme": "Corps de Fonctions Asymptotiquement Optimaux",
     "difficulty": 3,
-    "question": "Dans la transmission de données, qu'est-ce que la 'distance de Hamming' mesure ?",
+    "question": "Quel mathématicien russe a donné son nom aux codes de géométrie algébrique construits à partir de courbes ?",
     "answers": [
-      "La vitesse de transmission",
-      "Le nombre de différences entre deux séquences",
-      "La longueur d'un message",
-      "Le temps de calcul"
+      "Valery Goppa",
+      "Andrey Kolmogorov",
+      "Israel Gelfand",
+      "Sergei Novikov"
     ],
-    "correct": 1
+    "correct": 0
   },
   {
     "id": "q_corps_6",
     "theme": "Corps de Fonctions Asymptotiquement Optimaux",
     "difficulty": 3,
-    "question": "Quel mathématicien russe a donné son nom à des codes algébriques utilisés en cryptographie ?",
+    "question": "Pour quel type de corps finis la borne de Drinfeld-Vladut est-elle atteinte par les tours optimales ?",
     "answers": [
-      "Goppa",
-      "Euler",
-      "Lobatchevski",
-      "Poincaré"
+      "Les corps premiers Fp",
+      "Les corps de cardinal carré (q²)",
+      "Les corps de caractéristique 2 uniquement",
+      "Tous les corps finis"
     ],
-    "correct": 0
+    "correct": 1
   },
   {
     "id": "q_corps_7",
     "theme": "Corps de Fonctions Asymptotiquement Optimaux",
     "difficulty": 3,
-    "question": "Les codes QR utilisent des principes de correction d'erreurs. Quel pourcentage d'un QR code peut être endommagé tout en restant lisible ?",
+    "question": "Quel prix prestigieux Vladimir Drinfeld a-t-il reçu en 1990 pour ses travaux en géométrie algébrique ?",
     "answers": [
-      "5%",
-      "Jusqu'à 30%",
-      "50%",
-      "75%"
+      "Le prix Nobel",
+      "La médaille Fields",
+      "Le prix Abel",
+      "Le prix Wolf"
     ],
     "correct": 1
   },
@@ -458,38 +458,38 @@
     "id": "q_corps_8",
     "theme": "Corps de Fonctions Asymptotiquement Optimaux",
     "difficulty": 3,
-    "question": "Dans la théorie des codes, qu'est-ce qu'un 'polynôme générateur' ?",
+    "question": "Quel théorème de 1982 par Tsfasman, Vladut et Zink a montré l'existence de codes dépassant la borne de Gilbert-Varshamov ?",
     "answers": [
-      "Un polynôme qui crée de l'électricité",
-      "Un polynôme utilisé pour construire des codes correcteurs",
-      "Un polynôme de degré infini",
-      "Un polynôme sans solution"
+      "Le théorème TVZ",
+      "Le théorème de Shannon",
+      "Le théorème de Fermat",
+      "Le théorème de Riemann-Roch"
     ],
-    "correct": 1
+    "correct": 0
   },
   {
     "id": "q_corps_9",
     "theme": "Corps de Fonctions Asymptotiquement Optimaux",
     "difficulty": 3,
-    "question": "Pourquoi utilise-t-on des codes correcteurs d'erreurs dans les sondes spatiales ?",
+    "question": "Quel type d'extensions sont utilisées dans les tours de Garcia-Stichtenoth ?",
     "answers": [
-      "Pour naviguer dans l'espace",
-      "Pour produire de l'énergie",
-      "Pour corriger les erreurs dues aux radiations cosmiques",
-      "Pour communiquer avec les extraterrestres"
+      "Extensions de Kummer",
+      "Extensions d'Artin-Schreier",
+      "Extensions cyclotomiques",
+      "Extensions galoisiennes"
     ],
-    "correct": 2
+    "correct": 1
   },
   {
     "id": "q_corps_10",
     "theme": "Corps de Fonctions Asymptotiquement Optimaux",
     "difficulty": 3,
-    "question": "Qu'est-ce que la 'borne de Singleton' dans la théorie des codes ?",
+    "question": "Quel mathématicien a montré que les tours de Garcia-Stichtenoth proviennent de courbes modulaires de Drinfeld ?",
     "answers": [
-      "Une limite théorique de performance des codes correcteurs",
-      "Un type de frontière géographique",
-      "Une technique de compression",
-      "Un algorithme de tri"
+      "Noam Elkies",
+      "Andrew Wiles",
+      "Jean-Pierre Serre",
+      "Alexander Grothendieck"
     ],
     "correct": 0
   },
@@ -497,12 +497,12 @@
     "id": "q_corps_11",
     "theme": "Corps de Fonctions Asymptotiquement Optimaux",
     "difficulty": 3,
-    "question": "Les codes de Hamming sont utilisés dans les mémoires d'ordinateurs. Que permettent-ils de faire ?",
+    "question": "Qu'est-ce que le 'genre' d'un corps de fonctions en géométrie algébrique ?",
     "answers": [
-      "Augmenter la vitesse",
-      "Détecter et corriger des erreurs de bits",
-      "Réduire la consommation électrique",
-      "Compresser les données"
+      "Sa dimension",
+      "Un invariant mesurant la complexité de la courbe associée",
+      "Son nombre de points",
+      "Sa caractéristique"
     ],
     "correct": 1
   },
@@ -510,25 +510,25 @@
     "id": "q_corps_12",
     "theme": "Corps de Fonctions Asymptotiquement Optimaux",
     "difficulty": 3,
-    "question": "Dans quel domaine les 'codes de convolution' sont-ils largement utilisés ?",
+    "question": "Si q = p², quelle est la valeur de la borne de Drinfeld-Vladut A(q) ?",
     "answers": [
-      "Les télécommunications et téléphonie mobile",
-      "Les jeux de cartes",
-      "La cuisine moléculaire",
-      "L'architecture"
+      "q - 1",
+      "√q - 1",
+      "q²",
+      "log(q)"
     ],
-    "correct": 0
+    "correct": 1
   },
   {
     "id": "q_corps_13",
     "theme": "Corps de Fonctions Asymptotiquement Optimaux",
     "difficulty": 3,
-    "question": "Qu'est-ce qu'un 'code cyclique' en théorie de l'information ?",
+    "question": "À partir de quel cardinal de corps fini (q ≥ ?) les codes de géométrie algébrique peuvent-ils battre Gilbert-Varshamov ?",
     "answers": [
-      "Un code qui ne fonctionne que le jour",
-      "Un code dont les décalages circulaires produisent d'autres codes valides",
-      "Un code qui s'efface après utilisation",
-      "Un code basé sur des cercles"
+      "q ≥ 9",
+      "q ≥ 49",
+      "q ≥ 2",
+      "q ≥ 100"
     ],
     "correct": 1
   },
@@ -536,13 +536,13 @@
     "id": "q_corps_14",
     "theme": "Corps de Fonctions Asymptotiquement Optimaux",
     "difficulty": 3,
-    "question": "Le WiFi et la 4G utilisent des codes correcteurs d'erreurs. Quel est leur principal avantage ?",
+    "question": "Dans quel domaine pratique les codes issus des corps de fonctions optimaux sont-ils utilisés ?",
     "answers": [
-      "Réduire le prix des forfaits",
-      "Maintenir une communication fiable malgré les interférences",
-      "Augmenter la portée à l'infini",
-      "Rendre les données invisibles"
+      "Les codes correcteurs d'erreurs pour les télécommunications",
+      "La prévision météorologique",
+      "La modélisation financière",
+      "Les moteurs de recherche"
     ],
-    "correct": 1
+    "correct": 0
   }
 ]
