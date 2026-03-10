@@ -11,7 +11,7 @@ const __dirname = path.dirname(__filename);
 
 // Load questions from all player files
 const questionsDir = path.join(__dirname, '../src/data/questions');
-const players = ['quentin', 'yann', 'mathurin', 'bastis', 'jacques', 'lucas', 'victorien'];
+const players = ['quentin', 'yann', 'mathurin', 'bastis', 'dan', 'lucas', 'victorien', 'admin'];
 const questions = players.flatMap(player => {
   const filePath = path.join(questionsDir, `${player}.json`);
   if (fs.existsSync(filePath)) {
@@ -50,6 +50,9 @@ const io = new Server(httpServer, {
   }
 });
 
+// Track active timer so we can clear it on restart
+let activeTimerInterval = null;
+
 // Game State
 let gameState = {
   phase: 'LOBBY', // LOBBY, MEMORIZE, GAME, END
@@ -61,11 +64,13 @@ let gameState = {
     yann: 0,
     mathurin: 0,
     bastis: 0,
-    jacques: 0,
+    dan: 0,
     lucas: 0,
     victorien: 0
   },
   currentTurn: null,
+  gridSize: 'full', // small | medium | large | full
+  gridSide: 18, // side length of current grid
   selectedTile: null, // tile id being selected (blinking) before reveal
   activeQuestion: null, // { question, tileId, answeringPlayer }
   answerFeedback: null // 'correct' | 'incorrect' | null
@@ -73,13 +78,14 @@ let gameState = {
 
 // Predefined players configuration
 const PLAYER_CONFIG = {
-  quentin: { color: '#3b82f6', startPos: { x: -12, y: 2, z: 11 } }, // Blue
-  mathurin: { color: '#22c55e', startPos: { x: -7, y: 2, z: 11 } },  // Green
-  yann: { color: '#ef4444', startPos: { x: -2, y: 2, z: 11 } },      // Red
-  bastis: { color: '#f97316', startPos: { x: 3, y: 2, z: 11 } },    // Orange
-  jacques: { color: '#8b5cf6', startPos: { x: 8, y: 2, z: 11 } },   // Purple
-  lucas: { color: '#06b6d4', startPos: { x: 13, y: 2, z: 11 } },    // Cyan
-  victorien: { color: '#ec4899', startPos: { x: 18, y: 2, z: 11 } } // Pink
+  quentin: { color: '#3b82f6', startPos: { x: -6, y: 2, z: 13 } },   // Blue - front row
+  mathurin: { color: '#22c55e', startPos: { x: -1, y: 2, z: 13 } },   // Green - front row
+  yann: { color: '#ef4444', startPos: { x: 4, y: 2, z: 13 } },        // Red - front row
+  bastis: { color: '#f97316', startPos: { x: 9, y: 2, z: 13 } },      // Orange - front row
+  dan: { color: '#8b5cf6', startPos: { x: -3.5, y: 2, z: 9 } },   // Purple - back row
+  lucas: { color: '#06b6d4', startPos: { x: 1.5, y: 2, z: 9 } },      // Cyan - back row
+  victorien: { color: '#ec4899', startPos: { x: 6.5, y: 2, z: 9 } },   // Pink - back row
+  admin: { color: '#ffffff', startPos: { x: 0, y: 10, z: 20 } }       // White - spectator
 };
 
 // Player themes: Tier 1 = most knowledge = hardest questions = most points
@@ -88,12 +94,12 @@ const PLAYER_THEMES = {
   quentin: [
     { theme: 'Thibaut Pinot', tier: 1 },
     { theme: 'League of Legends 2025', tier: 2 },
-    { theme: 'Cyclisme Route > 2010', tier: 3 }
+    { theme: 'Road Cycling > 2010', tier: 3 }
   ],
   yann: [
     { theme: 'MFL (Web3)', tier: 1 },
-    { theme: 'Drapeaux', tier: 2 },
-    { theme: 'Physique Quantique', tier: 3 }
+    { theme: 'Flags', tier: 2 },
+    { theme: 'Quantum Physics', tier: 3 }
   ],
   mathurin: [
     { theme: 'WoW: Burning Crusade (Mage)', tier: 1 },
@@ -101,14 +107,14 @@ const PLAYER_THEMES = {
     { theme: 'Harry Potter', tier: 3 }
   ],
   bastis: [
-    { theme: 'La Guitare', tier: 1 },
-    { theme: 'Rap Français Ancien (avant 2010)', tier: 2 },
-    { theme: 'Corps de Fonctions Asymptotiquement Optimaux', tier: 3 }
+    { theme: 'Guitar', tier: 1 },
+    { theme: 'Classic French Rap (pre-2010)', tier: 2 },
+    { theme: 'Asymptotically Optimal Function Fields', tier: 3 }
   ],
-  jacques: [
-    { theme: 'Voiture', tier: 1 },
-    { theme: 'Blockchain', tier: 2 },
-    { theme: 'Piano', tier: 3 }
+  dan: [
+    { theme: 'Football', tier: 1 },
+    { theme: 'Geography', tier: 2 },
+    { theme: 'Gaming', tier: 3 }
   ],
   lucas: [
     { theme: 'New Zealand', tier: 1 },
@@ -117,8 +123,8 @@ const PLAYER_THEMES = {
   ],
   victorien: [
     { theme: 'Sum 41', tier: 1 },
-    { theme: 'Jeux Vidéo', tier: 2 },
-    { theme: 'Géographie', tier: 3 }
+    { theme: 'Video Games', tier: 2 },
+    { theme: 'Geography', tier: 3 }
   ]
 };
 
@@ -152,31 +158,42 @@ const getQuestionForTileOwner = (tileOwner) => {
   return { ...q, tier: themeInfo.tier, tileOwner };
 };
 
-// Initialize Grid (18x18 = 324 tiles)
-const initGrid = () => {
-  const tiles = [];
-  // 40 tiles per player (7 players = 280) + 44 Neutral = 324
-  let types = [
-    ...Array(40).fill('quentin'),
-    ...Array(40).fill('yann'),
-    ...Array(40).fill('mathurin'),
-    ...Array(40).fill('bastis'),
-    ...Array(40).fill('jacques'),
-    ...Array(40).fill('lucas'),
-    ...Array(40).fill('victorien'),
-    ...Array(44).fill('neutral')
-  ];
+// Grid size presets
+const GRID_SIZES = {
+  small: { side: 8, total: 64 },
+  medium: { side: 12, total: 144 },
+  large: { side: 15, total: 225 },
+  full: { side: 18, total: 324 }
+};
+
+const PLAYER_NAMES = ['quentin', 'yann', 'mathurin', 'bastis', 'dan', 'lucas', 'victorien'];
+
+// Initialize Grid with dynamic size, keeping same ratio per player
+const initGrid = (sizeName = 'full') => {
+  const size = GRID_SIZES[sizeName] || GRID_SIZES.full;
+  const { side, total } = size;
+
+  // Each player gets equal share, remainder goes to neutral
+  const perPlayer = Math.floor(total / (PLAYER_NAMES.length + 1));
+  const neutralCount = total - (perPlayer * PLAYER_NAMES.length);
+
+  let types = [];
+  for (const name of PLAYER_NAMES) {
+    types.push(...Array(perPlayer).fill(name));
+  }
+  types.push(...Array(neutralCount).fill('neutral'));
 
   // Shuffle
   types.sort(() => Math.random() - 0.5);
 
-  for(let i=0; i<324; i++) {
+  const tiles = [];
+  for (let i = 0; i < total; i++) {
     tiles.push({
       id: i,
       type: types[i],
       revealed: false,
-      x: i % 18,
-      y: Math.floor(i / 18)
+      x: i % side,
+      y: Math.floor(i / side)
     });
   }
   return tiles;
@@ -219,24 +236,42 @@ io.on('connection', (socket) => {
     }
   });
 
-const PREDEFINED_PLAYERS_ORDER = ['quentin', 'mathurin', 'yann', 'bastis', 'jacques', 'lucas', 'victorien'];
+const PREDEFINED_PLAYERS_ORDER = ['quentin', 'mathurin', 'yann', 'bastis', 'dan', 'lucas', 'victorien'];
 
 // ... (inside revealTile or wherever currentTurn is initialized)
 // Update startGame logic
-  socket.on('startGame', () => {
+  socket.on('startGame', (sizeName) => {
+    // Only admin can start the game
+    const starter = gameState.players[socket.id];
+    if (!starter || starter.name !== 'admin') return;
+
+    // Clear any existing timer from a previous game
+    if (activeTimerInterval) {
+      clearInterval(activeTimerInterval);
+      activeTimerInterval = null;
+    }
+
+    const validSize = GRID_SIZES[sizeName] ? sizeName : 'full';
     gameState.phase = 'MEMORIZE';
-    gameState.grid = initGrid();
-    gameState.scores = { quentin: 0, yann: 0, mathurin: 0, bastis: 0, jacques: 0, lucas: 0, victorien: 0 };
+    gameState.gridSize = validSize;
+    gameState.gridSide = GRID_SIZES[validSize].side;
+    gameState.grid = initGrid(validSize);
+    gameState.scores = { quentin: 0, yann: 0, mathurin: 0, bastis: 0, dan: 0, lucas: 0, victorien: 0 };
+    gameState.activeQuestion = null;
+    gameState.answerFeedback = null;
+    gameState.selectedTile = null;
+    gameState.currentTurn = null;
     gameState.memorizeTimer = 30;
     io.emit('gameState', gameState);
 
     // Countdown timer - broadcast every second
-    const timerInterval = setInterval(() => {
+    activeTimerInterval = setInterval(() => {
       gameState.memorizeTimer -= 1;
       io.emit('gameState', gameState);
 
       if (gameState.memorizeTimer <= 0) {
-        clearInterval(timerInterval);
+        clearInterval(activeTimerInterval);
+        activeTimerInterval = null;
         gameState.phase = 'GAME';
         gameState.memorizeTimer = 0;
         // Find first connected player in order
@@ -247,6 +282,43 @@ const PREDEFINED_PLAYERS_ORDER = ['quentin', 'mathurin', 'yann', 'bastis', 'jacq
         io.emit('gameState', gameState);
       }
     }, 1000);
+  });
+
+  socket.on('restartGame', () => {
+    // Only admin can restart the game
+    const restarter = gameState.players[socket.id];
+    if (!restarter || restarter.name !== 'admin') return;
+
+    // Clear any active timer
+    if (activeTimerInterval) {
+      clearInterval(activeTimerInterval);
+      activeTimerInterval = null;
+    }
+
+    gameState.phase = 'LOBBY';
+    gameState.gridSize = 'full';
+    gameState.gridSide = 18;
+    gameState.grid = initGrid('full');
+    gameState.scores = { quentin: 0, yann: 0, mathurin: 0, bastis: 0, dan: 0, lucas: 0, victorien: 0 };
+    gameState.currentTurn = null;
+    gameState.activeQuestion = null;
+    gameState.answerFeedback = null;
+    gameState.selectedTile = null;
+    gameState.memorizeTimer = 0;
+    gameState.lastPoints = undefined;
+
+    // Reset all player positions to their start positions
+    Object.values(gameState.players).forEach((p) => {
+      const config = PLAYER_CONFIG[p.name];
+      if (config) {
+        p.x = config.startPos.x;
+        p.y = config.startPos.y;
+        p.z = config.startPos.z;
+      }
+    });
+
+    io.emit('restartGame');
+    io.emit('gameState', gameState);
   });
 
 // Reveal tile and get question based on tile owner's themes
