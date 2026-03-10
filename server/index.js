@@ -66,6 +66,7 @@ let gameState = {
     victorien: 0
   },
   currentTurn: null,
+  selectedTile: null, // tile id being selected (blinking) before reveal
   activeQuestion: null, // { question, tileId, answeringPlayer }
   answerFeedback: null // 'correct' | 'incorrect' | null
 };
@@ -257,31 +258,50 @@ const PREDEFINED_PLAYERS_ORDER = ['quentin', 'mathurin', 'yann', 'bastis', 'jacq
       if (!player || player.name !== gameState.currentTurn) return;
 
       if (gameState.activeQuestion) return; // Already answering
+      if (gameState.selectedTile !== null && gameState.selectedTile !== undefined) return; // Already selecting
 
       const tile = gameState.grid.find(t => t.id === tileId);
       if (tile && !tile.revealed) {
-          tile.revealed = true;
-
-          // Get question from tile owner's themes
-          const questionData = getQuestionForTileOwner(tile.type);
-
-          gameState.activeQuestion = {
-              ...questionData,
-              tileId: tile.id,
-              answeringPlayer: player.name
-          };
-
+          // Phase 1: Show selected tile blinking to everyone
+          gameState.selectedTile = tileId;
           io.emit('gameState', gameState);
+
+          // Phase 2: After 2 seconds, reveal the tile and show question
+          setTimeout(() => {
+              tile.revealed = true;
+              gameState.selectedTile = null;
+
+              // Get question from tile owner's themes
+              const questionData = getQuestionForTileOwner(tile.type);
+
+              gameState.activeQuestion = {
+                  ...questionData,
+                  tileId: tile.id,
+                  answeringPlayer: player.name
+              };
+
+              io.emit('gameState', gameState);
+          }, 2000);
       }
   });
 
   socket.on('answerQuestion', ({ answerIndex }) => {
       if (!gameState.activeQuestion) return;
+      if (gameState.activeQuestion.selectedAnswer !== undefined) return; // Already answered
 
-      const isCorrect = answerIndex === gameState.activeQuestion.correct;
       const player = gameState.players[socket.id];
+      if (!player || player.name !== gameState.activeQuestion.answeringPlayer) return;
 
-      if (player && player.name === gameState.activeQuestion.answeringPlayer) {
+      // Phase 1: Show selected answer to everyone for 5 seconds
+      gameState.activeQuestion.selectedAnswer = answerIndex;
+      io.emit('gameState', gameState);
+
+      // Phase 2: After 5s, reveal correct/incorrect
+      setTimeout(() => {
+          if (!gameState.activeQuestion) return;
+
+          const isCorrect = answerIndex === gameState.activeQuestion.correct;
+
           if (isCorrect) {
               // Calculate points based on tier
               const tier = gameState.activeQuestion.tier || 2;
@@ -302,7 +322,7 @@ const PREDEFINED_PLAYERS_ORDER = ['quentin', 'mathurin', 'yann', 'bastis', 'jacq
           gameState.activeQuestion = null;
           gameState.answerFeedback = isCorrect ? 'correct' : 'incorrect';
           io.emit('gameState', gameState);
-          
+
           setTimeout(() => {
               gameState.answerFeedback = null;
 
@@ -328,7 +348,7 @@ const PREDEFINED_PLAYERS_ORDER = ['quentin', 'mathurin', 'yann', 'bastis', 'jacq
               
               io.emit('gameState', gameState);
           }, 3000);
-      }
+      }, 5000);
   });
 
   socket.on('disconnect', () => {
