@@ -209,20 +209,21 @@ io.on('connection', (socket) => {
     callback();
   });
 
-  socket.on('join', (playerName) => {
+  socket.on('join', (playerName, modelId) => {
     if (PLAYER_CONFIG[playerName]) {
       const config = PLAYER_CONFIG[playerName];
       gameState.players[socket.id] = {
         id: socket.id,
         name: playerName,
         color: config.color,
+        modelId: modelId || 'soldier',
         x: config.startPos.x,
         y: config.startPos.y,
         z: config.startPos.z,
         startPos: config.startPos
       };
       io.emit('gameState', gameState);
-      console.log(`${playerName} joined!`);
+      console.log(`${playerName} joined with model: ${modelId || 'soldier'}!`);
     }
   });
 
