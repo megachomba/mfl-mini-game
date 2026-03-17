@@ -156,7 +156,7 @@ const Tile = memo(({ tile, isHidden, canInteract, isSelected, gridSide }: {
     const screenWidth = 11;
     const spacing = screenWidth / gridSide;
     const center = (gridSide - 1) / 2;
-    return [(tile.x - center) * spacing, (tile.y - center) * spacing, 0] as [number, number, number];
+    return [(tile.x - center) * spacing, (center - tile.y) * spacing, 0] as [number, number, number];
   }, [tile.x, tile.y, gridSide]);
 
   const tileSize = useMemo(() => (11 / gridSide) * 0.88, [gridSide]);
