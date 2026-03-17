@@ -1,59 +1,70 @@
-import { useGameStore } from '../store';
-import { useRef, useMemo } from 'react';
+import { useGameStore, usePlayerPositions } from '../store';
+import { useRef, useMemo, memo } from 'react';
 import { useFrame } from '@react-three/fiber';
 import * as THREE from 'three';
 import { Character } from './Character';
 
 export const OtherPlayers = () => {
-  const { gameState, playerName } = useGameStore();
+  const gameState = useGameStore((s) => s.gameState);
+  const playerName = useGameStore((s) => s.playerName);
 
   if (!gameState || !gameState.players) return null;
 
+  const otherPlayers = Object.values(gameState.players).filter(
+    (p: any) => p.name !== playerName && p.name !== 'admin'
+  );
+
   return (
     <>
-      {Object.values(gameState.players).map((p: any) => {
-        if (p.name === playerName) return null;
-        return <RemotePlayerWrapper key={p.id} p={p} />;
-      })}
+      {otherPlayers.map((p: any) => (
+        <RemotePlayerWrapper key={p.id} playerId={p.id} initialPos={p} color={p.color} modelId={p.modelId} />
+      ))}
     </>
   );
 };
 
-const RemotePlayerWrapper = ({ p }: { p: any }) => {
-    const position = useRef([p.x, p.y, p.z]);
-    const rotation = useRef(p.rot || 0);
-    const isMoving = useRef(false);
+const RemotePlayerWrapper = memo(({ playerId, initialPos, color, modelId }: {
+  playerId: string;
+  initialPos: any;
+  color: string;
+  modelId: string;
+}) => {
+  const position = useRef<[number, number, number]>([initialPos.x, initialPos.y, initialPos.z]);
+  const rotation = useRef(initialPos.rot || 0);
+  const isMoving = useRef(false);
 
-    // Pooled vectors to avoid allocations in useFrame
-    const vectors = useMemo(() => ({
-        target: new THREE.Vector3(),
-        current: new THREE.Vector3(),
-    }), []);
+  const vectors = useMemo(() => ({
+    target: new THREE.Vector3(),
+    current: new THREE.Vector3(),
+  }), []);
 
-    useFrame((_state, delta) => {
-        vectors.target.set(p.x, p.y, p.z);
-        vectors.current.set(position.current[0], position.current[1], position.current[2]);
+  // Read positions from the separate high-frequency store — no React re-renders
+  useFrame((_state, delta) => {
+    const pos = usePlayerPositions.getState().positions[playerId];
+    if (!pos) return;
 
-        const dist = vectors.current.distanceTo(vectors.target);
-        isMoving.current = dist > 0.01;
+    vectors.target.set(pos.x, pos.y, pos.z);
+    vectors.current.set(position.current[0], position.current[1], position.current[2]);
 
-        // Lerp Position
-        vectors.current.lerp(vectors.target, 10 * delta);
-        position.current = [vectors.current.x, vectors.current.y, vectors.current.z];
+    const dist = vectors.current.distanceTo(vectors.target);
+    isMoving.current = dist > 0.01;
 
-        // Lerp Rotation
-        let diff = (p.rot || 0) - rotation.current;
-        while (diff > Math.PI) diff -= Math.PI * 2;
-        while (diff < -Math.PI) diff += Math.PI * 2;
-        rotation.current += diff * 10 * delta;
-    });
+    vectors.current.lerp(vectors.target, 10 * delta);
+    position.current = [vectors.current.x, vectors.current.y, vectors.current.z];
 
-    return (
-        <Character
-            position={position.current as [number, number, number]}
-            rotation={rotation.current}
-            isMoving={isMoving.current}
-            color={p.color}
-        />
-    );
-};
+    let diff = (pos.rot || 0) - rotation.current;
+    while (diff > Math.PI) diff -= Math.PI * 2;
+    while (diff < -Math.PI) diff += Math.PI * 2;
+    rotation.current += diff * 10 * delta;
+  });
+
+  return (
+    <Character
+      position={position.current}
+      rotation={rotation.current}
+      isMoving={isMoving.current}
+      color={color}
+      modelId={modelId}
+    />
+  );
+});

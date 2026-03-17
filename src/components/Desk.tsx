@@ -16,7 +16,8 @@ interface DeskProps {
 }
 
 export const Desk = ({ position, color, label }: DeskProps) => {
-  const { playerName, gameState } = useGameStore();
+  const playerName = useGameStore((s) => s.playerName);
+  const gameState = useGameStore((s) => s.gameState);
 
   const isMyDesk =
     label && playerName && label.toLowerCase() === playerName.toLowerCase();
@@ -36,8 +37,10 @@ export const Desk = ({ position, color, label }: DeskProps) => {
   };
   */
 
+  const hasSelected = activeQ?.selectedAnswer !== undefined;
+
   const handleAnswer = (idx: number) => {
-    if (isAnswering) {
+    if (isAnswering && !hasSelected) {
       playButtonSound();
       useGameStore
         .getState()
@@ -130,6 +133,20 @@ export const Desk = ({ position, color, label }: DeskProps) => {
                 const xPos = col === 0 ? -0.5 : 0.5;
                 const yPos = row === 0 ? 0.1 : -0.25;
 
+                const isSelectedAnswer = hasSelected && activeQ.selectedAnswer === idx;
+                const isNotSelected = hasSelected && activeQ.selectedAnswer !== idx;
+
+                // Color logic: selected = bright orange, not selected = dimmed, default = blue/gray
+                let btnColor = isAnswering ? "#1e40af" : "#333";
+                let btnEmissive = isAnswering ? "#1e40af" : "#000";
+                if (isSelectedAnswer) {
+                  btnColor = "#f59e0b";
+                  btnEmissive = "#f59e0b";
+                } else if (isNotSelected) {
+                  btnColor = "#1a1a2e";
+                  btnEmissive = "#000";
+                }
+
                 return (
                   <group key={idx} position={[xPos, yPos, 0.02]}>
                     <mesh
@@ -138,21 +155,21 @@ export const Desk = ({ position, color, label }: DeskProps) => {
                         handleAnswer(idx);
                       }}
                       onPointerOver={() =>
-                        isAnswering && (document.body.style.cursor = "pointer")
+                        isAnswering && !hasSelected && (document.body.style.cursor = "pointer")
                       }
                       onPointerOut={() => (document.body.style.cursor = "auto")}
                     >
                       <boxGeometry args={[0.9, 0.25, 0.05]} />
                       <meshStandardMaterial
-                        color={isAnswering ? "#1e40af" : "#333"}
-                        emissive={isAnswering ? "#1e40af" : "#000"}
-                        emissiveIntensity={0.5}
+                        color={btnColor}
+                        emissive={btnEmissive}
+                        emissiveIntensity={isSelectedAnswer ? 0.8 : 0.5}
                       />
                     </mesh>
                     <Text
                       position={[0, 0, 0.04]}
                       fontSize={0.07}
-                      color="white"
+                      color={isNotSelected ? "#666" : "white"}
                       maxWidth={0.85}
                     >
                       {ans}

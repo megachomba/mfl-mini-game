@@ -11,7 +11,9 @@ export const Player = () => {
   const lastUpdate = useRef(0);
   const [, getKeys] = useKeyboardControls();
   const { camera } = useThree();
-  const { gameState, playerName, resetCounter } = useGameStore();
+  const gameState = useGameStore((s) => s.gameState);
+  const playerName = useGameStore((s) => s.playerName);
+  const resetCounter = useGameStore((s) => s.resetCounter);
 
   // Pooled vectors to avoid allocations in useFrame
   const vectors = useMemo(() => ({
@@ -123,9 +125,6 @@ export const Player = () => {
             linearDamping={0}
         >
         <CapsuleCollider args={[0.75, 0.5]} />
-        
-        {/* Personal Light */}
-        <pointLight position={[0, 2, 0]} intensity={2} distance={10} color="#fbbf24" />
         </RigidBody>
     </>
   );

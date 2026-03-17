@@ -3,7 +3,7 @@
     "id": "q_pinot_1",
     "theme": "Thibaut Pinot",
     "difficulty": 1,
-    "question": "Quelle équipe a été celle de Thibaut Pinot pendant la quasi-totalité de sa carrière ?",
+    "question": "Which team was Thibaut Pinot's team for almost his entire career?",
     "answers": [
       "Movistar",
       "Team Sky",
@@ -16,7 +16,7 @@
     "id": "q_pinot_2",
     "theme": "Thibaut Pinot",
     "difficulty": 1,
-    "question": "En quelle année Thibaut Pinot a-t-il remporté le Tour de Lombardie ?",
+    "question": "In which year did Thibaut Pinot win the Tour of Lombardy?",
     "answers": [
       "2018",
       "2019",
@@ -29,7 +29,7 @@
     "id": "q_pinot_3",
     "theme": "Thibaut Pinot",
     "difficulty": 1,
-    "question": "Sur quel col Thibaut Pinot a-t-il abandonné en larmes lors du Tour de France 2019 ?",
+    "question": "On which climb did Thibaut Pinot tearfully abandon the 2019 Tour de France?",
     "answers": [
       "Le Galibier",
       "Le Tourmalet",
@@ -42,12 +42,12 @@
     "id": "q_pinot_4",
     "theme": "Thibaut Pinot",
     "difficulty": 1,
-    "question": "Quelle était la spécialité de terrain de Thibaut Pinot durant sa carrière ?",
+    "question": "What was Thibaut Pinot's terrain specialty throughout his career?",
     "answers": [
       "Puncheur",
-      "Grimpeur",
+      "Climber",
       "Rouleur",
-      "Sprinteur"
+      "Sprinter"
     ],
     "correct": 1
   },
@@ -55,12 +55,12 @@
     "id": "q_pinot_5",
     "theme": "Thibaut Pinot",
     "difficulty": 1,
-    "question": "Quel maillot distinctif Thibaut Pinot a-t-il porté lors du Tour de France 2014 ?",
+    "question": "Which distinctive jersey did Thibaut Pinot wear during the 2014 Tour de France?",
     "answers": [
-      "Maillot vert",
-      "Maillot jaune",
-      "Maillot à pois",
-      "Maillot blanc du meilleur jeune"
+      "Green jersey",
+      "Yellow jersey",
+      "Polka-dot jersey",
+      "White jersey for best young rider"
     ],
     "correct": 3
   },
@@ -68,7 +68,7 @@
     "id": "q_pinot_6",
     "theme": "Thibaut Pinot",
     "difficulty": 1,
-    "question": "En quelle année Thibaut Pinot a-t-il terminé 3ème du Tour de France ?",
+    "question": "In which year did Thibaut Pinot finish 3rd in the Tour de France?",
     "answers": [
       "2014",
       "2015",
@@ -81,12 +81,12 @@
     "id": "q_pinot_7",
     "theme": "Thibaut Pinot",
     "difficulty": 1,
-    "question": "Quelle étape mythique du Tour de France 2019 Thibaut Pinot a-t-il remportée à Tourmalet ?",
+    "question": "Which legendary stage of the 2019 Tour de France did Thibaut Pinot win at Tourmalet?",
     "answers": [
-      "L'étape 18",
-      "L'étape 16",
-      "L'étape 12",
-      "L'étape 14"
+      "Stage 18",
+      "Stage 16",
+      "Stage 12",
+      "Stage 14"
     ],
     "correct": 3
   },
@@ -94,7 +94,7 @@
     "id": "q_pinot_8",
     "theme": "Thibaut Pinot",
     "difficulty": 1,
-    "question": "Dans quelle région française Thibaut Pinot est-il né ?",
+    "question": "In which French region was Thibaut Pinot born?",
     "answers": [
       "Franche-Comté",
       "Alsace",
@@ -107,7 +107,7 @@
     "id": "q_pinot_9",
     "theme": "Thibaut Pinot",
     "difficulty": 1,
-    "question": "Combien d'étapes du Tour de France Thibaut Pinot a-t-il remportées au cours de sa carrière ?",
+    "question": "How many Tour de France stages did Thibaut Pinot win throughout his career?",
     "answers": [
       "5",
       "7",
@@ -120,12 +120,12 @@
     "id": "q_pinot_10",
     "theme": "Thibaut Pinot",
     "difficulty": 1,
-    "question": "Quel classement Thibaut Pinot a-t-il remporté au Giro d'Italia 2023 lors de sa dernière saison ?",
+    "question": "Which classification did Thibaut Pinot win at the 2023 Giro d'Italia during his final season?",
     "answers": [
-      "Le classement de la montagne (maglia azzurra)",
-      "Le classement général",
-      "Le classement par points",
-      "Le classement du meilleur jeune"
+      "The mountain classification (maglia azzurra)",
+      "The general classification",
+      "The points classification",
+      "The best young rider classification"
     ],
     "correct": 0
   },
@@ -133,12 +133,12 @@
     "id": "q_pinot_11",
     "theme": "Thibaut Pinot",
     "difficulty": 1,
-    "question": "Quelle blessure musculaire a contraint Thibaut Pinot à abandonner le Tour 2019 ?",
+    "question": "Which muscular injury forced Thibaut Pinot to abandon the 2019 Tour?",
     "answers": [
-      "Déchirure au muscle de la cuisse gauche",
-      "Élongation au dos",
-      "Tendinite au genou",
-      "Déchirure au mollet droit"
+      "Tear in the left thigh muscle",
+      "Back strain",
+      "Knee tendinitis",
+      "Tear in the right calf"
     ],
     "correct": 0
   },
@@ -146,7 +146,7 @@
     "id": "q_pinot_12",
     "theme": "Thibaut Pinot",
     "difficulty": 1,
-    "question": "En quelle année Thibaut Pinot a-t-il pris sa retraite sportive ?",
+    "question": "In which year did Thibaut Pinot retire from professional cycling?",
     "answers": [
       "2023",
       "2021",
@@ -159,7 +159,7 @@
     "id": "q_pinot_13",
     "theme": "Thibaut Pinot",
     "difficulty": 1,
-    "question": "Quel surnom était souvent associé à Thibaut Pinot dans le peloton ?",
+    "question": "What nickname was often associated with Thibaut Pinot in the peloton?",
     "answers": [
       "Le Franc-Comtois",
       "Le Grimpeur",
@@ -172,7 +172,7 @@
     "id": "q_pinot_14",
     "theme": "Thibaut Pinot",
     "difficulty": 1,
-    "question": "En quelle année Thibaut Pinot a-t-il remporté son premier et seul Monument, le Tour de Lombardie ?",
+    "question": "In which year did Thibaut Pinot win his first and only Monument, the Tour of Lombardy?",
     "answers": [
       "2016",
       "2017",
@@ -185,7 +185,7 @@
     "id": "q_lol_1",
     "theme": "League of Legends 2025",
     "difficulty": 2,
-    "question": "Quelle équipe française a remporté le championnat LFL en 2024 ?",
+    "question": "Which French team won the LFL championship in 2024?",
     "answers": [
       "Karmine Corp",
       "Team BDS",
@@ -198,7 +198,7 @@
     "id": "q_lol_2",
     "theme": "League of Legends 2025",
     "difficulty": 2,
-    "question": "Quel rôle occupe généralement le champion K'Santé dans la méta actuelle ?",
+    "question": "What role does the champion K'Santé generally occupy in the current meta?",
     "answers": [
       "Support",
       "Jungle",
@@ -211,12 +211,12 @@
     "id": "q_lol_3",
     "theme": "League of Legends 2025",
     "difficulty": 2,
-    "question": "Quelle région a dominé les Worlds 2024 en remportant le championnat ?",
+    "question": "Which region dominated Worlds 2024 by winning the championship?",
     "answers": [
       "Europe (LEC)",
-      "Chine (LPL)",
-      "Corée du Sud (LCK)",
-      "Amérique du Nord (LCS)"
+      "China (LPL)",
+      "South Korea (LCK)",
+      "North America (LCS)"
     ],
     "correct": 2
   },
@@ -224,12 +224,12 @@
     "id": "q_lol_4",
     "theme": "League of Legends 2025",
     "difficulty": 2,
-    "question": "Quel objectif majeur donne le buff du Baron Nashor permettant de renforcer les sbires ?",
+    "question": "Which major objective grants the Baron Nashor buff that empowers minions?",
     "answers": [
-      "Le Herald",
-      "Les dragons élémentaires",
+      "The Herald",
+      "The elemental dragons",
       "Baron Nashor",
-      "Le Grub"
+      "The Grub"
     ],
     "correct": 2
   },
@@ -237,7 +237,7 @@
     "id": "q_lol_5",
     "theme": "League of Legends 2025",
     "difficulty": 2,
-    "question": "Combien de dragons élémentaires différents existent dans la saison 2024-2025 ?",
+    "question": "How many different elemental dragons exist in the 2024-2025 season?",
     "answers": [
       "3 dragons",
       "6 dragons",
@@ -250,7 +250,7 @@
     "id": "q_lol_6",
     "theme": "League of Legends 2025",
     "difficulty": 2,
-    "question": "Quel champion assassin est célèbre pour son dash infini (Irelia) ?",
+    "question": "Which assassin champion is famous for her infinite dash (Irelia)?",
     "answers": [
       "Yasuo",
       "Irelia",
@@ -263,12 +263,12 @@
     "id": "q_lol_7",
     "theme": "League of Legends 2025",
     "difficulty": 2,
-    "question": "Quelle structure défensive doit être détruite avant de pouvoir attaquer l'inhibiteur ?",
+    "question": "Which defensive structure must be destroyed before being able to attack the inhibitor?",
     "answers": [
-      "Le Nexus",
-      "La tourelle d'inhibiteur",
-      "La tourelle externe",
-      "Le portail"
+      "The Nexus",
+      "The inhibitor turret",
+      "The outer turret",
+      "The portal"
     ],
     "correct": 1
   },
@@ -276,7 +276,7 @@
     "id": "q_lol_8",
     "theme": "League of Legends 2025",
     "difficulty": 2,
-    "question": "Quel joueur français emblématique joue pour Karmine Corp en 2024-2025 ?",
+    "question": "Which iconic French player plays for Karmine Corp in 2024-2025?",
     "answers": [
       "Rekkles",
       "Caps",
@@ -289,12 +289,12 @@
     "id": "q_lol_9",
     "theme": "League of Legends 2025",
     "difficulty": 2,
-    "question": "Quelle fonctionnalité permet aux joueurs de se téléporter rapidement vers une tourelle alliée ?",
+    "question": "Which feature allows players to quickly teleport to an allied turret?",
     "answers": [
-      "Le Flash",
-      "Le sort d'invocateur Téléportation",
-      "Le recall",
-      "Le portail hextech"
+      "Flash",
+      "The Teleport summoner spell",
+      "The recall",
+      "The hextech portal"
     ],
     "correct": 1
   },
@@ -302,7 +302,7 @@
     "id": "q_lol_10",
     "theme": "League of Legends 2025",
     "difficulty": 2,
-    "question": "Quel champion ADC est connu pour son ultimate global (Ashe, Jinx, ou Ezreal) ?",
+    "question": "Which ADC champion is known for their global ultimate (Ashe, Jinx, or Ezreal)?",
     "answers": [
       "Caitlyn",
       "Jinx",
@@ -315,12 +315,12 @@
     "id": "q_lol_11",
     "theme": "League of Legends 2025",
     "difficulty": 2,
-    "question": "Quel est le rôle principal du Voidgrub ajouté en saison 14 ?",
+    "question": "What is the main role of the Voidgrub added in season 14?",
     "answers": [
-      "Donner de l'or à toute l'équipe",
-      "Renforcer les tourelles",
-      "Donner des dégâts bonus aux tourelles",
-      "Spawn des sbires renforcés"
+      "Give gold to the entire team",
+      "Reinforce turrets",
+      "Give bonus damage to turrets",
+      "Spawn reinforced minions"
     ],
     "correct": 2
   },
@@ -328,7 +328,7 @@
     "id": "q_lol_12",
     "theme": "League of Legends 2025",
     "difficulty": 2,
-    "question": "Quelle équipe LEC a recruté le joueur coréen Faker en 2024... attendez, c'est faux ! Faker joue pour quelle équipe ?",
+    "question": "Which LEC team recruited Korean player Faker in 2024... wait, that's wrong! Which team does Faker actually play for?",
     "answers": [
       "G2 Esports",
       "T1 (LCK)",
@@ -341,7 +341,7 @@
     "id": "q_lol_13",
     "theme": "League of Legends 2025",
     "difficulty": 2,
-    "question": "Quel champion support est célèbre pour son hook (crochet) redoutable ?",
+    "question": "Which support champion is famous for their formidable hook?",
     "answers": [
       "Lulu",
       "Thresh",
@@ -354,7 +354,7 @@
     "id": "q_lol_14",
     "theme": "League of Legends 2025",
     "difficulty": 2,
-    "question": "Quelle est la durée approximative du buff Baron Nashor une fois obtenu ?",
+    "question": "What is the approximate duration of the Baron Nashor buff once obtained?",
     "answers": [
       "1 minute",
       "5 minutes",
@@ -365,9 +365,9 @@
   },
   {
     "id": "q_cyclisme_1",
-    "theme": "Cyclisme Route > 2010",
+    "theme": "Road Cycling > 2010",
     "difficulty": 3,
-    "question": "Quel coureur slovène a créé la surprise en remportant le Tour de France 2020 à seulement 21 ans ?",
+    "question": "Which Slovenian rider caused a surprise by winning the 2020 Tour de France at just 21 years old?",
     "answers": [
       "Primož Roglič",
       "Tadej Pogačar",
@@ -378,9 +378,9 @@
   },
   {
     "id": "q_cyclisme_2",
-    "theme": "Cyclisme Route > 2010",
+    "theme": "Road Cycling > 2010",
     "difficulty": 3,
-    "question": "Combien de Tours de France Chris Froome a-t-il remportés entre 2013 et 2017 ?",
+    "question": "How many Tours de France did Chris Froome win between 2013 and 2017?",
     "answers": [
       "2 Tours",
       "3 Tours",
@@ -391,9 +391,9 @@
   },
   {
     "id": "q_cyclisme_3",
-    "theme": "Cyclisme Route > 2010",
+    "theme": "Road Cycling > 2010",
     "difficulty": 3,
-    "question": "Quel coureur danois a remporté le Tour de France en 2022 et 2023 avec l'équipe Jumbo-Visma ?",
+    "question": "Which Danish rider won the Tour de France in 2022 and 2023 with team Jumbo-Visma?",
     "answers": [
       "Mads Pedersen",
       "Jonas Vingegaard",
@@ -404,9 +404,9 @@
   },
   {
     "id": "q_cyclisme_4",
-    "theme": "Cyclisme Route > 2010",
+    "theme": "Road Cycling > 2010",
     "difficulty": 3,
-    "question": "Sur quelle montée mythique des Alpes se termine souvent une étape du Tour avec ses 21 virages ?",
+    "question": "Which mythical Alpine climb, famous for its 21 hairpin bends, often serves as a Tour stage finish?",
     "answers": [
       "L'Alpe d'Huez",
       "Le Galibier",
@@ -417,9 +417,9 @@
   },
   {
     "id": "q_cyclisme_5",
-    "theme": "Cyclisme Route > 2010",
+    "theme": "Road Cycling > 2010",
     "difficulty": 3,
-    "question": "Quel sommet isolé de Provence, surnommé le 'Géant de Provence', est redouté des cyclistes ?",
+    "question": "Which isolated Provençal summit, nicknamed the 'Giant of Provence', is feared by cyclists?",
     "answers": [
       "Le Galibier",
       "Le Tourmalet",
@@ -430,9 +430,9 @@
   },
   {
     "id": "q_cyclisme_6",
-    "theme": "Cyclisme Route > 2010",
+    "theme": "Road Cycling > 2010",
     "difficulty": 3,
-    "question": "Quelle équipe britannique a dominé le Tour de France entre 2012 et 2019 avec Wiggins et Froome ?",
+    "question": "Which British team dominated the Tour de France between 2012 and 2019 with Wiggins and Froome?",
     "answers": [
       "Quick-Step",
       "Team Sky / Ineos",
@@ -443,9 +443,9 @@
   },
   {
     "id": "q_cyclisme_7",
-    "theme": "Cyclisme Route > 2010",
+    "theme": "Road Cycling > 2010",
     "difficulty": 3,
-    "question": "Quel sprinteur slovaque a remporté le maillot vert à sept reprises entre 2012 et 2021 ?",
+    "question": "Which Slovak sprinter won the green jersey seven times between 2012 and 2021?",
     "answers": [
       "Mark Cavendish",
       "Peter Sagan",
@@ -456,9 +456,9 @@
   },
   {
     "id": "q_cyclisme_8",
-    "theme": "Cyclisme Route > 2010",
+    "theme": "Road Cycling > 2010",
     "difficulty": 3,
-    "question": "En 2021, quel coureur italien a remporté le mythique Paris-Roubaix surnommé 'l'Enfer du Nord' ?",
+    "question": "In 2021, which Italian rider won the legendary Paris-Roubaix nicknamed 'the Hell of the North'?",
     "answers": [
       "Wout van Aert",
       "Filippo Ganna",
@@ -469,9 +469,9 @@
   },
   {
     "id": "q_cyclisme_9",
-    "theme": "Cyclisme Route > 2010",
+    "theme": "Road Cycling > 2010",
     "difficulty": 3,
-    "question": "Quel col pyrénéen, le plus haut col routier des Pyrénées françaises, est régulièrement au programme ?",
+    "question": "Which Pyrenean pass, the highest road pass in the French Pyrenees, regularly features on the route?",
     "answers": [
       "Le Col d'Aubisque",
       "Le Col du Tourmalet",
@@ -482,9 +482,9 @@
   },
   {
     "id": "q_cyclisme_10",
-    "theme": "Cyclisme Route > 2010",
+    "theme": "Road Cycling > 2010",
     "difficulty": 3,
-    "question": "Quel coureur britannique a remporté le Tour de France 2012, premier britannique vainqueur ?",
+    "question": "Which British rider won the 2012 Tour de France, the first British winner?",
     "answers": [
       "Chris Froome",
       "Geraint Thomas",
@@ -495,9 +495,9 @@
   },
   {
     "id": "q_cyclisme_11",
-    "theme": "Cyclisme Route > 2010",
+    "theme": "Road Cycling > 2010",
     "difficulty": 3,
-    "question": "Quelle ascension finale spectaculaire a vu Pogačar remporter le Tour 2020 lors du contre-la-montre ?",
+    "question": "Which spectacular final climb saw Pogačar win the 2020 Tour during the time trial?",
     "answers": [
       "La Planche des Belles Filles",
       "Le Puy Mary",
@@ -508,22 +508,22 @@
   },
   {
     "id": "q_cyclisme_12",
-    "theme": "Cyclisme Route > 2010",
+    "theme": "Road Cycling > 2010",
     "difficulty": 3,
-    "question": "Quel coureur colombien a terminé plusieurs fois sur le podium du Tour dans les années 2010 ?",
+    "question": "Which Colombian rider finished on the Tour podium several times during the 2010s?",
     "answers": [
       "Egan Bernal",
       "Rigoberto Urán",
       "Nairo Quintana",
-      "Tous ces coureurs"
+      "All of these riders"
     ],
     "correct": 3
   },
   {
     "id": "q_cyclisme_13",
-    "theme": "Cyclisme Route > 2010",
+    "theme": "Road Cycling > 2010",
     "difficulty": 3,
-    "question": "Quelle ville française accueille traditionnellement l'arrivée finale du Tour sur les Champs-Élysées ?",
+    "question": "Which French city traditionally hosts the Tour's final finish on the Champs-Élysées?",
     "answers": [
       "Paris",
       "Lyon",
@@ -534,9 +534,9 @@
   },
   {
     "id": "q_cyclisme_14",
-    "theme": "Cyclisme Route > 2010",
+    "theme": "Road Cycling > 2010",
     "difficulty": 3,
-    "question": "Quel jeune prodige belge a remporté la Vuelta 2022 et le Tour d'Italie 2024 ?",
+    "question": "Which young Belgian prodigy won the 2022 Vuelta and the 2024 Giro d'Italia?",
     "answers": [
       "Wout van Aert",
       "Jasper Philipsen",

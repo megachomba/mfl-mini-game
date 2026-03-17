@@ -1,9 +1,9 @@
 [
   {
     "id": "q_guitare_1",
-    "theme": "La Guitare",
+    "theme": "Guitar",
     "difficulty": 1,
-    "question": "Combien de cordes possède une guitare classique standard ?",
+    "question": "How many strings does a standard classical guitar have?",
     "answers": [
       "12",
       "8",
@@ -14,9 +14,9 @@
   },
   {
     "id": "q_guitare_2",
-    "theme": "La Guitare",
+    "theme": "Guitar",
     "difficulty": 1,
-    "question": "Quel guitariste est surnommé 'Slowhand' ?",
+    "question": "Which guitarist is nicknamed 'Slowhand'?",
     "answers": [
       "Jimi Hendrix",
       "Eddie Van Halen",
@@ -27,9 +27,9 @@
   },
   {
     "id": "q_guitare_3",
-    "theme": "La Guitare",
+    "theme": "Guitar",
     "difficulty": 1,
-    "question": "Quelle marque a créé le modèle Stratocaster ?",
+    "question": "Which brand created the Stratocaster model?",
     "answers": [
       "Fender",
       "Yamaha",
@@ -40,9 +40,9 @@
   },
   {
     "id": "q_guitare_4",
-    "theme": "La Guitare",
+    "theme": "Guitar",
     "difficulty": 1,
-    "question": "Sur quel album de Pink Floyd joue David Gilmour avec sa Black Strat en 1973 ?",
+    "question": "On which Pink Floyd album does David Gilmour play his Black Strat in 1973?",
     "answers": [
       "Wish You Were Here",
       "The Dark Side of the Moon",
@@ -53,9 +53,9 @@
   },
   {
     "id": "q_guitare_5",
-    "theme": "La Guitare",
+    "theme": "Guitar",
     "difficulty": 1,
-    "question": "Quel guitariste de blues a donné son nom à une Gibson signature rouge cerise appelée 'Lucille' ?",
+    "question": "Which blues guitarist lent his name to a cherry-red Gibson signature guitar called 'Lucille'?",
     "answers": [
       "B.B. King",
       "Albert King",
@@ -66,22 +66,22 @@
   },
   {
     "id": "q_guitare_6",
-    "theme": "La Guitare",
+    "theme": "Guitar",
     "difficulty": 1,
-    "question": "Quelle technique de jeu à la guitare consiste à frapper les cordes avec le pouce droit pour créer un son percussif ?",
+    "question": "Which guitar playing technique involves striking the strings with the right thumb to create a percussive sound?",
     "answers": [
-      "Le sweeping",
-      "Le tapping",
-      "Le picking",
-      "Le slapping"
+      "Sweeping",
+      "Tapping",
+      "Picking",
+      "Slapping"
     ],
     "correct": 3
   },
   {
     "id": "q_guitare_7",
-    "theme": "La Guitare",
+    "theme": "Guitar",
     "difficulty": 1,
-    "question": "Quel luthier espagnol du 19ème siècle a révolutionné la construction de la guitare classique moderne ?",
+    "question": "Which 19th-century Spanish luthier revolutionized the construction of the modern classical guitar?",
     "answers": [
       "José Ramírez",
       "Ignacio Fleta",
@@ -92,9 +92,9 @@
   },
   {
     "id": "q_guitare_8",
-    "theme": "La Guitare",
+    "theme": "Guitar",
     "difficulty": 1,
-    "question": "Quel guitariste de jazz est célèbre pour avoir joué sur une guitare Selmer-Maccaferri malgré deux doigts paralysés ?",
+    "question": "Which jazz guitarist is famous for playing a Selmer-Maccaferri guitar despite having two paralyzed fingers?",
     "answers": [
       "Joe Pass",
       "Wes Montgomery",
@@ -105,22 +105,22 @@
   },
   {
     "id": "q_guitare_9",
-    "theme": "La Guitare",
+    "theme": "Guitar",
     "difficulty": 1,
-    "question": "Quel type de bois est traditionnellement utilisé pour la table d'harmonie d'une guitare classique de haute qualité ?",
+    "question": "What type of wood is traditionally used for the soundboard of a high-quality classical guitar?",
     "answers": [
-      "L'épicéa (spruce)",
-      "Le chêne",
-      "L'orme",
-      "Le pin"
+      "Spruce",
+      "Oak",
+      "Elm",
+      "Pine"
     ],
     "correct": 0
   },
   {
     "id": "q_guitare_10",
-    "theme": "La Guitare",
+    "theme": "Guitar",
     "difficulty": 1,
-    "question": "Quel guitariste a développé la technique du 'two-hand tapping' popularisée dans 'Eruption' (1978) ?",
+    "question": "Which guitarist developed the two-hand tapping technique popularized in 'Eruption' (1978)?",
     "answers": [
       "Joe Satriani",
       "Yngwie Malmsteen",
@@ -131,22 +131,22 @@
   },
   {
     "id": "q_guitare_11",
-    "theme": "La Guitare",
+    "theme": "Guitar",
     "difficulty": 1,
-    "question": "Combien de frettes possède généralement une guitare électrique Fender Stratocaster standard ?",
+    "question": "How many frets does a standard Fender Stratocaster electric guitar typically have?",
     "answers": [
-      "24 frettes",
-      "21 ou 22 frettes",
-      "18 frettes",
-      "27 frettes"
+      "24 frets",
+      "21 or 22 frets",
+      "18 frets",
+      "27 frets"
     ],
     "correct": 1
   },
   {
     "id": "q_guitare_12",
-    "theme": "La Guitare",
+    "theme": "Guitar",
     "difficulty": 1,
-    "question": "Quel guitariste flamenco virtuose a été le premier à enregistrer en solo 'Entre Dos Aguas' en 1973 ?",
+    "question": "Which virtuoso flamenco guitarist was the first to record 'Entre Dos Aguas' as a solo in 1973?",
     "answers": [
       "Tomatito",
       "Manolo Sanlúcar",
@@ -157,35 +157,35 @@
   },
   {
     "id": "q_guitare_13",
-    "theme": "La Guitare",
+    "theme": "Guitar",
     "difficulty": 1,
-    "question": "Quel modèle de guitare Gibson était la signature de Jimmy Page lors de ses années avec Led Zeppelin ?",
+    "question": "Which Gibson guitar model was Jimmy Page's signature instrument during his years with Led Zeppelin?",
     "answers": [
-      "La Gibson ES-335",
-      "La Gibson SG",
-      "La Gibson Les Paul",
-      "La Gibson Flying V"
+      "The Gibson ES-335",
+      "The Gibson SG",
+      "The Gibson Les Paul",
+      "The Gibson Flying V"
     ],
     "correct": 2
   },
   {
     "id": "q_guitare_14",
-    "theme": "La Guitare",
+    "theme": "Guitar",
     "difficulty": 1,
-    "question": "Dans quelle ville américaine se trouve le siège historique de la marque Gibson Guitar Corporation ?",
+    "question": "In which American city is the historic headquarters of Gibson Guitar Corporation located?",
     "answers": [
       "Chicago, Illinois",
       "Detroit, Michigan",
       "Nashville, Tennessee",
-      "Los Angeles, Californie"
+      "Los Angeles, California"
     ],
     "correct": 2
   },
   {
     "id": "q_rapfr_1",
-    "theme": "Rap Français Ancien (avant 2010)",
+    "theme": "Classic French Rap (pre-2010)",
     "difficulty": 2,
-    "question": "Quel groupe de rap marseillais a sorti le célèbre album 'L'École du Micro d'Argent' en 1997 ?",
+    "question": "Which Marseille rap group released the famous album 'L'École du Micro d'Argent' in 1997?",
     "answers": [
       "NTM",
       "IAM",
@@ -196,9 +196,9 @@
   },
   {
     "id": "q_rapfr_2",
-    "theme": "Rap Français Ancien (avant 2010)",
+    "theme": "Classic French Rap (pre-2010)",
     "difficulty": 2,
-    "question": "Quel album de Booba sorti en 2006 contient le titre 'Boulbi' ?",
+    "question": "Which Booba album released in 2006 contains the track 'Boulbi'?",
     "answers": [
       "Temps mort",
       "0.9",
@@ -209,22 +209,22 @@
   },
   {
     "id": "q_rapfr_3",
-    "theme": "Rap Français Ancien (avant 2010)",
+    "theme": "Classic French Rap (pre-2010)",
     "difficulty": 2,
-    "question": "Quel duo forme le groupe NTM ?",
+    "question": "Which duo forms the group NTM?",
     "answers": [
-      "Doc Gyneco et Stomy Bugsy",
-      "Booba et Rohff",
-      "Kool Shen et Joey Starr",
-      "Akhenaton et Shurik'n"
+      "Doc Gyneco and Stomy Bugsy",
+      "Booba and Rohff",
+      "Kool Shen and Joey Starr",
+      "Akhenaton and Shurik'n"
     ],
     "correct": 2
   },
   {
     "id": "q_rapfr_4",
-    "theme": "Rap Français Ancien (avant 2010)",
+    "theme": "Classic French Rap (pre-2010)",
     "difficulty": 2,
-    "question": "Quel rappeur du groupe IAM est aussi connu sous le nom de Malek Brahimi ?",
+    "question": "Which rapper from the group IAM is also known by the name Malek Brahimi?",
     "answers": [
       "Akhenaton",
       "Shurik'n",
@@ -235,9 +235,9 @@
   },
   {
     "id": "q_rapfr_5",
-    "theme": "Rap Français Ancien (avant 2010)",
+    "theme": "Classic French Rap (pre-2010)",
     "difficulty": 2,
-    "question": "Quel album de MC Solaar sorti en 1991 contient le hit 'Caroline' ?",
+    "question": "Which MC Solaar album released in 1991 contains the hit 'Caroline'?",
     "answers": [
       "Paradisiaque",
       "Qui sème le vent récolte le tempo",
@@ -248,9 +248,9 @@
   },
   {
     "id": "q_rapfr_6",
-    "theme": "Rap Français Ancien (avant 2010)",
+    "theme": "Classic French Rap (pre-2010)",
     "difficulty": 2,
-    "question": "Quel groupe a sorti l'album 'Les Princes de la Ville' en 1999 ?",
+    "question": "Which group released the album 'Les Princes de la Ville' in 1999?",
     "answers": [
       "113",
       "Manau",
@@ -261,9 +261,9 @@
   },
   {
     "id": "q_rapfr_7",
-    "theme": "Rap Français Ancien (avant 2010)",
+    "theme": "Classic French Rap (pre-2010)",
     "difficulty": 2,
-    "question": "Quel rappeur marseillais a sorti l'album 'La Fierté des nôtres' en 2004 ?",
+    "question": "Which Marseille rapper released the album 'La Fierté des nôtres' in 2004?",
     "answers": [
       "Soprano",
       "Sinik",
@@ -274,9 +274,9 @@
   },
   {
     "id": "q_rapfr_8",
-    "theme": "Rap Français Ancien (avant 2010)",
+    "theme": "Classic French Rap (pre-2010)",
     "difficulty": 2,
-    "question": "Quel groupe de rap a sorti le titre 'Gravé dans la roche' en 2003 ?",
+    "question": "Which rap group released the track 'Gravé dans la roche' in 2003?",
     "answers": [
       "Sniper",
       "La Fouine",
@@ -287,9 +287,9 @@
   },
   {
     "id": "q_rapfr_9",
-    "theme": "Rap Français Ancien (avant 2010)",
+    "theme": "Classic French Rap (pre-2010)",
     "difficulty": 2,
-    "question": "Quel groupe breton a connu un succès inattendu avec 'La tribu de Dana' en 1998 ?",
+    "question": "Which Breton group had an unexpected success with 'La tribu de Dana' in 1998?",
     "answers": [
       "113",
       "Manau",
@@ -300,9 +300,9 @@
   },
   {
     "id": "q_rapfr_10",
-    "theme": "Rap Français Ancien (avant 2010)",
+    "theme": "Classic French Rap (pre-2010)",
     "difficulty": 2,
-    "question": "Quel album mythique de NTM est sorti en 1998 ?",
+    "question": "Which legendary NTM album was released in 1998?",
     "answers": [
       "Authentik",
       "Suprême NTM",
@@ -313,9 +313,9 @@
   },
   {
     "id": "q_rapfr_11",
-    "theme": "Rap Français Ancien (avant 2010)",
+    "theme": "Classic French Rap (pre-2010)",
     "difficulty": 2,
-    "question": "Quelle rappeuse française a collaboré avec Vitaa sur le titre 'Confessions Nocturnes' ?",
+    "question": "Which French female rapper collaborated with Vitaa on the track 'Confessions Nocturnes'?",
     "answers": [
       "Keny Arkana",
       "Diam's",
@@ -326,9 +326,9 @@
   },
   {
     "id": "q_rapfr_12",
-    "theme": "Rap Français Ancien (avant 2010)",
+    "theme": "Classic French Rap (pre-2010)",
     "difficulty": 2,
-    "question": "Quel groupe parisien réunit Rim'K, AP et Mokobé ?",
+    "question": "Which Parisian group brings together Rim'K, AP, and Mokobé?",
     "answers": [
       "Mafia K'1 Fry",
       "113",
@@ -339,9 +339,9 @@
   },
   {
     "id": "q_rapfr_13",
-    "theme": "Rap Français Ancien (avant 2010)",
+    "theme": "Classic French Rap (pre-2010)",
     "difficulty": 2,
-    "question": "Sur quel album de IAM retrouve-t-on le titre 'Petit frère' avec Shurik'n ?",
+    "question": "On which IAM album can the track 'Petit frère' featuring Shurik'n be found?",
     "answers": [
       "Ombre est Lumière",
       "L'École du Micro d'Argent",
@@ -352,9 +352,9 @@
   },
   {
     "id": "q_rapfr_14",
-    "theme": "Rap Français Ancien (avant 2010)",
+    "theme": "Classic French Rap (pre-2010)",
     "difficulty": 2,
-    "question": "Quel rappeur est associé au label Time Bomb et au collectif Lunatic avec Ali ?",
+    "question": "Which rapper is associated with the Time Bomb label and the Lunatic collective with Ali?",
     "answers": [
       "La Fouine",
       "Rohff",
@@ -365,61 +365,61 @@
   },
   {
     "id": "q_corps_1",
-    "theme": "Corps de Fonctions Asymptotiquement Optimaux",
+    "theme": "Asymptotically Optimal Function Fields",
     "difficulty": 3,
-    "question": "Quels deux mathématiciens soviétiques ont établi en 1983 la borne supérieure asymptotique du nombre de points d'une courbe sur un corps fini ?",
+    "question": "Which two Soviet mathematicians established in 1983 the asymptotic upper bound on the number of points of a curve over a finite field?",
     "answers": [
-      "Drinfeld et Vladut",
-      "Gauss et Euler",
-      "Kolmogorov et Arnold",
-      "Gelfand et Naimark"
+      "Drinfeld and Vladut",
+      "Gauss and Euler",
+      "Kolmogorov and Arnold",
+      "Gelfand and Naimark"
     ],
     "correct": 0
   },
   {
     "id": "q_corps_2",
-    "theme": "Corps de Fonctions Asymptotiquement Optimaux",
+    "theme": "Asymptotically Optimal Function Fields",
     "difficulty": 3,
-    "question": "En 1995, quels deux mathématiciens ont construit une tour explicite de corps de fonctions atteignant la borne de Drinfeld-Vladut ?",
+    "question": "In 1995, which two mathematicians constructed an explicit tower of function fields achieving the Drinfeld-Vladut bound?",
     "answers": [
-      "Tsfasman et Zink",
-      "Garcia et Stichtenoth",
-      "Goppa et Ihara",
-      "Weil et Serre"
+      "Tsfasman and Zink",
+      "Garcia and Stichtenoth",
+      "Goppa and Ihara",
+      "Weil and Serre"
     ],
     "correct": 1
   },
   {
     "id": "q_corps_3",
-    "theme": "Corps de Fonctions Asymptotiquement Optimaux",
+    "theme": "Asymptotically Optimal Function Fields",
     "difficulty": 3,
-    "question": "Dans la théorie des corps de fonctions, quel ratio est crucial pour mesurer l'optimalité asymptotique ?",
+    "question": "In the theory of function fields, which ratio is crucial for measuring asymptotic optimality?",
     "answers": [
-      "Le rapport N(q)/g (nombre de points rationnels sur genre)",
-      "Le rapport longueur/dimension",
-      "Le rapport erreur/correction",
-      "Le rapport temps/espace"
+      "The ratio N(q)/g (number of rational points over genus)",
+      "The length/dimension ratio",
+      "The error/correction ratio",
+      "The time/space ratio"
     ],
     "correct": 0
   },
   {
     "id": "q_corps_4",
-    "theme": "Corps de Fonctions Asymptotiquement Optimaux",
+    "theme": "Asymptotically Optimal Function Fields",
     "difficulty": 3,
-    "question": "Quelle borne célèbre en théorie des codes les tours de Garcia-Stichtenoth permettent-elles de dépasser ?",
+    "question": "Which famous bound in coding theory do Garcia-Stichtenoth towers allow to exceed?",
     "answers": [
-      "La borne de Shannon",
-      "La borne de Gilbert-Varshamov",
-      "La borne de Nyquist",
-      "La borne de Hamming"
+      "The Shannon bound",
+      "The Gilbert-Varshamov bound",
+      "The Nyquist bound",
+      "The Hamming bound"
     ],
     "correct": 1
   },
   {
     "id": "q_corps_5",
-    "theme": "Corps de Fonctions Asymptotiquement Optimaux",
+    "theme": "Asymptotically Optimal Function Fields",
     "difficulty": 3,
-    "question": "Quel mathématicien russe a donné son nom aux codes de géométrie algébrique construits à partir de courbes ?",
+    "question": "Which Russian mathematician gave his name to algebraic geometry codes constructed from curves?",
     "answers": [
       "Valery Goppa",
       "Andrey Kolmogorov",
@@ -430,61 +430,61 @@
   },
   {
     "id": "q_corps_6",
-    "theme": "Corps de Fonctions Asymptotiquement Optimaux",
+    "theme": "Asymptotically Optimal Function Fields",
     "difficulty": 3,
-    "question": "Pour quel type de corps finis la borne de Drinfeld-Vladut est-elle atteinte par les tours optimales ?",
+    "question": "For which type of finite fields is the Drinfeld-Vladut bound achieved by optimal towers?",
     "answers": [
-      "Les corps premiers Fp",
-      "Les corps de cardinal carré (q²)",
-      "Les corps de caractéristique 2 uniquement",
-      "Tous les corps finis"
+      "Prime fields Fp",
+      "Fields of square cardinality (q²)",
+      "Fields of characteristic 2 only",
+      "All finite fields"
     ],
     "correct": 1
   },
   {
     "id": "q_corps_7",
-    "theme": "Corps de Fonctions Asymptotiquement Optimaux",
+    "theme": "Asymptotically Optimal Function Fields",
     "difficulty": 3,
-    "question": "Quel prix prestigieux Vladimir Drinfeld a-t-il reçu en 1990 pour ses travaux en géométrie algébrique ?",
+    "question": "Which prestigious prize did Vladimir Drinfeld receive in 1990 for his work in algebraic geometry?",
     "answers": [
-      "Le prix Nobel",
-      "La médaille Fields",
-      "Le prix Abel",
-      "Le prix Wolf"
+      "The Nobel Prize",
+      "The Fields Medal",
+      "The Abel Prize",
+      "The Wolf Prize"
     ],
     "correct": 1
   },
   {
     "id": "q_corps_8",
-    "theme": "Corps de Fonctions Asymptotiquement Optimaux",
+    "theme": "Asymptotically Optimal Function Fields",
     "difficulty": 3,
-    "question": "Quel théorème de 1982 par Tsfasman, Vladut et Zink a montré l'existence de codes dépassant la borne de Gilbert-Varshamov ?",
+    "question": "Which 1982 theorem by Tsfasman, Vladut, and Zink showed the existence of codes exceeding the Gilbert-Varshamov bound?",
     "answers": [
-      "Le théorème TVZ",
-      "Le théorème de Shannon",
-      "Le théorème de Fermat",
-      "Le théorème de Riemann-Roch"
+      "The TVZ theorem",
+      "The Shannon theorem",
+      "Fermat's theorem",
+      "The Riemann-Roch theorem"
     ],
     "correct": 0
   },
   {
     "id": "q_corps_9",
-    "theme": "Corps de Fonctions Asymptotiquement Optimaux",
+    "theme": "Asymptotically Optimal Function Fields",
     "difficulty": 3,
-    "question": "Quel type d'extensions sont utilisées dans les tours de Garcia-Stichtenoth ?",
+    "question": "What type of extensions are used in Garcia-Stichtenoth towers?",
     "answers": [
-      "Extensions de Kummer",
-      "Extensions d'Artin-Schreier",
-      "Extensions cyclotomiques",
-      "Extensions galoisiennes"
+      "Kummer extensions",
+      "Artin-Schreier extensions",
+      "Cyclotomic extensions",
+      "Galois extensions"
     ],
     "correct": 1
   },
   {
     "id": "q_corps_10",
-    "theme": "Corps de Fonctions Asymptotiquement Optimaux",
+    "theme": "Asymptotically Optimal Function Fields",
     "difficulty": 3,
-    "question": "Quel mathématicien a montré que les tours de Garcia-Stichtenoth proviennent de courbes modulaires de Drinfeld ?",
+    "question": "Which mathematician showed that Garcia-Stichtenoth towers arise from Drinfeld modular curves?",
     "answers": [
       "Noam Elkies",
       "Andrew Wiles",
@@ -495,22 +495,22 @@
   },
   {
     "id": "q_corps_11",
-    "theme": "Corps de Fonctions Asymptotiquement Optimaux",
+    "theme": "Asymptotically Optimal Function Fields",
     "difficulty": 3,
-    "question": "Qu'est-ce que le 'genre' d'un corps de fonctions en géométrie algébrique ?",
+    "question": "What is the 'genus' of a function field in algebraic geometry?",
     "answers": [
-      "Sa dimension",
-      "Un invariant mesurant la complexité de la courbe associée",
-      "Son nombre de points",
-      "Sa caractéristique"
+      "Its dimension",
+      "An invariant measuring the complexity of the associated curve",
+      "Its number of points",
+      "Its characteristic"
     ],
     "correct": 1
   },
   {
     "id": "q_corps_12",
-    "theme": "Corps de Fonctions Asymptotiquement Optimaux",
+    "theme": "Asymptotically Optimal Function Fields",
     "difficulty": 3,
-    "question": "Si q = p², quelle est la valeur de la borne de Drinfeld-Vladut A(q) ?",
+    "question": "If q = p², what is the value of the Drinfeld-Vladut bound A(q)?",
     "answers": [
       "q - 1",
       "√q - 1",
@@ -521,9 +521,9 @@
   },
   {
     "id": "q_corps_13",
-    "theme": "Corps de Fonctions Asymptotiquement Optimaux",
+    "theme": "Asymptotically Optimal Function Fields",
     "difficulty": 3,
-    "question": "À partir de quel cardinal de corps fini (q ≥ ?) les codes de géométrie algébrique peuvent-ils battre Gilbert-Varshamov ?",
+    "question": "From which finite field cardinality (q ≥ ?) can algebraic geometry codes beat Gilbert-Varshamov?",
     "answers": [
       "q ≥ 9",
       "q ≥ 49",
@@ -534,14 +534,14 @@
   },
   {
     "id": "q_corps_14",
-    "theme": "Corps de Fonctions Asymptotiquement Optimaux",
+    "theme": "Asymptotically Optimal Function Fields",
     "difficulty": 3,
-    "question": "Dans quel domaine pratique les codes issus des corps de fonctions optimaux sont-ils utilisés ?",
+    "question": "In which practical domain are codes derived from optimal function fields used?",
     "answers": [
-      "Les codes correcteurs d'erreurs pour les télécommunications",
-      "La prévision météorologique",
-      "La modélisation financière",
-      "Les moteurs de recherche"
+      "Error-correcting codes for telecommunications",
+      "Weather forecasting",
+      "Financial modeling",
+      "Search engines"
     ],
     "correct": 0
   }

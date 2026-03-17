@@ -3,7 +3,7 @@
     "id": "q_nz_1",
     "theme": "New Zealand",
     "difficulty": 1,
-    "question": "En quelle année les All Blacks ont-ils perdu contre la France en quarts de finale de la Coupe du Monde, événement considéré comme le plus grand choc de l'histoire du rugby ?",
+    "question": "In what year did the All Blacks lose to France in the World Cup quarter-finals, considered the greatest upset in rugby history?",
     "answers": [
       "2007",
       "2011",
@@ -16,7 +16,7 @@
     "id": "q_nz_2",
     "theme": "New Zealand",
     "difficulty": 1,
-    "question": "Quel club de Super Rugby basé à Wellington a remporté le premier titre de la franchise en 2016 ?",
+    "question": "Which Wellington-based Super Rugby club won its first franchise title in 2016?",
     "answers": [
       "Crusaders",
       "Hurricanes",
@@ -29,7 +29,7 @@
     "id": "q_nz_3",
     "theme": "New Zealand",
     "difficulty": 1,
-    "question": "Quel joueur des All Blacks détient le record du plus grand nombre de sélections internationales avec 148 capes ?",
+    "question": "Which All Blacks player holds the record for the most international caps with 148 appearances?",
     "answers": [
       "Dan Carter",
       "Richie McCaw",
@@ -42,12 +42,12 @@
     "id": "q_nz_4",
     "theme": "New Zealand",
     "difficulty": 1,
-    "question": "Quel traité signé en 1840 entre les chefs maoris et la Couronne britannique est considéré comme le document fondateur de la Nouvelle-Zélande ?",
+    "question": "Which treaty signed in 1840 between Maori chiefs and the British Crown is considered the founding document of New Zealand?",
     "answers": [
-      "Traité de Waitangi",
-      "Traité de Wellington",
-      "Traité d'Auckland",
-      "Traité de Rotorua"
+      "Treaty of Waitangi",
+      "Treaty of Wellington",
+      "Treaty of Auckland",
+      "Treaty of Rotorua"
     ],
     "correct": 0
   },
@@ -55,7 +55,7 @@
     "id": "q_nz_5",
     "theme": "New Zealand",
     "difficulty": 1,
-    "question": "Comment appelle-t-on la maison de réunion traditionnelle maorie, richement décorée de sculptures ?",
+    "question": "What is the traditional Maori meeting house, richly decorated with carvings, called?",
     "answers": [
       "Marae",
       "Wharenui",
@@ -68,7 +68,7 @@
     "id": "q_nz_6",
     "theme": "New Zealand",
     "difficulty": 1,
-    "question": "Quel art du tatouage traditionnel maori, réalisé sur le visage, représente l'identité et le statut social ?",
+    "question": "What traditional Maori tattooing art, applied to the face, represents identity and social status?",
     "answers": [
       "Tā moko",
       "Koru",
@@ -81,7 +81,7 @@
     "id": "q_nz_7",
     "theme": "New Zealand",
     "difficulty": 1,
-    "question": "Quel glacier de l'île du Sud, long de 12 km, descend jusqu'à 300 mètres au-dessus du niveau de la mer dans une forêt pluviale ?",
+    "question": "Which South Island glacier, 12 km long, descends to 300 metres above sea level into a rainforest?",
     "answers": [
       "Fox Glacier",
       "Franz Josef Glacier",
@@ -94,7 +94,7 @@
     "id": "q_nz_8",
     "theme": "New Zealand",
     "difficulty": 1,
-    "question": "Comment s'appelle le fjord spectaculaire du Fiordland National Park, considéré comme la \"huitième merveille du monde\" ?",
+    "question": "What is the name of the spectacular fjord in Fiordland National Park, considered the \"eighth wonder of the world\"?",
     "answers": [
       "Doubtful Sound",
       "Milford Sound",
@@ -107,7 +107,7 @@
     "id": "q_nz_9",
     "theme": "New Zealand",
     "difficulty": 1,
-    "question": "Quelle montagne, point culminant de la Nouvelle-Zélande à 3 724 mètres, porte le nom maori d'Aoraki ?",
+    "question": "Which mountain, New Zealand's highest peak at 3,724 metres, bears the Maori name Aoraki?",
     "answers": [
       "Mount Taranaki",
       "Mount Cook",
@@ -120,7 +120,7 @@
     "id": "q_nz_10",
     "theme": "New Zealand",
     "difficulty": 1,
-    "question": "En quelle année la Nouvelle-Zélande est-elle devenue le premier pays au monde à accorder le droit de vote aux femmes ?",
+    "question": "In what year did New Zealand become the first country in the world to grant women the right to vote?",
     "answers": [
       "1893",
       "1901",
@@ -133,7 +133,7 @@
     "id": "q_nz_11",
     "theme": "New Zealand",
     "difficulty": 1,
-    "question": "Quelle Première ministre néo-zélandaise a géré la crise des attentats de Christchurch en 2019 et la pandémie de COVID-19 ?",
+    "question": "Which New Zealand Prime Minister managed the Christchurch attack crisis in 2019 and the COVID-19 pandemic?",
     "answers": [
       "Helen Clark",
       "Jacinda Ardern",
@@ -146,7 +146,7 @@
     "id": "q_nz_12",
     "theme": "New Zealand",
     "difficulty": 1,
-    "question": "Quel réalisateur néo-zélandais a réalisé \"What We Do in the Shadows\" et \"Jojo Rabbit\" avant de diriger \"Thor: Ragnarok\" ?",
+    "question": "Which New Zealand director made \"What We Do in the Shadows\" and \"Jojo Rabbit\" before directing \"Thor: Ragnarok\"?",
     "answers": [
       "Peter Jackson",
       "Taika Waititi",
@@ -159,9 +159,9 @@
     "id": "q_nz_13",
     "theme": "New Zealand",
     "difficulty": 1,
-    "question": "Quel film de Jane Campion tourné en Nouvelle-Zélande a remporté la Palme d'Or à Cannes en 1993 ?",
+    "question": "Which Jane Campion film shot in New Zealand won the Palme d'Or at Cannes in 1993?",
     "answers": [
-      "La Leçon de piano",
+      "The Piano",
       "An Angel at My Table",
       "Bright Star",
       "The Power of the Dog"
@@ -172,7 +172,7 @@
     "id": "q_nz_14",
     "theme": "New Zealand",
     "difficulty": 1,
-    "question": "Quelle région viticole de l'île du Sud est mondialement réputée pour son Sauvignon Blanc et représente 75% des exportations de vin néo-zélandais ?",
+    "question": "Which South Island wine region is world-renowned for its Sauvignon Blanc and accounts for 75% of New Zealand's wine exports?",
     "answers": [
       "Hawke's Bay",
       "Central Otago",
@@ -185,7 +185,7 @@
     "id": "q_nba_1",
     "theme": "NBA Players (2015-2025)",
     "difficulty": 2,
-    "question": "Quel joueur français a remporté le titre de Defensive Player of the Year à trois reprises entre 2018 et 2021 ?",
+    "question": "Which French player won the Defensive Player of the Year award three times between 2018 and 2021?",
     "answers": [
       "Nicolas Batum",
       "Evan Fournier",
@@ -198,7 +198,7 @@
     "id": "q_nba_2",
     "theme": "NBA Players (2015-2025)",
     "difficulty": 2,
-    "question": "Quelle équipe a remporté le championnat NBA en 2016 après avoir été menée 3-1 en finales contre Golden State ?",
+    "question": "Which team won the 2016 NBA championship after being down 3-1 in the Finals against Golden State?",
     "answers": [
       "Miami Heat",
       "San Antonio Spurs",
@@ -211,7 +211,7 @@
     "id": "q_nba_3",
     "theme": "NBA Players (2015-2025)",
     "difficulty": 2,
-    "question": "Quel joueur a été drafté en première position par les San Antonio Spurs en 2023 ?",
+    "question": "Which player was drafted first overall by the San Antonio Spurs in 2023?",
     "answers": [
       "Victor Wembanyama",
       "Scoot Henderson",
@@ -224,12 +224,12 @@
     "id": "q_nba_4",
     "theme": "NBA Players (2015-2025)",
     "difficulty": 2,
-    "question": "Combien de titres NBA les Golden State Warriors ont-ils remportés entre 2015 et 2022 ?",
+    "question": "How many NBA titles did the Golden State Warriors win between 2015 and 2022?",
     "answers": [
-      "2 titres",
-      "3 titres",
-      "4 titres",
-      "5 titres"
+      "2 titles",
+      "3 titles",
+      "4 titles",
+      "5 titles"
     ],
     "correct": 2
   },
@@ -237,7 +237,7 @@
     "id": "q_nba_5",
     "theme": "NBA Players (2015-2025)",
     "difficulty": 2,
-    "question": "Quel joueur a remporté le MVP des finales NBA en 2019 avec les Toronto Raptors ?",
+    "question": "Which player won the NBA Finals MVP in 2019 with the Toronto Raptors?",
     "answers": [
       "Kyle Lowry",
       "Pascal Siakam",
@@ -250,7 +250,7 @@
     "id": "q_nba_6",
     "theme": "NBA Players (2015-2025)",
     "difficulty": 2,
-    "question": "Quel joueur français a joué pour les Charlotte Hornets de 2015 à 2020 avant de rejoindre les Los Angeles Clippers ?",
+    "question": "Which French player played for the Charlotte Hornets from 2015 to 2020 before joining the Los Angeles Clippers?",
     "answers": [
       "Rudy Gobert",
       "Nicolas Batum",
@@ -263,7 +263,7 @@
     "id": "q_nba_7",
     "theme": "NBA Players (2015-2025)",
     "difficulty": 2,
-    "question": "Qui a remporté le MVP de la saison régulière en 2023 ?",
+    "question": "Who won the regular season MVP award in 2023?",
     "answers": [
       "Giannis Antetokounmpo",
       "Nikola Jokic",
@@ -276,7 +276,7 @@
     "id": "q_nba_8",
     "theme": "NBA Players (2015-2025)",
     "difficulty": 2,
-    "question": "Quelle équipe a remporté le championnat NBA en 2021 après 50 ans d'attente ?",
+    "question": "Which team won the 2021 NBA championship after a 50-year wait?",
     "answers": [
       "Phoenix Suns",
       "Milwaukee Bucks",
@@ -289,7 +289,7 @@
     "id": "q_nba_9",
     "theme": "NBA Players (2015-2025)",
     "difficulty": 2,
-    "question": "Quel joueur français a été sélectionné au All-Star Game en 2025 lors de sa deuxième saison NBA ?",
+    "question": "Which French player was selected to the All-Star Game in 2025 during his second NBA season?",
     "answers": [
       "Rudy Gobert",
       "Nicolas Batum",
@@ -302,7 +302,7 @@
     "id": "q_nba_10",
     "theme": "NBA Players (2015-2025)",
     "difficulty": 2,
-    "question": "Quel joueur a remporté le MVP des finales NBA en 2020 avec les Lakers ?",
+    "question": "Which player won the NBA Finals MVP in 2020 with the Lakers?",
     "answers": [
       "Anthony Davis",
       "LeBron James",
@@ -315,7 +315,7 @@
     "id": "q_nba_11",
     "theme": "NBA Players (2015-2025)",
     "difficulty": 2,
-    "question": "Quelle équipe a échangé Kevin Durant contre un package incluant Mikal Bridges en 2023 ?",
+    "question": "Which team traded Kevin Durant for a package including Mikal Bridges in 2023?",
     "answers": [
       "Golden State Warriors",
       "Brooklyn Nets",
@@ -328,7 +328,7 @@
     "id": "q_nba_12",
     "theme": "NBA Players (2015-2025)",
     "difficulty": 2,
-    "question": "Quel joueur a rejoint les Lakers en 2018 après quatre saisons aux Cavaliers ?",
+    "question": "Which player joined the Lakers in 2018 after four seasons with the Cavaliers?",
     "answers": [
       "Kevin Love",
       "Kyrie Irving",
@@ -341,7 +341,7 @@
     "id": "q_nba_13",
     "theme": "NBA Players (2015-2025)",
     "difficulty": 2,
-    "question": "Qui a été nommé MVP de la saison régulière en 2024 ?",
+    "question": "Who was named regular season MVP in 2024?",
     "answers": [
       "Nikola Jokic",
       "Luka Doncic",
@@ -354,7 +354,7 @@
     "id": "q_nba_14",
     "theme": "NBA Players (2015-2025)",
     "difficulty": 2,
-    "question": "Quelle équipe a remporté le championnat NBA en 2024 ?",
+    "question": "Which team won the 2024 NBA championship?",
     "answers": [
       "Denver Nuggets",
       "Miami Heat",
@@ -367,12 +367,12 @@
     "id": "q_asse_1",
     "theme": "AS Saint-Étienne 2025-26",
     "difficulty": 3,
-    "question": "Combien de titres de champion de France l'AS Saint-Étienne a-t-elle remportés, record national ?",
+    "question": "How many French league titles has AS Saint-Étienne won, a national record?",
     "answers": [
-      "8 titres",
-      "10 titres",
-      "12 titres",
-      "7 titres"
+      "8 titles",
+      "10 titles",
+      "12 titles",
+      "7 titles"
     ],
     "correct": 1
   },
@@ -380,7 +380,7 @@
     "id": "q_asse_2",
     "theme": "AS Saint-Étienne 2025-26",
     "difficulty": 3,
-    "question": "Comment s'appelle le stade de l'AS Saint-Étienne, surnommé 'Le Chaudron' ?",
+    "question": "What is the name of AS Saint-Étienne's stadium, nicknamed 'The Cauldron'?",
     "answers": [
       "Parc des Princes",
       "Vélodrome",
@@ -393,7 +393,7 @@
     "id": "q_asse_3",
     "theme": "AS Saint-Étienne 2025-26",
     "difficulty": 3,
-    "question": "Contre quelle équipe l'ASSE dispute-t-elle le derby le plus intense du football français ?",
+    "question": "Against which team does ASSE play the most intense derby in French football?",
     "answers": [
       "Paris Saint-Germain",
       "Olympique Lyonnais",
@@ -406,7 +406,7 @@
     "id": "q_asse_4",
     "theme": "AS Saint-Étienne 2025-26",
     "difficulty": 3,
-    "question": "En quelle année l'AS Saint-Étienne a-t-elle atteint la finale de la Coupe d'Europe des clubs champions ?",
+    "question": "In what year did AS Saint-Étienne reach the European Cup of Champions final?",
     "answers": [
       "1975",
       "1976",
@@ -419,7 +419,7 @@
     "id": "q_asse_5",
     "theme": "AS Saint-Étienne 2025-26",
     "difficulty": 3,
-    "question": "Quel joueur légendaire de l'ASSE, surnommé 'L'Ange Vert', est considéré comme l'un des plus grands français ?",
+    "question": "Which legendary ASSE player, nicknamed 'The Green Angel', is considered one of the greatest French players?",
     "answers": [
       "Dominique Rocheteau",
       "Michel Platini",
@@ -432,7 +432,7 @@
     "id": "q_asse_6",
     "theme": "AS Saint-Étienne 2025-26",
     "difficulty": 3,
-    "question": "En quelle année l'ASSE a-t-elle été reléguée en Ligue 2 avant de remonter en 2024 ?",
+    "question": "In what year was ASSE relegated to Ligue 2 before being promoted back in 2024?",
     "answers": [
       "2020",
       "2021",
@@ -445,7 +445,7 @@
     "id": "q_asse_7",
     "theme": "AS Saint-Étienne 2025-26",
     "difficulty": 3,
-    "question": "Quel entraîneur emblématique a mené l'ASSE à ses plus grands succès dans les années 1970 ?",
+    "question": "Which iconic manager led ASSE to its greatest successes in the 1970s?",
     "answers": [
       "Robert Herbin",
       "Aimé Jacquet",
@@ -458,12 +458,12 @@
     "id": "q_asse_8",
     "theme": "AS Saint-Étienne 2025-26",
     "difficulty": 3,
-    "question": "Combien de fois l'AS Saint-Étienne a-t-elle remporté la Coupe de France ?",
+    "question": "How many times has AS Saint-Étienne won the Coupe de France?",
     "answers": [
-      "4 fois",
-      "5 fois",
-      "6 fois",
-      "7 fois"
+      "4 times",
+      "5 times",
+      "6 times",
+      "7 times"
     ],
     "correct": 2
   },
@@ -471,7 +471,7 @@
     "id": "q_asse_9",
     "theme": "AS Saint-Étienne 2025-26",
     "difficulty": 3,
-    "question": "Quel joueur argentin a marqué l'histoire de l'ASSE dans les années 1970 ?",
+    "question": "Which Argentine player made his mark on ASSE's history in the 1970s?",
     "answers": [
       "Diego Maradona",
       "Osvaldo Piazza",
@@ -484,12 +484,12 @@
     "id": "q_asse_10",
     "theme": "AS Saint-Étienne 2025-26",
     "difficulty": 3,
-    "question": "Quelle est la capacité approximative du stade Geoffroy-Guichard ?",
+    "question": "What is the approximate capacity of the Geoffroy-Guichard stadium?",
     "answers": [
-      "32 000 places",
-      "42 000 places",
-      "52 000 places",
-      "22 000 places"
+      "32,000 seats",
+      "42,000 seats",
+      "52,000 seats",
+      "22,000 seats"
     ],
     "correct": 1
   },
@@ -497,12 +497,12 @@
     "id": "q_asse_11",
     "theme": "AS Saint-Étienne 2025-26",
     "difficulty": 3,
-    "question": "En quelle décennie l'AS Saint-Étienne a-t-elle dominé le football français en remportant sept titres ?",
+    "question": "In which decade did AS Saint-Étienne dominate French football by winning seven titles?",
     "answers": [
-      "Années 1960",
-      "Années 1970",
-      "Années 1980",
-      "Années 1990"
+      "1960s",
+      "1970s",
+      "1980s",
+      "1990s"
     ],
     "correct": 1
   },
@@ -510,7 +510,7 @@
     "id": "q_asse_12",
     "theme": "AS Saint-Étienne 2025-26",
     "difficulty": 3,
-    "question": "Quel gardien légendaire a défendu les buts de l'ASSE pendant plus de 20 ans ?",
+    "question": "Which legendary goalkeeper defended ASSE's goal for more than 20 years?",
     "answers": [
       "Fabien Barthez",
       "Ivan Curkovic",
@@ -523,7 +523,7 @@
     "id": "q_asse_13",
     "theme": "AS Saint-Étienne 2025-26",
     "difficulty": 3,
-    "question": "Quel joueur français, formé à l'ASSE, est devenu champion du monde en 2018 ?",
+    "question": "Which French player, trained at ASSE, became a World Cup champion in 2018?",
     "answers": [
       "Anthony Martial",
       "Olivier Giroud",
@@ -536,7 +536,7 @@
     "id": "q_asse_14",
     "theme": "AS Saint-Étienne 2025-26",
     "difficulty": 3,
-    "question": "Contre quelle équipe allemande l'ASSE a-t-elle perdu la finale de la Coupe d'Europe en 1976 ?",
+    "question": "Against which German team did ASSE lose the European Cup final in 1976?",
     "answers": [
       "Bayern Munich",
       "Borussia Mönchengladbach",

@@ -3,21 +3,31 @@ import { useEffect, useMemo, useRef } from 'react';
 import { useGraph } from '@react-three/fiber';
 import * as THREE from 'three';
 import { SkeletonUtils } from 'three-stdlib';
+import { getModelById, CHARACTER_MODELS } from '../data/characterModels';
 
-export const Character = ({ position, rotation, isMoving, color }: { position: [number, number, number], rotation: number, isMoving: boolean, color?: string }) => {
+interface CharacterProps {
+  position: [number, number, number];
+  rotation: number;
+  isMoving: boolean;
+  color?: string;
+  modelId?: string;
+}
+
+export const Character = ({ position, rotation, isMoving, color, modelId = 'soldier' }: CharacterProps) => {
   const group = useRef<THREE.Group>(null);
-  const { scene, animations } = useGLTF('/models/soldier.glb');
-  
+  const modelConfig = getModelById(modelId);
+  const { scene, animations } = useGLTF(modelConfig.file);
+
   // Clone scene for each instance
   const clone = useMemo(() => SkeletonUtils.clone(scene), [scene]);
-  useGraph(clone); // Ensure nodes are processed
-  
+  useGraph(clone);
+
   const { actions } = useAnimations(animations, group);
 
   useEffect(() => {
-      const idleAction = actions['Idle'];
-      const runAction = actions['Run'];
-      
+      const idleAction = actions[modelConfig.idleAnim];
+      const runAction = actions[modelConfig.runAnim];
+
       if (idleAction && runAction) {
           if (isMoving) {
               idleAction.fadeOut(0.2);
@@ -27,15 +37,14 @@ export const Character = ({ position, rotation, isMoving, color }: { position: [
               idleAction.reset().fadeIn(0.2).play();
           }
       }
-  }, [isMoving, actions]);
+  }, [isMoving, actions, modelConfig.idleAnim, modelConfig.runAnim]);
 
-  // Color handling
+  // Color handling - only for soldier model which has the vanguard_Mesh
   useEffect(() => {
-      if (color) {
+      if (color && modelId === 'soldier') {
         clone.traverse((child) => {
             if ((child as THREE.Mesh).isMesh) {
                  const mesh = child as THREE.Mesh;
-                 // The soldier has specific meshes. 'vanguard_Mesh' is the main body.
                  if (mesh.name === 'vanguard_Mesh') {
                     mesh.material = (mesh.material as THREE.Material).clone();
                     (mesh.material as THREE.MeshStandardMaterial).color.set(color);
@@ -43,14 +52,14 @@ export const Character = ({ position, rotation, isMoving, color }: { position: [
             }
         });
       }
-  }, [color, clone]);
-  
+  }, [color, clone, modelId]);
+
   return (
     <group ref={group} position={position} rotation={[0, rotation, 0]} dispose={null}>
-      {/* Offset to align feet with bottom of collider (assuming collider center is passed as position) */}
-      <primitive object={clone} position={[0, -0.9, 0]} scale={1.0} />
+      <primitive object={clone} position={[0, modelConfig.yOffset, 0]} scale={modelConfig.scale} />
     </group>
   );
 };
 
-useGLTF.preload('/models/soldier.glb');
+// Preload all models
+CHARACTER_MODELS.forEach(m => useGLTF.preload(m.file));

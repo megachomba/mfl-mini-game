@@ -1,22 +1,22 @@
 [
   {
     "id": "q_neutral_1",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quel traité de 1648 a mis fin à la guerre de Trente Ans ?",
+    "question": "Which 1648 treaty ended the Thirty Years' War?",
     "answers": [
-      "Le traité d'Utrecht",
-      "Les traités de Westphalie",
-      "Le traité de Nimègue",
-      "Le traité d'Augsbourg"
+      "The Treaty of Utrecht",
+      "The Peace of Westphalia",
+      "The Treaty of Nijmegen",
+      "The Peace of Augsburg"
     ],
     "correct": 1
   },
   {
     "id": "q_neutral_2",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quel compositeur a écrit l'opéra 'Wozzeck' ?",
+    "question": "Which composer wrote the opera 'Wozzeck'?",
     "answers": [
       "Arnold Schönberg",
       "Anton Webern",
@@ -27,22 +27,22 @@
   },
   {
     "id": "q_neutral_3",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quelle civilisation a inventé l'écriture cunéiforme ?",
+    "question": "Which civilization invented cuneiform writing?",
     "answers": [
-      "Les Sumériens",
-      "Les Égyptiens",
-      "Les Phéniciens",
-      "Les Hittites"
+      "The Sumerians",
+      "The Egyptians",
+      "The Phoenicians",
+      "The Hittites"
     ],
     "correct": 0
   },
   {
     "id": "q_neutral_4",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quel philosophe a développé le concept de 'volonté de puissance' ?",
+    "question": "Which philosopher developed the concept of the 'will to power'?",
     "answers": [
       "Arthur Schopenhauer",
       "Georg Hegel",
@@ -53,12 +53,12 @@
   },
   {
     "id": "q_neutral_5",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quel peintre est l'auteur du triptyque 'Le Jardin des délices' ?",
+    "question": "Which painter created the triptych 'The Garden of Earthly Delights'?",
     "answers": [
-      "Pieter Brueghel l'Ancien",
-      "Jérôme Bosch",
+      "Pieter Bruegel the Elder",
+      "Hieronymus Bosch",
       "Jan van Eyck",
       "Albrecht Dürer"
     ],
@@ -66,9 +66,9 @@
   },
   {
     "id": "q_neutral_6",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quel mathématicien a démontré l'incomplétude de l'arithmétique en 1931 ?",
+    "question": "Which mathematician proved the incompleteness of arithmetic in 1931?",
     "answers": [
       "Alan Turing",
       "David Hilbert",
@@ -79,12 +79,12 @@
   },
   {
     "id": "q_neutral_7",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quelle bataille de 1805 est considérée comme le chef-d'œuvre tactique de Napoléon ?",
+    "question": "Which 1805 battle is considered Napoleon's greatest tactical masterpiece?",
     "answers": [
       "Austerlitz",
-      "Iéna",
+      "Jena",
       "Wagram",
       "Marengo"
     ],
@@ -92,9 +92,9 @@
   },
   {
     "id": "q_neutral_8",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quel auteur a écrit 'Le Procès' et 'La Métamorphose' ?",
+    "question": "Which author wrote 'The Trial' and 'The Metamorphosis'?",
     "answers": [
       "Robert Musil",
       "Thomas Mann",
@@ -105,9 +105,9 @@
   },
   {
     "id": "q_neutral_9",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quel physicien a proposé le principe d'incertitude ?",
+    "question": "Which physicist proposed the uncertainty principle?",
     "answers": [
       "Erwin Schrödinger",
       "Werner Heisenberg",
@@ -118,22 +118,22 @@
   },
   {
     "id": "q_neutral_10",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quel empire a été fondé par Cyrus le Grand au VIe siècle av. J.-C. ?",
+    "question": "Which empire was founded by Cyrus the Great in the 6th century BC?",
     "answers": [
-      "L'Empire babylonien",
-      "L'Empire assyrien",
-      "L'Empire perse achéménide",
-      "L'Empire mède"
+      "The Babylonian Empire",
+      "The Assyrian Empire",
+      "The Achaemenid Persian Empire",
+      "The Median Empire"
     ],
     "correct": 2
   },
   {
     "id": "q_neutral_11",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quel architecte a conçu la chapelle Notre-Dame-du-Haut à Ronchamp ?",
+    "question": "Which architect designed the Notre-Dame-du-Haut chapel in Ronchamp?",
     "answers": [
       "Le Corbusier",
       "Oscar Niemeyer",
@@ -144,22 +144,22 @@
   },
   {
     "id": "q_neutral_12",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quel roman de Dostoïevski met en scène le prince Mychkine ?",
+    "question": "Which Dostoevsky novel features Prince Myshkin?",
     "answers": [
-      "Crime et Châtiment",
-      "Les Frères Karamazov",
-      "Les Démons",
-      "L'Idiot"
+      "Crime and Punishment",
+      "The Brothers Karamazov",
+      "Demons",
+      "The Idiot"
     ],
     "correct": 3
   },
   {
     "id": "q_neutral_13",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quel scientifique a découvert la structure en double hélice de l'ADN avec Watson ?",
+    "question": "Which scientist discovered the double helix structure of DNA alongside Watson?",
     "answers": [
       "Linus Pauling",
       "Francis Crick",
@@ -170,22 +170,22 @@
   },
   {
     "id": "q_neutral_14",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quelle dynastie chinoise a construit la majeure partie de la Grande Muraille actuelle ?",
+    "question": "Which Chinese dynasty built most of the Great Wall as it stands today?",
     "answers": [
-      "La dynastie Han",
-      "La dynastie Tang",
-      "La dynastie Ming",
-      "La dynastie Qin"
+      "The Han dynasty",
+      "The Tang dynasty",
+      "The Ming dynasty",
+      "The Qin dynasty"
     ],
     "correct": 2
   },
   {
     "id": "q_neutral_15",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quel poète a écrit 'Les Fleurs du mal' ?",
+    "question": "Which poet wrote 'Les Fleurs du mal'?",
     "answers": [
       "Paul Verlaine",
       "Arthur Rimbaud",
@@ -196,9 +196,9 @@
   },
   {
     "id": "q_neutral_16",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quel économiste a écrit 'La Richesse des nations' en 1776 ?",
+    "question": "Which economist wrote 'The Wealth of Nations' in 1776?",
     "answers": [
       "Adam Smith",
       "David Ricardo",
@@ -209,113 +209,113 @@
   },
   {
     "id": "q_neutral_17",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quelle conférence de 1884 a établi le méridien de Greenwich comme référence mondiale ?",
+    "question": "Which 1884 conference established the Greenwich meridian as the global reference?",
     "answers": [
-      "La conférence de Berlin",
-      "La conférence internationale du méridien",
-      "La conférence de La Haye",
-      "La conférence de Vienne"
+      "The Berlin Conference",
+      "The International Meridian Conference",
+      "The Hague Conference",
+      "The Vienna Conference"
     ],
     "correct": 1
   },
   {
     "id": "q_neutral_18",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quel sculpteur a réalisé 'L'Extase de sainte Thérèse' ?",
+    "question": "Which sculptor created 'The Ecstasy of Saint Teresa'?",
     "answers": [
       "Antonio Canova",
       "Donatello",
-      "Le Bernin",
-      "Michel-Ange"
+      "Gian Lorenzo Bernini",
+      "Michelangelo"
     ],
     "correct": 2
   },
   {
     "id": "q_neutral_19",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quel phénomène quantique Einstein qualifiait-il d'« action fantôme à distance » ?",
+    "question": "Which quantum phenomenon did Einstein describe as 'spooky action at a distance'?",
     "answers": [
-      "La superposition quantique",
-      "L'effet tunnel",
-      "L'intrication quantique",
-      "La décohérence"
+      "Quantum superposition",
+      "The tunnel effect",
+      "Quantum entanglement",
+      "Decoherence"
     ],
     "correct": 2
   },
   {
     "id": "q_neutral_20",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quel roi de France a révoqué l'édit de Nantes en 1685 ?",
+    "question": "Which King of France revoked the Edict of Nantes in 1685?",
     "answers": [
       "Louis XIII",
       "Louis XIV",
-      "Henri IV",
+      "Henry IV",
       "Louis XV"
     ],
     "correct": 1
   },
   {
     "id": "q_neutral_21",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quel cinéaste a réalisé 'Stalker' et 'Le Miroir' ?",
+    "question": "Which filmmaker directed 'Stalker' and 'The Mirror'?",
     "answers": [
-      "Sergueï Eisenstein",
+      "Sergei Eisenstein",
       "Ingmar Bergman",
-      "Andreï Tarkovski",
+      "Andrei Tarkovsky",
       "Akira Kurosawa"
     ],
     "correct": 2
   },
   {
     "id": "q_neutral_22",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quel est le nom du théorème qui stipule que tout entier supérieur à 1 se décompose de manière unique en facteurs premiers ?",
+    "question": "What is the name of the theorem stating that every integer greater than 1 can be uniquely decomposed into prime factors?",
     "answers": [
-      "Le théorème fondamental de l'arithmétique",
-      "Le théorème de Fermat",
-      "Le théorème d'Euler",
-      "Le théorème de Gauss"
+      "The fundamental theorem of arithmetic",
+      "Fermat's theorem",
+      "Euler's theorem",
+      "Gauss's theorem"
     ],
     "correct": 0
   },
   {
     "id": "q_neutral_23",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quel mouvement littéraire Émile Zola représentait-il ?",
+    "question": "Which literary movement did Émile Zola represent?",
     "answers": [
-      "Le réalisme",
-      "Le romantisme",
-      "Le symbolisme",
-      "Le naturalisme"
+      "Realism",
+      "Romanticism",
+      "Symbolism",
+      "Naturalism"
     ],
     "correct": 3
   },
   {
     "id": "q_neutral_24",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quelle cité antique était la rivale de Rome lors des guerres puniques ?",
+    "question": "Which ancient city was Rome's rival during the Punic Wars?",
     "answers": [
       "Carthage",
-      "Athènes",
+      "Athens",
       "Syracuse",
-      "Alexandrie"
+      "Alexandria"
     ],
     "correct": 0
   },
   {
     "id": "q_neutral_25",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quel philosophe des Lumières a écrit 'Le Neveu de Rameau' ?",
+    "question": "Which Enlightenment philosopher wrote 'Rameau's Nephew'?",
     "answers": [
       "Voltaire",
       "Montesquieu",
@@ -326,35 +326,35 @@
   },
   {
     "id": "q_neutral_26",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quel élément chimique a le numéro atomique 79 ?",
+    "question": "Which chemical element has atomic number 79?",
     "answers": [
-      "Le platine",
-      "L'argent",
-      "Le cuivre",
-      "L'or"
+      "Platinum",
+      "Silver",
+      "Copper",
+      "Gold"
     ],
     "correct": 3
   },
   {
     "id": "q_neutral_27",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quel traité de 1919 a imposé des réparations à l'Allemagne après la Première Guerre mondiale ?",
+    "question": "Which 1919 treaty imposed reparations on Germany after World War I?",
     "answers": [
-      "Le traité de Versailles",
-      "Le traité de Saint-Germain",
-      "Le traité de Trianon",
-      "Le traité de Sèvres"
+      "The Treaty of Versailles",
+      "The Treaty of Saint-Germain",
+      "The Treaty of Trianon",
+      "The Treaty of Sèvres"
     ],
     "correct": 0
   },
   {
     "id": "q_neutral_28",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quel peintre impressionniste est célèbre pour sa série des 'Nymphéas' ?",
+    "question": "Which Impressionist painter is famous for his series of 'Water Lilies'?",
     "answers": [
       "Pierre-Auguste Renoir",
       "Edgar Degas",
@@ -365,12 +365,12 @@
   },
   {
     "id": "q_neutral_29",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quel philosophe a écrit la 'Critique de la raison pure' ?",
+    "question": "Which philosopher wrote the 'Critique of Pure Reason'?",
     "answers": [
       "Georg Hegel",
-      "Emmanuel Kant",
+      "Immanuel Kant",
       "Baruch Spinoza",
       "René Descartes"
     ],
@@ -378,61 +378,61 @@
   },
   {
     "id": "q_neutral_30",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quelle particule subatomique a été théorisée par Peter Higgs et découverte en 2012 ?",
+    "question": "Which subatomic particle was theorized by Peter Higgs and discovered in 2012?",
     "answers": [
-      "Le graviton",
-      "Le neutrino",
-      "Le boson de Higgs",
-      "Le quark top"
+      "The graviton",
+      "The neutrino",
+      "The Higgs boson",
+      "The top quark"
     ],
     "correct": 2
   },
   {
     "id": "q_neutral_31",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quel empire a été dirigé par Soliman le Magnifique au XVIe siècle ?",
+    "question": "Which empire was ruled by Suleiman the Magnificent in the 16th century?",
     "answers": [
-      "L'Empire moghol",
-      "L'Empire ottoman",
-      "L'Empire safavide",
-      "L'Empire byzantin"
+      "The Mughal Empire",
+      "The Ottoman Empire",
+      "The Safavid Empire",
+      "The Byzantine Empire"
     ],
     "correct": 1
   },
   {
     "id": "q_neutral_32",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quel dramaturge grec a écrit 'Médée' et 'Les Bacchantes' ?",
+    "question": "Which Greek playwright wrote 'Medea' and 'The Bacchae'?",
     "answers": [
-      "Sophocle",
-      "Aristophane",
-      "Eschyle",
-      "Euripide"
+      "Sophocles",
+      "Aristophanes",
+      "Aeschylus",
+      "Euripides"
     ],
     "correct": 3
   },
   {
     "id": "q_neutral_33",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quel accord de 1944 a établi le système monétaire international d'après-guerre ?",
+    "question": "Which 1944 agreement established the post-war international monetary system?",
     "answers": [
-      "Les accords de Yalta",
-      "Les accords de Bretton Woods",
-      "Les accords de Potsdam",
-      "Le plan Marshall"
+      "The Yalta agreements",
+      "The Bretton Woods agreements",
+      "The Potsdam agreements",
+      "The Marshall Plan"
     ],
     "correct": 1
   },
   {
     "id": "q_neutral_34",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quel musicien de jazz est surnommé 'Bird' ?",
+    "question": "Which jazz musician is nicknamed 'Bird'?",
     "answers": [
       "Miles Davis",
       "John Coltrane",
@@ -443,35 +443,35 @@
   },
   {
     "id": "q_neutral_35",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quel naturaliste a accompagné l'expédition du HMS Beagle ?",
+    "question": "Which naturalist accompanied the expedition of HMS Beagle?",
     "answers": [
       "Charles Darwin",
       "Alfred Wallace",
-      "Carl von Linné",
+      "Carl von Linnaeus",
       "Jean-Baptiste Lamarck"
     ],
     "correct": 0
   },
   {
     "id": "q_neutral_36",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quel courant artistique du début du XXe siècle Marcel Duchamp a-t-il influencé avec ses ready-mades ?",
+    "question": "Which early 20th-century artistic movement did Marcel Duchamp influence with his readymades?",
     "answers": [
-      "Le futurisme",
-      "Le constructivisme",
-      "Le dadaïsme",
-      "L'expressionnisme"
+      "Futurism",
+      "Constructivism",
+      "Dadaism",
+      "Expressionism"
     ],
     "correct": 2
   },
   {
     "id": "q_neutral_37",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quel géographe et explorateur a cartographié les courants marins au XIXe siècle et donné son nom à un courant du Pacifique ?",
+    "question": "Which geographer and explorer mapped ocean currents in the 19th century and lent his name to a Pacific current?",
     "answers": [
       "Ferdinand Magellan",
       "Alexander von Humboldt",
@@ -482,9 +482,9 @@
   },
   {
     "id": "q_neutral_38",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quel auteur a écrit 'Cent ans de solitude' ?",
+    "question": "Which author wrote 'One Hundred Years of Solitude'?",
     "answers": [
       "Jorge Luis Borges",
       "Julio Cortázar",
@@ -495,22 +495,22 @@
   },
   {
     "id": "q_neutral_39",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quelle structure cérébrale est principalement responsable de la mémoire à long terme ?",
+    "question": "Which brain structure is primarily responsible for long-term memory?",
     "answers": [
-      "L'hippocampe",
-      "L'amygdale",
-      "Le thalamus",
-      "Le cervelet"
+      "The hippocampus",
+      "The amygdala",
+      "The thalamus",
+      "The cerebellum"
     ],
     "correct": 0
   },
   {
     "id": "q_neutral_40",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quel penseur a formulé le concept de 'contrat social' avant Rousseau, dans son 'Léviathan' ?",
+    "question": "Which thinker formulated the concept of the 'social contract' before Rousseau, in his 'Leviathan'?",
     "answers": [
       "John Locke",
       "Thomas Hobbes",
@@ -521,48 +521,48 @@
   },
   {
     "id": "q_neutral_41",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quelle est la constante physique notée 'c' dans la célèbre équation E=mc² ?",
+    "question": "What is the physical constant denoted 'c' in the famous equation E=mc²?",
     "answers": [
-      "La constante de Planck",
-      "La vitesse de la lumière dans le vide",
-      "La constante de Boltzmann",
-      "La charge élémentaire"
+      "Planck's constant",
+      "The speed of light in a vacuum",
+      "Boltzmann's constant",
+      "The elementary charge"
     ],
     "correct": 1
   },
   {
     "id": "q_neutral_42",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quel souverain a unifié l'Italie en 1861 sous la maison de Savoie ?",
+    "question": "Which sovereign unified Italy in 1861 under the House of Savoy?",
     "answers": [
       "Giuseppe Garibaldi",
       "Camillo Cavour",
-      "Victor-Emmanuel II",
+      "Victor Emmanuel II",
       "Giuseppe Mazzini"
     ],
     "correct": 2
   },
   {
     "id": "q_neutral_43",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quel roman de James Joyce est considéré comme un monument du courant de conscience ?",
+    "question": "Which James Joyce novel is considered a landmark of stream of consciousness?",
     "answers": [
-      "Dublinois",
-      "Portrait de l'artiste en jeune homme",
-      "Ulysse",
+      "Dubliners",
+      "A Portrait of the Artist as a Young Man",
+      "Ulysses",
       "Finnegans Wake"
     ],
     "correct": 2
   },
   {
     "id": "q_neutral_44",
-    "theme": "Culture Générale",
+    "theme": "General Knowledge",
     "difficulty": 3,
-    "question": "Quel scientifique a proposé la théorie de la dérive des continents en 1912 ?",
+    "question": "Which scientist proposed the theory of continental drift in 1912?",
     "answers": [
       "Charles Lyell",
       "Alfred Wegener",

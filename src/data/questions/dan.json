@@ -1,0 +1,548 @@
+[
+  {
+    "id": "q_football_1",
+    "theme": "Football",
+    "difficulty": 3,
+    "question": "Which player holds the record for most goals scored in a single calendar year (91 goals in 2012)?",
+    "answers": [
+      "Cristiano Ronaldo",
+      "Robert Lewandowski",
+      "Lionel Messi",
+      "Gerd Müller"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_football_2",
+    "theme": "Football",
+    "difficulty": 3,
+    "question": "In which World Cup final did Zinedine Zidane headbutt Marco Materazzi?",
+    "answers": [
+      "2006 in Germany",
+      "2002 in South Korea/Japan",
+      "1998 in France",
+      "2010 in South Africa"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_football_3",
+    "theme": "Football",
+    "difficulty": 3,
+    "question": "Which club has won the most UEFA Champions League titles?",
+    "answers": [
+      "AC Milan",
+      "Barcelona",
+      "Bayern Munich",
+      "Real Madrid"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_football_4",
+    "theme": "Football",
+    "difficulty": 3,
+    "question": "Who scored the 'Hand of God' goal and the 'Goal of the Century' in the same 1986 World Cup match?",
+    "answers": [
+      "Diego Maradona",
+      "Pelé",
+      "Michel Platini",
+      "Johan Cruyff"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_football_5",
+    "theme": "Football",
+    "difficulty": 3,
+    "question": "Which country won the 2022 FIFA World Cup in Qatar?",
+    "answers": [
+      "France",
+      "Croatia",
+      "Brazil",
+      "Argentina"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_football_6",
+    "theme": "Football",
+    "difficulty": 3,
+    "question": "Which goalkeeper holds the record for most consecutive minutes without conceding a goal in La Liga (1275 minutes)?",
+    "answers": [
+      "Thibaut Courtois",
+      "Jan Oblak",
+      "Abel Resino",
+      "Iker Casillas"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_football_7",
+    "theme": "Football",
+    "difficulty": 3,
+    "question": "What tactical formation did Italy use to dominate international football in the 1930s?",
+    "answers": [
+      "WM Formation",
+      "Catenaccio",
+      "4-4-2",
+      "Il Metodo (2-3-2-3)"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_football_8",
+    "theme": "Football",
+    "difficulty": 3,
+    "question": "Which club completed an 'Invincible' Premier League season in 2003-04, going unbeaten?",
+    "answers": [
+      "Manchester United",
+      "Chelsea",
+      "Arsenal",
+      "Liverpool"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_football_9",
+    "theme": "Football",
+    "difficulty": 3,
+    "question": "Who is the all-time top scorer in FIFA World Cup history with 16 goals?",
+    "answers": [
+      "Ronaldo Nazário",
+      "Gerd Müller",
+      "Just Fontaine",
+      "Miroslav Klose"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_football_10",
+    "theme": "Football",
+    "difficulty": 3,
+    "question": "In what year did the Bosman ruling fundamentally change football's transfer system?",
+    "answers": [
+      "1992",
+      "1998",
+      "1995",
+      "2001"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_football_11",
+    "theme": "Football",
+    "difficulty": 3,
+    "question": "Which manager led Leicester City to their shock Premier League title in 2015-16?",
+    "answers": [
+      "Claudio Ranieri",
+      "Rafa Benítez",
+      "Brendan Rodgers",
+      "Nigel Pearson"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_football_12",
+    "theme": "Football",
+    "difficulty": 3,
+    "question": "What is the name of the phenomenon where Barcelona came back from 4-0 down against PSG in 2017 Champions League, winning 6-1?",
+    "answers": [
+      "La Décima",
+      "The Miracle of Istanbul",
+      "La Remontada",
+      "El Clásico"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_football_13",
+    "theme": "Football",
+    "difficulty": 3,
+    "question": "Which African nation became the first to reach a World Cup quarter-final in 1990?",
+    "answers": [
+      "Nigeria",
+      "Ghana",
+      "Senegal",
+      "Cameroon"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_football_14",
+    "theme": "Football",
+    "difficulty": 3,
+    "question": "How many Ballon d'Or awards has Lionel Messi won as of 2024?",
+    "answers": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_geo_1",
+    "theme": "Geography",
+    "difficulty": 2,
+    "question": "What is the smallest country in the world by area?",
+    "answers": [
+      "Monaco",
+      "San Marino",
+      "Vatican City",
+      "Liechtenstein"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_geo_2",
+    "theme": "Geography",
+    "difficulty": 2,
+    "question": "Which river is the longest in Africa?",
+    "answers": [
+      "The Congo",
+      "The Nile",
+      "The Zambezi",
+      "The Niger"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_geo_3",
+    "theme": "Geography",
+    "difficulty": 2,
+    "question": "What is the capital of Mongolia?",
+    "answers": [
+      "Astana",
+      "Bishkek",
+      "Ulaanbaatar",
+      "Tashkent"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_geo_4",
+    "theme": "Geography",
+    "difficulty": 2,
+    "question": "Which strait separates Asia from North America?",
+    "answers": [
+      "Strait of Malacca",
+      "Bering Strait",
+      "Strait of Hormuz",
+      "Torres Strait"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_geo_5",
+    "theme": "Geography",
+    "difficulty": 2,
+    "question": "Mount Kilimanjaro is located in which country?",
+    "answers": [
+      "Kenya",
+      "Ethiopia",
+      "Uganda",
+      "Tanzania"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_geo_6",
+    "theme": "Geography",
+    "difficulty": 2,
+    "question": "What is the deepest lake in the world?",
+    "answers": [
+      "Lake Baikal",
+      "Lake Tanganyika",
+      "Caspian Sea",
+      "Lake Superior"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_geo_7",
+    "theme": "Geography",
+    "difficulty": 2,
+    "question": "Which country has the most time zones (12)?",
+    "answers": [
+      "Russia",
+      "United States",
+      "France",
+      "China"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_geo_8",
+    "theme": "Geography",
+    "difficulty": 2,
+    "question": "What is the capital of New Zealand?",
+    "answers": [
+      "Auckland",
+      "Christchurch",
+      "Wellington",
+      "Queenstown"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_geo_9",
+    "theme": "Geography",
+    "difficulty": 2,
+    "question": "Which desert is the largest hot desert in the world?",
+    "answers": [
+      "Arabian Desert",
+      "Gobi Desert",
+      "Kalahari Desert",
+      "Sahara Desert"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_geo_10",
+    "theme": "Geography",
+    "difficulty": 2,
+    "question": "The Mariana Trench, the deepest point in the ocean, is located in which ocean?",
+    "answers": [
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Pacific Ocean",
+      "Arctic Ocean"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_geo_11",
+    "theme": "Geography",
+    "difficulty": 2,
+    "question": "Which two countries are doubly landlocked (surrounded entirely by landlocked countries)?",
+    "answers": [
+      "Mongolia and Nepal",
+      "Bolivia and Paraguay",
+      "Liechtenstein and Uzbekistan",
+      "Switzerland and Austria"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_geo_12",
+    "theme": "Geography",
+    "difficulty": 2,
+    "question": "What is the most populous city in South America?",
+    "answers": [
+      "Buenos Aires",
+      "Lima",
+      "Bogotá",
+      "São Paulo"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_geo_13",
+    "theme": "Geography",
+    "difficulty": 2,
+    "question": "Which African country was formerly known as Abyssinia?",
+    "answers": [
+      "Somalia",
+      "Ethiopia",
+      "Eritrea",
+      "Sudan"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_geo_14",
+    "theme": "Geography",
+    "difficulty": 2,
+    "question": "What is the only country that borders both the Mediterranean Sea and the Red Sea?",
+    "answers": [
+      "Saudi Arabia",
+      "Israel",
+      "Egypt",
+      "Jordan"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_gaming_1",
+    "theme": "Gaming",
+    "difficulty": 1,
+    "question": "In 'Dark Souls', what mechanic allows players to see messages and ghosts from other players' worlds?",
+    "answers": [
+      "The Abyss Link",
+      "Orange Soapstone",
+      "Covenant Summoning",
+      "Rift Walking"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_gaming_2",
+    "theme": "Gaming",
+    "difficulty": 1,
+    "question": "Which studio developed 'Elden Ring'?",
+    "answers": [
+      "FromSoftware",
+      "CD Projekt Red",
+      "Capcom",
+      "Team Ninja"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_gaming_3",
+    "theme": "Gaming",
+    "difficulty": 1,
+    "question": "In 'The Legend of Zelda: Breath of the Wild', what is the name of the main antagonist?",
+    "answers": [
+      "Demise",
+      "Ganondorf",
+      "Calamity Ganon",
+      "Ghirahim"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_gaming_4",
+    "theme": "Gaming",
+    "difficulty": 1,
+    "question": "What year was the original 'Counter-Strike' first released as a Half-Life mod?",
+    "answers": [
+      "2001",
+      "1997",
+      "1999",
+      "2003"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_gaming_5",
+    "theme": "Gaming",
+    "difficulty": 1,
+    "question": "Which game holds the record for the most concurrent players on Steam (reaching over 3.2 million)?",
+    "answers": [
+      "Dota 2",
+      "Counter-Strike 2",
+      "PUBG",
+      "Palworld"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_gaming_6",
+    "theme": "Gaming",
+    "difficulty": 1,
+    "question": "In 'Red Dead Redemption 2', what is the name of the gang Arthur Morgan belongs to?",
+    "answers": [
+      "The O'Driscoll Boys",
+      "The Lemoyne Raiders",
+      "The Van der Linde Gang",
+      "The Murfree Brood"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_gaming_7",
+    "theme": "Gaming",
+    "difficulty": 1,
+    "question": "Which 'Final Fantasy' installment introduced the Active Time Battle (ATB) system?",
+    "answers": [
+      "Final Fantasy III",
+      "Final Fantasy V",
+      "Final Fantasy IV",
+      "Final Fantasy VI"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_gaming_8",
+    "theme": "Gaming",
+    "difficulty": 1,
+    "question": "What is the name of the fictional city where 'GTA V' takes place?",
+    "answers": [
+      "Liberty City",
+      "Vice City",
+      "San Fierro",
+      "Los Santos"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_gaming_9",
+    "theme": "Gaming",
+    "difficulty": 1,
+    "question": "In 'Minecraft', what material do you need to build a Nether Portal?",
+    "answers": [
+      "Crying Obsidian",
+      "Obsidian",
+      "Bedrock",
+      "End Stone"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_gaming_10",
+    "theme": "Gaming",
+    "difficulty": 1,
+    "question": "Which developer created 'Hollow Knight'?",
+    "answers": [
+      "Motion Twin",
+      "Supergiant Games",
+      "Team Cherry",
+      "Moon Studios"
+    ],
+    "correct": 2
+  },
+  {
+    "id": "q_gaming_11",
+    "theme": "Gaming",
+    "difficulty": 1,
+    "question": "In 'The Witcher 3', what is Geralt's profession?",
+    "answers": [
+      "Sorcerer",
+      "Knight",
+      "Bounty Hunter",
+      "Witcher (Monster Hunter)"
+    ],
+    "correct": 3
+  },
+  {
+    "id": "q_gaming_12",
+    "theme": "Gaming",
+    "difficulty": 1,
+    "question": "Which game won Game of the Year at The Game Awards 2023?",
+    "answers": [
+      "The Legend of Zelda: Tears of the Kingdom",
+      "Baldur's Gate 3",
+      "Alan Wake 2",
+      "Resident Evil 4 Remake"
+    ],
+    "correct": 1
+  },
+  {
+    "id": "q_gaming_13",
+    "theme": "Gaming",
+    "difficulty": 1,
+    "question": "What does the acronym 'MOBA' stand for?",
+    "answers": [
+      "Multiplayer Online Battle Arena",
+      "Massive Open Battlefield Action",
+      "Multi-Objective Battle Adventure",
+      "Multiplayer Offensive Base Assault"
+    ],
+    "correct": 0
+  },
+  {
+    "id": "q_gaming_14",
+    "theme": "Gaming",
+    "difficulty": 1,
+    "question": "In 'Sekiro: Shadows Die Twice', what is the core combat mechanic that replaces the stamina bar?",
+    "answers": [
+      "Focus Meter",
+      "Ki Pulse",
+      "Posture System",
+      "Stagger Gauge"
+    ],
+    "correct": 2
+  }
+]

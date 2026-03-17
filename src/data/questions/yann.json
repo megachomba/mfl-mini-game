@@ -3,7 +3,7 @@
     "id": "q_mfl_1",
     "theme": "MFL (Web3)",
     "difficulty": 1,
-    "question": "Combien de divisions comporte le système compétitif de MFL ?",
+    "question": "How many divisions does the MFL competitive system have?",
     "answers": [
       "6 divisions",
       "8 divisions",
@@ -16,7 +16,7 @@
     "id": "q_mfl_2",
     "theme": "MFL (Web3)",
     "difficulty": 1,
-    "question": "Quel est le nom de la division la plus basse dans MFL ?",
+    "question": "What is the name of the lowest division in MFL?",
     "answers": [
       "Stone",
       "Spark",
@@ -29,7 +29,7 @@
     "id": "q_mfl_3",
     "theme": "MFL (Web3)",
     "difficulty": 1,
-    "question": "Quel est le plafond d'overall maximum autorisé en division Diamond ?",
+    "question": "What is the maximum overall cap allowed in the Diamond division?",
     "answers": [
       "85",
       "88",
@@ -42,7 +42,7 @@
     "id": "q_mfl_4",
     "theme": "MFL (Web3)",
     "difficulty": 1,
-    "question": "Combien de joueurs minimum faut-il dans un squad pour participer à une compétition ?",
+    "question": "What is the minimum number of players required in a squad to participate in a competition?",
     "answers": [
       "11",
       "14",
@@ -55,7 +55,7 @@
     "id": "q_mfl_5",
     "theme": "MFL (Web3)",
     "difficulty": 1,
-    "question": "Quel est le niveau d'énergie minimum requis pour qu'un joueur puisse participer à un match ?",
+    "question": "What is the minimum energy level required for a player to participate in a match?",
     "answers": [
       "40",
       "50",
@@ -68,12 +68,12 @@
     "id": "q_mfl_6",
     "theme": "MFL (Web3)",
     "difficulty": 1,
-    "question": "Combien de statistiques principales (core stats) définissent un joueur MFL ?",
+    "question": "How many core stats define an MFL player?",
     "answers": [
-      "5 : Pace, Shooting, Passing, Dribbling, Defense",
-      "6 : Pace, Shooting, Passing, Dribbling, Defense, Physical",
-      "7 : Pace, Shooting, Passing, Dribbling, Defense, Physical, Goalkeeping",
-      "8 : Pace, Shooting, Passing, Dribbling, Defense, Physical, Goalkeeping, Stamina"
+      "5: Pace, Shooting, Passing, Dribbling, Defense",
+      "6: Pace, Shooting, Passing, Dribbling, Defense, Physical",
+      "7: Pace, Shooting, Passing, Dribbling, Defense, Physical, Goalkeeping",
+      "8: Pace, Shooting, Passing, Dribbling, Defense, Physical, Goalkeeping, Stamina"
     ],
     "correct": 2
   },
@@ -81,7 +81,7 @@
     "id": "q_mfl_7",
     "theme": "MFL (Web3)",
     "difficulty": 1,
-    "question": "À partir de quel overall un joueur MFL est-il considéré comme 'Rare' ?",
+    "question": "From what overall rating is an MFL player considered 'Rare'?",
     "answers": [
       "65",
       "70",
@@ -94,7 +94,7 @@
     "id": "q_mfl_8",
     "theme": "MFL (Web3)",
     "difficulty": 1,
-    "question": "Combien de formations différentes sont disponibles dans MFL ?",
+    "question": "How many different formations are available in MFL?",
     "answers": [
       "12",
       "18",
@@ -107,7 +107,7 @@
     "id": "q_mfl_9",
     "theme": "MFL (Web3)",
     "difficulty": 1,
-    "question": "Combien de forfaits maximum un club peut-il accumuler avant d'être exclu des récompenses ?",
+    "question": "How many forfeits can a club accumulate before being excluded from rewards?",
     "answers": [
       "2",
       "3",
@@ -120,7 +120,7 @@
     "id": "q_mfl_10",
     "theme": "MFL (Web3)",
     "difficulty": 1,
-    "question": "Quel est le nombre maximum de clubs qu'un même manager peut gérer simultanément ?",
+    "question": "What is the maximum number of clubs a single manager can manage simultaneously?",
     "answers": [
       "1",
       "2",
@@ -133,7 +133,7 @@
     "id": "q_mfl_11",
     "theme": "MFL (Web3)",
     "difficulty": 1,
-    "question": "Dans le système de contrats en free trial, quel est le pourcentage maximum de revenue share autorisé par contrat ?",
+    "question": "In the free trial contract system, what is the maximum revenue share percentage allowed per contract?",
     "answers": [
       "1%",
       "3%",
@@ -146,7 +146,7 @@
     "id": "q_mfl_12",
     "theme": "MFL (Web3)",
     "difficulty": 1,
-    "question": "Combien de match rules actives maximum peut-on définir par formation ?",
+    "question": "How many active match rules can be set per formation?",
     "answers": [
       "3",
       "5",
@@ -159,7 +159,7 @@
     "id": "q_mfl_13",
     "theme": "MFL (Web3)",
     "difficulty": 1,
-    "question": "Combien de matchs de league sont joués par défaut dans une saison MFL ?",
+    "question": "How many league matches are played by default in an MFL season?",
     "answers": [
       "10",
       "14",
@@ -172,7 +172,7 @@
     "id": "q_mfl_14",
     "theme": "MFL (Web3)",
     "difficulty": 1,
-    "question": "Combien d'équipes nationales sont présentes dans le système MFL ?",
+    "question": "How many national teams are present in the MFL system?",
     "answers": [
       "16",
       "24",
@@ -183,35 +183,35 @@
   },
   {
     "id": "q_drapeaux_1",
-    "theme": "Drapeaux",
+    "theme": "Flags",
     "difficulty": 2,
-    "question": "Quel pays nordique a une croix asymétrique jaune sur fond bleu ?",
+    "question": "Which Nordic country has an asymmetric yellow cross on a blue background?",
     "answers": [
-      "Norvège",
-      "Finlande",
-      "Suède",
-      "Islande"
+      "Norway",
+      "Finland",
+      "Sweden",
+      "Iceland"
     ],
     "correct": 2
   },
   {
     "id": "q_drapeaux_2",
-    "theme": "Drapeaux",
+    "theme": "Flags",
     "difficulty": 2,
-    "question": "Quel drapeau africain comporte une étoile noire au centre ?",
+    "question": "Which African flag features a black star in the center?",
     "answers": [
-      "Sénégal",
+      "Senegal",
       "Ghana",
-      "Nigéria",
+      "Nigeria",
       "Kenya"
     ],
     "correct": 1
   },
   {
     "id": "q_drapeaux_3",
-    "theme": "Drapeaux",
+    "theme": "Flags",
     "difficulty": 2,
-    "question": "Combien d'étoiles figurent sur le drapeau brésilien ?",
+    "question": "How many stars appear on the Brazilian flag?",
     "answers": [
       "27",
       "26",
@@ -222,178 +222,178 @@
   },
   {
     "id": "q_drapeaux_4",
-    "theme": "Drapeaux",
+    "theme": "Flags",
     "difficulty": 2,
-    "question": "Quel est le seul drapeau national qui n'est pas rectangulaire ?",
+    "question": "Which is the only national flag that is not rectangular?",
     "answers": [
       "Vatican",
-      "Suisse",
-      "Népal",
+      "Switzerland",
+      "Nepal",
       "Liechtenstein"
     ],
     "correct": 2
   },
   {
     "id": "q_drapeaux_5",
-    "theme": "Drapeaux",
+    "theme": "Flags",
     "difficulty": 2,
-    "question": "Que représente le croissant sur de nombreux drapeaux musulmans ?",
+    "question": "What does the crescent represent on many Muslim flags?",
     "answers": [
-      "La lune dans sa phase croissante",
-      "Un sabre recourbé",
-      "Une barque sur le Nil",
-      "Les cornes d'un taureau"
+      "The moon in its crescent phase",
+      "A curved sabre",
+      "A boat on the Nile",
+      "The horns of a bull"
     ],
     "correct": 0
   },
   {
     "id": "q_drapeaux_6",
-    "theme": "Drapeaux",
+    "theme": "Flags",
     "difficulty": 2,
-    "question": "Quel pays a adopté un nouveau drapeau tricolore en 2010 ?",
+    "question": "Which country adopted a new tricolor flag in 2010?",
     "answers": [
-      "Australie",
+      "Australia",
       "Canada",
       "Myanmar",
-      "Afrique du Sud"
+      "South Africa"
     ],
     "correct": 2
   },
   {
     "id": "q_drapeaux_7",
-    "theme": "Drapeaux",
+    "theme": "Flags",
     "difficulty": 2,
-    "question": "Quel symbole mythologique figure sur le drapeau gallois ?",
+    "question": "What mythological symbol appears on the Welsh flag?",
     "answers": [
-      "Une licorne",
-      "Un dragon rouge",
-      "Un phénix",
-      "Un griffon"
+      "A unicorn",
+      "A red dragon",
+      "A phoenix",
+      "A griffin"
     ],
     "correct": 1
   },
   {
     "id": "q_drapeaux_8",
-    "theme": "Drapeaux",
+    "theme": "Flags",
     "difficulty": 2,
-    "question": "Quel pays d'Amérique du Sud a un soleil (Sol de Mayo) sur son drapeau ?",
+    "question": "Which South American country has a sun (Sol de Mayo) on its flag?",
     "answers": [
-      "Chili",
-      "Pérou",
-      "Argentine",
-      "Bolivie"
+      "Chile",
+      "Peru",
+      "Argentina",
+      "Bolivia"
     ],
     "correct": 2
   },
   {
     "id": "q_drapeaux_9",
-    "theme": "Drapeaux",
+    "theme": "Flags",
     "difficulty": 2,
-    "question": "Quelle couleur n'apparaît PAS sur le drapeau sud-africain actuel ?",
+    "question": "Which color does NOT appear on the current South African flag?",
     "answers": [
-      "Blanc",
-      "Violet",
-      "Jaune",
-      "Vert"
+      "White",
+      "Purple",
+      "Yellow",
+      "Green"
     ],
     "correct": 1
   },
   {
     "id": "q_drapeaux_10",
-    "theme": "Drapeaux",
+    "theme": "Flags",
     "difficulty": 2,
-    "question": "Quel drapeau scandinave a une croix blanche sur fond rouge ?",
+    "question": "Which Scandinavian flag has a white cross on a red background?",
     "answers": [
-      "Suède",
-      "Norvège",
-      "Danemark",
-      "Finlande"
+      "Sweden",
+      "Norway",
+      "Denmark",
+      "Finland"
     ],
     "correct": 2
   },
   {
     "id": "q_drapeaux_11",
-    "theme": "Drapeaux",
+    "theme": "Flags",
     "difficulty": 2,
-    "question": "Que représentent les 12 étoiles du drapeau européen ?",
+    "question": "What do the 12 stars on the European flag represent?",
     "answers": [
-      "Les 12 pays fondateurs",
-      "Les 12 mois de l'année",
-      "La perfection et l'unité",
-      "Les 12 apôtres"
+      "The 12 founding countries",
+      "The 12 months of the year",
+      "Perfection and unity",
+      "The 12 apostles"
     ],
     "correct": 2
   },
   {
     "id": "q_drapeaux_12",
-    "theme": "Drapeaux",
+    "theme": "Flags",
     "difficulty": 2,
-    "question": "Quel pays a un cèdre stylisé au centre de son drapeau ?",
+    "question": "Which country has a stylized cedar tree in the center of its flag?",
     "answers": [
-      "Liban",
-      "Turquie",
-      "Jordanie",
-      "Syrie"
+      "Lebanon",
+      "Turkey",
+      "Jordan",
+      "Syria"
     ],
     "correct": 0
   },
   {
     "id": "q_drapeaux_13",
-    "theme": "Drapeaux",
+    "theme": "Flags",
     "difficulty": 2,
-    "question": "Quel drapeau affiche un aigle dévorant un serpent sur un cactus ?",
+    "question": "Which flag shows an eagle devouring a snake on a cactus?",
     "answers": [
-      "Pérou",
-      "Mexique",
-      "Équateur",
-      "Colombie"
+      "Peru",
+      "Mexico",
+      "Ecuador",
+      "Colombia"
     ],
     "correct": 1
   },
   {
     "id": "q_drapeaux_14",
-    "theme": "Drapeaux",
+    "theme": "Flags",
     "difficulty": 2,
-    "question": "Quelle est la particularité du drapeau du Paraguay ?",
+    "question": "What is the distinctive feature of the Paraguay flag?",
     "answers": [
-      "Il change de couleur selon la météo",
-      "Il a des faces recto-verso différentes",
-      "Il est triangulaire",
-      "Il a 7 couleurs"
+      "It changes color depending on the weather",
+      "It has different designs on each side",
+      "It is triangular",
+      "It has 7 colors"
     ],
     "correct": 1
   },
   {
     "id": "q_quantique_1",
-    "theme": "Physique Quantique",
+    "theme": "Quantum Physics",
     "difficulty": 3,
-    "question": "Quel principe quantique affirme qu'on ne peut connaître simultanément la position et la quantité de mouvement d'une particule ?",
+    "question": "Which quantum principle states that the position and momentum of a particle cannot be known simultaneously?",
     "answers": [
-      "Principe de superposition",
-      "Principe d'exclusion de Pauli",
-      "Principe d'incertitude de Heisenberg",
-      "Principe de complémentarité de Bohr"
+      "The superposition principle",
+      "The Pauli exclusion principle",
+      "Heisenberg's uncertainty principle",
+      "Bohr's complementarity principle"
     ],
     "correct": 2
   },
   {
     "id": "q_quantique_2",
-    "theme": "Physique Quantique",
+    "theme": "Quantum Physics",
     "difficulty": 3,
-    "question": "Quel est le nom de l'expérience célèbre qui démontre la dualité onde-corpuscule ?",
+    "question": "What is the name of the famous experiment that demonstrates wave-particle duality?",
     "answers": [
-      "L'expérience de Michelson-Morley",
-      "L'expérience des fentes de Young",
-      "L'expérience de Millikan",
-      "L'expérience de Rutherford"
+      "The Michelson-Morley experiment",
+      "The Young's double-slit experiment",
+      "The Millikan experiment",
+      "The Rutherford experiment"
     ],
     "correct": 1
   },
   {
     "id": "q_quantique_3",
-    "theme": "Physique Quantique",
+    "theme": "Quantum Physics",
     "difficulty": 3,
-    "question": "Quel physicien a reçu le prix Nobel pour sa découverte de l'effet photoélectrique ?",
+    "question": "Which physicist received the Nobel Prize for discovering the photoelectric effect?",
     "answers": [
       "Niels Bohr",
       "Max Planck",
@@ -404,48 +404,48 @@
   },
   {
     "id": "q_quantique_4",
-    "theme": "Physique Quantique",
+    "theme": "Quantum Physics",
     "difficulty": 3,
-    "question": "Comment s'appelle le phénomène où deux particules restent liées même à grande distance ?",
+    "question": "What is the phenomenon called where two particles remain linked even at great distances?",
     "answers": [
-      "L'intrication quantique",
-      "La décohérence",
-      "La téléportation",
-      "La résonance"
+      "Quantum entanglement",
+      "Decoherence",
+      "Teleportation",
+      "Resonance"
     ],
     "correct": 0
   },
   {
     "id": "q_quantique_5",
-    "theme": "Physique Quantique",
+    "theme": "Quantum Physics",
     "difficulty": 3,
-    "question": "Quelle constante fondamentale, notée h, porte le nom d'un pionnier de la physique quantique ?",
+    "question": "Which fundamental constant, denoted h, is named after a pioneer of quantum physics?",
     "answers": [
-      "La constante de Boltzmann",
-      "La constante de Planck",
-      "La constante de Rydberg",
-      "La constante de Avogadro"
+      "The Boltzmann constant",
+      "Planck's constant",
+      "The Rydberg constant",
+      "Avogadro's constant"
     ],
     "correct": 1
   },
   {
     "id": "q_quantique_6",
-    "theme": "Physique Quantique",
+    "theme": "Quantum Physics",
     "difficulty": 3,
-    "question": "Dans l'expérience du chat de Schrödinger, que veut illustrer le paradoxe ?",
+    "question": "In Schrodinger's cat experiment, what does the paradox aim to illustrate?",
     "answers": [
-      "La vitesse de la lumière",
-      "La gravitation quantique",
-      "La superposition d'états quantiques",
-      "L'effet tunnel"
+      "The speed of light",
+      "Quantum gravity",
+      "The superposition of quantum states",
+      "The tunnel effect"
     ],
     "correct": 2
   },
   {
     "id": "q_quantique_7",
-    "theme": "Physique Quantique",
+    "theme": "Quantum Physics",
     "difficulty": 3,
-    "question": "Quel scientifique danois a développé le modèle de l'atome avec des niveaux d'énergie quantifiés ?",
+    "question": "Which Danish scientist developed the atomic model with quantized energy levels?",
     "answers": [
       "Niels Bohr",
       "Ernest Rutherford",
@@ -456,25 +456,25 @@
   },
   {
     "id": "q_quantique_8",
-    "theme": "Physique Quantique",
+    "theme": "Quantum Physics",
     "difficulty": 3,
-    "question": "Quel phénomène quantique permet à une particule de traverser une barrière d'énergie ?",
+    "question": "Which quantum phenomenon allows a particle to pass through an energy barrier?",
     "answers": [
-      "L'effet Compton",
-      "L'effet tunnel",
-      "L'effet Doppler",
-      "L'effet Zeeman"
+      "The Compton effect",
+      "The tunnel effect",
+      "The Doppler effect",
+      "The Zeeman effect"
     ],
     "correct": 1
   },
   {
     "id": "q_quantique_9",
-    "theme": "Physique Quantique",
+    "theme": "Quantum Physics",
     "difficulty": 3,
-    "question": "Qui a proposé que la matière possède aussi des propriétés ondulatoires ?",
+    "question": "Who proposed that matter also has wave-like properties?",
     "answers": [
       "Max Born",
-      "Erwin Schrödinger",
+      "Erwin Schrodinger",
       "Louis de Broglie",
       "Paul Dirac"
     ],
@@ -482,35 +482,35 @@
   },
   {
     "id": "q_quantique_10",
-    "theme": "Physique Quantique",
+    "theme": "Quantum Physics",
     "difficulty": 3,
-    "question": "Quelle équation célèbre décrit l'évolution temporelle d'un système quantique ?",
+    "question": "Which famous equation describes the time evolution of a quantum system?",
     "answers": [
-      "L'équation de Maxwell",
-      "L'équation de Schrödinger",
-      "L'équation de Dirac",
-      "L'équation de Klein-Gordon"
+      "Maxwell's equation",
+      "Schrodinger's equation",
+      "Dirac's equation",
+      "The Klein-Gordon equation"
     ],
     "correct": 1
   },
   {
     "id": "q_quantique_11",
-    "theme": "Physique Quantique",
+    "theme": "Quantum Physics",
     "difficulty": 3,
-    "question": "Comment appelle-t-on le moment où un système quantique passe d'une superposition à un état défini ?",
+    "question": "What is the term for the moment when a quantum system transitions from a superposition to a defined state?",
     "answers": [
-      "La décohérence",
-      "L'effondrement de la fonction d'onde",
-      "La quantification",
-      "La normalisation"
+      "Decoherence",
+      "Wavefunction collapse",
+      "Quantization",
+      "Normalization"
     ],
     "correct": 1
   },
   {
     "id": "q_quantique_12",
-    "theme": "Physique Quantique",
+    "theme": "Quantum Physics",
     "difficulty": 3,
-    "question": "Quel prix Nobel de physique a été attribué à Planck pour son travail sur les quanta ?",
+    "question": "In which year was Planck awarded the Nobel Prize in Physics for his work on quanta?",
     "answers": [
       "1905",
       "1918",
@@ -521,22 +521,22 @@
   },
   {
     "id": "q_quantique_13",
-    "theme": "Physique Quantique",
+    "theme": "Quantum Physics",
     "difficulty": 3,
-    "question": "Quel concept quantique est utilisé dans les ordinateurs quantiques pour stocker l'information ?",
+    "question": "Which quantum concept is used in quantum computers to store information?",
     "answers": [
-      "Le bit classique",
-      "Le qubit",
-      "Le photon",
-      "Le spin"
+      "The classical bit",
+      "The qubit",
+      "The photon",
+      "The spin"
     ],
     "correct": 1
   },
   {
     "id": "q_quantique_14",
-    "theme": "Physique Quantique",
+    "theme": "Quantum Physics",
     "difficulty": 3,
-    "question": "Qui a formulé le principe d'exclusion stipulant que deux fermions ne peuvent occuper le même état quantique ?",
+    "question": "Who formulated the exclusion principle stating that two fermions cannot occupy the same quantum state?",
     "answers": [
       "Wolfgang Pauli",
       "Enrico Fermi",

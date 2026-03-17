@@ -56,7 +56,9 @@ const useFPS = () => {
 };
 
 export const UI = () => {
-  const { gameState, playerName, latency } = useGameStore();
+  const gameState = useGameStore((s) => s.gameState);
+  const playerName = useGameStore((s) => s.playerName);
+  const latency = useGameStore((s) => s.latency);
   const fps = useFPS();
 
   // Track previous values for change detection
@@ -98,20 +100,21 @@ export const UI = () => {
         // Start ticking sound
         audioFiles.tickTock.currentTime = 0;
         audioFiles.tickTock.play().catch(e => console.warn('Audio play failed', e));
-      } else if (gameState.phase === 'GAME') {
-        // Stop ticking and play game start sound
+      } else {
+        // Any phase change away from MEMORIZE: stop ticking
         audioFiles.tickTock.pause();
         audioFiles.tickTock.currentTime = 0;
-        playSound(audioFiles.gameShowDing);
+        if (gameState.phase === 'GAME') {
+          playSound(audioFiles.gameShowDing);
+        }
       }
     }
     prevPhase.current = gameState?.phase || null;
 
-    // Cleanup: stop tick-tock when leaving MEMORIZE
+    // Cleanup: always stop tick-tock when effect re-runs or unmounts
     return () => {
-      if (gameState?.phase !== 'MEMORIZE') {
-        audioFiles.tickTock.pause();
-      }
+      audioFiles.tickTock.pause();
+      audioFiles.tickTock.currentTime = 0;
     };
   }, [gameState?.phase]);
 
@@ -132,15 +135,39 @@ export const UI = () => {
         <div className="flex flex-col items-end">
             <div className="text-sm text-gray-400 uppercase tracking-widest">Current Phase</div>
             <div className="text-2xl font-bold text-white drop-shadow-md">{gameState.phase}</div>
-            {gameState.phase === 'LOBBY' && (
+            {gameState.phase === 'LOBBY' && playerName === 'admin' && (
+                <div className="mt-2 flex flex-col items-end gap-1">
+                    <div className="flex gap-1 pointer-events-auto">
+                        {[
+                            { key: 'small', label: '8×8' },
+                            { key: 'medium', label: '12×12' },
+                            { key: 'large', label: '15×15' },
+                            { key: 'full', label: '18×18' },
+                        ].map(({ key, label }) => (
+                            <button
+                                key={key}
+                                className="bg-white text-black px-3 py-1 rounded font-bold text-sm hover:scale-105 transition-transform shadow-lg hover:shadow-xl border-2 border-transparent hover:border-blue-500"
+                                onClick={() => {
+                                    playSound(audioFiles.buttonClick);
+                                    useGameStore.getState().socket?.emit('startGame', key);
+                                }}
+                            >
+                                {label}
+                            </button>
+                        ))}
+                    </div>
+                    <span className="text-xs text-gray-400">Select grid size to start</span>
+                </div>
+            )}
+            {gameState.phase !== 'LOBBY' && playerName === 'admin' && (
                 <button
-                    className="mt-2 pointer-events-auto bg-white text-black px-4 py-1 rounded font-bold hover:scale-105 transition-transform shadow-lg hover:shadow-xl border-2 border-transparent hover:border-blue-500"
+                    className="mt-2 pointer-events-auto bg-red-600 text-white px-4 py-1 rounded font-bold hover:scale-105 transition-transform shadow-lg hover:shadow-xl"
                     onClick={() => {
                         playSound(audioFiles.buttonClick);
-                        useGameStore.getState().socket?.emit('startGame');
+                        useGameStore.getState().socket?.emit('restartGame');
                     }}
                 >
-                    START SHOW
+                    RESTART GAME
                 </button>
             )}
         </div>
@@ -175,8 +202,8 @@ export const UI = () => {
                     <span className="font-bold text-orange-400">{gameState.scores.bastis}</span>
                 </li>
                 <li className="flex justify-between gap-4 border-b border-gray-700 pb-1">
-                    <span>JACQUES</span>
-                    <span className="font-bold text-purple-400">{gameState.scores.jacques}</span>
+                    <span>DAN</span>
+                    <span className="font-bold text-purple-400">{gameState.scores.dan}</span>
                 </li>
                 <li className="flex justify-between gap-4 border-b border-gray-700 pb-1">
                     <span>LUCAS</span>

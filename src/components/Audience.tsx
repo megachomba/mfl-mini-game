@@ -9,7 +9,7 @@ const CROWD_COUNT = 25; // Reduced from 80 for performance
 
 export const Audience = () => {
   const { scene } = useGLTF('/models/audience.glb');
-  const { gameState } = useGameStore();
+  const answerFeedback = useGameStore((s) => s.gameState?.answerFeedback);
   const groupRefs = useRef<(THREE.Group | null)[]>([]);
 
   // Define Bleachers Parameters
@@ -48,7 +48,7 @@ export const Audience = () => {
     return crowdData.map(() => SkeletonUtils.clone(scene));
   }, [scene, crowdData]);
 
-  const isCheering = gameState?.answerFeedback === 'correct';
+  const isCheering = answerFeedback === 'correct';
 
   // Single useFrame for ALL audience members - much more efficient
   useFrame((state) => {
