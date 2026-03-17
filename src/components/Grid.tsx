@@ -10,7 +10,7 @@ const playTileSound = () => {
 };
 
 const COLORS: Record<string, string> = {
-  quentin: '#2563ff',
+  quentin: '#8B4513',
   yann: '#ff1a1a',
   mathurin: '#00e639',
   bastis: '#ff8c00',

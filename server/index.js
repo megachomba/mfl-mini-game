@@ -78,7 +78,7 @@ let gameState = {
 
 // Predefined players configuration
 const PLAYER_CONFIG = {
-  quentin: { color: '#3b82f6', startPos: { x: -6, y: 2, z: 13 } },   // Blue - front row
+  quentin: { color: '#8B4513', startPos: { x: -6, y: 2, z: 13 } },   // Yellow - front row
   mathurin: { color: '#22c55e', startPos: { x: -1, y: 2, z: 13 } },   // Green - front row
   yann: { color: '#ef4444', startPos: { x: 4, y: 2, z: 13 } },        // Red - front row
   bastis: { color: '#f97316', startPos: { x: 9, y: 2, z: 13 } },      // Orange - front row

@@ -105,12 +105,12 @@ export const Experience = () => {
       
       {/* Desks (Pupitres) - Two rows */}
       {/* Front row (4 desks) */}
-      <Desk position={[-6, 0, 10]} color="#3b82f6" label="Quentin" />
+      <Desk position={[-6, 0, 10]} color="#8B4513" label="Quentin" />
       <Desk position={[-1, 0, 10]} color="#22c55e" label="Mathurin" />
       <Desk position={[4, 0, 10]} color="#ef4444" label="Yann" />
       <Desk position={[9, 0, 10]} color="#f97316" label="Bastis" />
       {/* Back row (3 desks, offset to see between front row) */}
-      <Desk position={[-3.5, 0, 6]} color="#8b5cf6" label="Jacques" />
+      <Desk position={[-3.5, 0, 6]} color="#8b5cf6" label="Dan" />
       <Desk position={[1.5, 0, 6]} color="#06b6d4" label="Lucas" />
       <Desk position={[6.5, 0, 6]} color="#ec4899" label="Victorien" />
 
